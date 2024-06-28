@@ -40,9 +40,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 866
-    width: 1296
-    height: 433
+    y: 829
+    width: 1422
+    height: 470
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
@@ -69,12 +69,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1296
+    width: 1422
     height: 1299
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 27
+  controlID: 18
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 131
+  controlID: 98
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,8 +190,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1296
-    height: 866
+    width: 1422
+    height: 829
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -215,9 +215,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1296
+    x: 1422
     y: 0
-    width: 297
+    width: 319
     height: 1299
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -241,9 +241,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1593
+    x: 1741
     y: 0
-    width: 494
+    width: 346
     height: 1299
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -302,9 +302,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 939
-    width: 1295
-    height: 412
+    y: 902
+    width: 1421
+    height: 449
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -319,15 +319,44 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 110700000, guid: 4ad1d2fa22b47e44d89591834478699e, type: 2}
     - {fileID: 1107594541474461634, guid: 4ad1d2fa22b47e44d89591834478699e, type: 2}
+    - {fileID: 1107406222543947020, guid: fd160fa56a275fb4397aa88b99becd3f, type: 2}
+    - {fileID: 1107406222543947020, guid: e85678bd23140664ead4f5bbdffbd41b, type: 2}
+    - {fileID: 1107710675241705950, guid: 6c21e5c3fb9caa447943c447317f22f0, type: 2}
+    - {fileID: 110700000, guid: f0eb4443b18594c43813f6ffeb2dbe8a, type: 2}
+    - {fileID: 110700000, guid: 4f62510337b7c7d4596d3461fd0e5b84, type: 2}
+    - {fileID: 1418087639523111187, guid: 044caa5ee04c7964ea6b5b137aa6a663, type: 2}
+    - {fileID: -2406526148140694491, guid: 053f861701fe8564eb060da651087f11, type: 2}
+    - {fileID: 3414469688660578674, guid: 044caa5ee04c7964ea6b5b137aa6a663, type: 2}
+    - {fileID: -3733315424047585183, guid: f0eb4443b18594c43813f6ffeb2dbe8a, type: 2}
+    - {fileID: 110700000, guid: 2e96ef8dd5c6a2c478db2c296acd8e16, type: 2}
+    - {fileID: -7127873186420698747, guid: d75f14b0507340640b969cd6c4c51359, type: 2}
+    - {fileID: -5294343888251347170, guid: d75f14b0507340640b969cd6c4c51359, type: 2}
+    - {fileID: -7962394530785093520, guid: 1863ae6c944b73343abbbefe18125e0f, type: 2}
+    - {fileID: 3174703397414151372, guid: 1863ae6c944b73343abbbefe18125e0f, type: 2}
+    - {fileID: 7072448825798820379, guid: 1863ae6c944b73343abbbefe18125e0f, type: 2}
+    - {fileID: -7130087384219603637, guid: f0eb4443b18594c43813f6ffeb2dbe8a, type: 2}
+    - {fileID: -3179269237515289781, guid: f0eb4443b18594c43813f6ffeb2dbe8a, type: 2}
+    - {fileID: 8187159217447336529, guid: f0eb4443b18594c43813f6ffeb2dbe8a, type: 2}
+    - {fileID: 5405963995392152253, guid: f0eb4443b18594c43813f6ffeb2dbe8a, type: 2}
+    - {fileID: -4138623267516053251, guid: 044caa5ee04c7964ea6b5b137aa6a663, type: 2}
+    - {fileID: -6710672489335578317, guid: 6c21e5c3fb9caa447943c447317f22f0, type: 2}
+    - {fileID: -6471666564757550029, guid: f2bdad5be52fce045b07e09ed6bc847e, type: 2}
+    - {fileID: 1107681706011699772, guid: f2bdad5be52fce045b07e09ed6bc847e, type: 2}
+    - {fileID: 2512124602060389449, guid: 1863ae6c944b73343abbbefe18125e0f, type: 2}
+    - {fileID: 1107406222543947020, guid: 053f861701fe8564eb060da651087f11, type: 2}
+    - {fileID: 1968052351107005985, guid: 1863ae6c944b73343abbbefe18125e0f, type: 2}
+    - {fileID: 6312360761881043886, guid: 1863ae6c944b73343abbbefe18125e0f, type: 2}
+    - {fileID: -3987136183481844659, guid: 1863ae6c944b73343abbbefe18125e0f, type: 2}
+    - {fileID: -1553499255499666760, guid: 1863ae6c944b73343abbbefe18125e0f, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.8389402
+    - e00: 0.82006407
       e01: 0
       e02: 0
-      e03: -45.330627
+      e03: 56.7393
       e10: 0
-      e11: 0.8389402
+      e11: 0.82006407
       e12: 0
-      e13: 158.63924
+      e13: 227.74236
       e20: 0
       e21: 0
       e22: 1
@@ -336,14 +365,478 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.78716934
+    - e00: 0.6540394
       e01: 0
       e02: 0
-      e03: 106.854454
+      e03: 350.58386
       e10: 0
-      e11: 0.78716934
+      e11: 0.6540394
       e12: 0
-      e13: 186.00316
+      e13: 242.48503
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.97157896
+      e01: 0
+      e02: 0
+      e03: -33.57895
+      e10: 0
+      e11: 0.97157896
+      e12: 0
+      e13: 112.7
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.97157896
+      e01: 0
+      e02: 0
+      e03: -33.57895
+      e10: 0
+      e11: 0.97157896
+      e12: 0
+      e13: 85.7
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1.1392603
+      e01: 0
+      e02: 0
+      e03: -1046.9048
+      e10: 0
+      e11: 1.1392603
+      e12: 0
+      e13: -464.3576
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 126.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 280
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 126.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 280
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 156.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 90
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 201.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 60
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 141.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 80
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 336.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 90
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 66.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 95
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 216.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 115
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.8723697
+      e01: 0
+      e02: 0
+      e03: 189.72162
+      e10: 0
+      e11: 0.8723697
+      e12: 0
+      e13: 120.5732
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.9268293
+      e01: 0
+      e02: 0
+      e03: 374.54877
+      e10: 0
+      e11: 0.9268293
+      e12: 0
+      e13: 107.68292
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 66.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 80
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 91.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 225
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.9268293
+      e01: 0
+      e02: 0
+      e03: 3.8170776
+      e10: 0
+      e11: 0.9268293
+      e12: 0
+      e13: 200.36586
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.9268293
+      e01: 0
+      e02: 0
+      e03: -99.1829
+      e10: 0
+      e11: 0.9268293
+      e12: 0
+      e13: 290.65854
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.35799408
+      e01: 0
+      e02: 0
+      e03: 139.97441
+      e10: 0
+      e11: 0.35799408
+      e12: 0
+      e13: 203.6679
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 256.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 285
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 141.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 50
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.83874726
+      e01: 0
+      e02: 0
+      e03: 59.651794
+      e10: 0
+      e11: 0.83874726
+      e12: 0
+      e13: 43.335186
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 256.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: -100
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.85
+      e01: 0
+      e02: 0
+      e03: 135.47498
+      e10: 0
+      e11: 0.85
+      e12: 0
+      e13: -88.05001
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 226.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 50
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 326.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 60
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.974359
+      e01: 0
+      e02: 0
+      e03: 257.26923
+      e10: 0
+      e11: 0.974359
+      e12: 0
+      e13: 92.948715
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: -143.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 230
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.7929709
+      e01: 0
+      e02: 0
+      e03: 242.58604
+      e10: 0
+      e11: 0.7929709
+      e12: 0
+      e13: 191.00905
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 216.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 115
       e20: 0
       e21: 0
       e22: 1
@@ -353,12 +846,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 4ad1d2fa22b47e44d89591834478699e,
+  m_AnimatorController: {fileID: 9100000, guid: 044caa5ee04c7964ea6b5b137aa6a663,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 110700000, guid: 4ad1d2fa22b47e44d89591834478699e, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  - m_Target: {fileID: 1107594541474461634, guid: 4ad1d2fa22b47e44d89591834478699e,
+  - m_Target: {fileID: 1418087639523111187, guid: 044caa5ee04c7964ea6b5b137aa6a663,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -529,8 +1020,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1295
-    height: 845
+    width: 1421
+    height: 808
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -863,9 +1354,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.9649832, y: -0.5209323, z: -2.5912538}
+    m_Target: {x: 1.5305251, y: 0.27187526, z: -4.6248884}
     speed: 2
-    m_Value: {x: 2.9649832, y: -0.5209323, z: -2.5912538}
+    m_Value: {x: 1.5305251, y: 0.27187526, z: -4.6248884}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -911,9 +1402,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.062428914, y: -0.90765595, z: 0.14582843, w: -0.38845843}
+    m_Target: {x: -0.012339904, y: -0.98508286, z: 0.0802722, w: -0.15129319}
     speed: 2
-    m_Value: {x: 0.06242891, y: 0.9076559, z: -0.14582843, w: 0.38845843}
+    m_Value: {x: -0.012461086, y: -0.984917, z: 0.08025867, w: -0.15278028}
   m_Size:
     m_Target: 2.8035905
     speed: 2
@@ -963,9 +1454,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1296
+    x: 1422
     y: 73
-    width: 295
+    width: 317
     height: 1278
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -982,7 +1473,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e8faffff
+      m_ExpandedIDs: e6faffffe8faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1027,9 +1518,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1593
+    x: 1741
     y: 73
-    width: 492
+    width: 344
     height: 1278
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1060,7 +1551,8 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Tanner\Desktop\VRChat\Github Repositories\Avatars\Monika-Lenovia-V1
+  m_LastProjectPath: C:\Users\Tanner\Desktop\VRChat\Github Repositories\Avatars\Manuka
+    Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -1095,7 +1587,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000c0650000c2650000c4650000c6650000c8650000ca650000cc650000ce650000d0650000d2650000d4650000
+    m_ExpandedIDs: ffffffff00000000c0650000c2650000c4650000c6650000c8650000ca650000cc650000ce650000d0650000d2650000d46500003a670000f276000048790000527900007c9700008c97000072a0000076a0000064b200006cb200007cb2000098b20000c4b20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1189,7 +1681,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 477
+    m_CachedPref: 559
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1

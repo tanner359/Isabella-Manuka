@@ -43,3 +43,13 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: c59c10deba87ebd41a5b5724f2351599, type: 2}
     subParameters: []
     labels: []
+  - name: Go Loco
+    icon: {fileID: 2800000, guid: 82ab53a641de2f1448023168217721eb, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d5ae14c463b6b494494c2f5064089632, type: 2}
+    subParameters: []
+    labels: []
