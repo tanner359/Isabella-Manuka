@@ -43,7 +43,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature.1/Hips/Spine/Chest/Neck/Head/ecchi_finger_sound
+    path: Armature/Hips/Spine/Chest/Neck/Head/Tang/ecchi_finger_sound
     classID: 82
     script: {fileID: 0}
     flags: 0
@@ -73,7 +73,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature.1/Hips/Spine/Chest/Neck/Head/ecchi_kiss_sound
+    path: Armature/Hips/Spine/Chest/Neck/Head/Tang/ecchi_vomit_sound
     classID: 82
     script: {fileID: 0}
     flags: 0
@@ -103,7 +103,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature.1/Hips/Spine/Chest/Neck/Head/ecchi_vomit_sound
+    path: Armature/Hips/Spine/Chest/Neck/Head/Tang/ecchi_kiss_sound
     classID: 82
     script: {fileID: 0}
     flags: 0
@@ -116,7 +116,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3525739844
+      path: 3785338027
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 82
@@ -125,7 +125,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1331510775
+      path: 763819744
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 82
@@ -134,7 +134,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2545089677
+      path: 2875282691
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 82
@@ -190,7 +190,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature.1/Hips/Spine/Chest/Neck/Head/ecchi_finger_sound
+    path: Armature/Hips/Spine/Chest/Neck/Head/Tang/ecchi_finger_sound
     classID: 82
     script: {fileID: 0}
     flags: 0
@@ -220,7 +220,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature.1/Hips/Spine/Chest/Neck/Head/ecchi_kiss_sound
+    path: Armature/Hips/Spine/Chest/Neck/Head/Tang/ecchi_vomit_sound
     classID: 82
     script: {fileID: 0}
     flags: 0
@@ -250,7 +250,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature.1/Hips/Spine/Chest/Neck/Head/ecchi_vomit_sound
+    path: Armature/Hips/Spine/Chest/Neck/Head/Tang/ecchi_kiss_sound
     classID: 82
     script: {fileID: 0}
     flags: 0

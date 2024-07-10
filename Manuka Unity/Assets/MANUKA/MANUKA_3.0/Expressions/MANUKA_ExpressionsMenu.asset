@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MANUKA_ExpressionsMenu
   m_EditorClassIdentifier: 
   controls:
-  - name: MANUKA_costume
+  - name: CLOTHING
     icon: {fileID: 2800000, guid: 939d927c6711c88459f94a701238353c, type: 3}
     type: 103
     parameter:
@@ -23,7 +23,7 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: d00759b9ee71e674dbd677e903ef8e59, type: 2}
     subParameters: []
     labels: []
-  - name: MANUKA_option
+  - name: OPTIONS
     icon: {fileID: 2800000, guid: bddd44a4f8c341244b137cbee9af84ec, type: 3}
     type: 103
     parameter:
@@ -33,7 +33,7 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 4e5095dad4be73642882708d5a199d93, type: 2}
     subParameters: []
     labels: []
-  - name: MANUKA_face
+  - name: FACE
     icon: {fileID: 2800000, guid: c861a82dee44d7544aa172a5ce8e0c42, type: 3}
     type: 103
     parameter:
@@ -43,7 +43,7 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: c59c10deba87ebd41a5b5724f2351599, type: 2}
     subParameters: []
     labels: []
-  - name: Go Loco
+  - name: GO LOCO
     icon: {fileID: 2800000, guid: 82ab53a641de2f1448023168217721eb, type: 3}
     type: 103
     parameter:
@@ -51,5 +51,35 @@ MonoBehaviour:
     value: 1
     style: 0
     subMenu: {fileID: 11400000, guid: d5ae14c463b6b494494c2f5064089632, type: 2}
+    subParameters: []
+    labels: []
+  - name: "ECCHI \U0001F49E"
+    icon: {fileID: 2800000, guid: 741590f6d41061140a3f24cc28898b9e, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 61c9c8fd67b69514c91da82a714049de, type: 2}
+    subParameters: []
+    labels: []
+  - name: HAIR
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 9c0b8150764b18b429e23b4581c245da, type: 2}
+    subParameters: []
+    labels: []
+  - name: R18
+    icon: {fileID: 2800000, guid: 1edb0079a5b8aea4ebbf12504a99075f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ac1d6911237686e44a131e47b2b4b873, type: 2}
     subParameters: []
     labels: []

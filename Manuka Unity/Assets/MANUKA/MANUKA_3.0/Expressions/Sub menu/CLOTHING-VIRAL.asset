@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: CLOTHING-VIRAL
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Outfit
+    icon: {fileID: 2800000, guid: 9c825edcfcc5fb843ac58b1bc88edd00, type: 3}
+    type: 102
+    parameter:
+      name: MANUKA_costume
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Accessories
+    icon: {fileID: 2800000, guid: 2f791cb5c275ced4997a0a6afe055826, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: adbec6ae7654b0e4ea683a554eaca9ae, type: 2}
+    subParameters: []
+    labels: []
+  - name: Coat
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: VIRAL/Coat
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Top
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: VIRAL/Top
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pants
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: VIRAL/Pants
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Leg Warmer
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: VIRAL/LegWarmer
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Shoes
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: VIRAL/Shoes
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: White
+    icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
+    type: 102
+    parameter:
+      name: VIRAL/White
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
