@@ -34,90 +34,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/cloth
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DissolveParams.y
-    path: succubus_cloth/cloth
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DissolveParams.z
-    path: succubus_cloth/cloth
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.01
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DissolveParams.w
-    path: succubus_cloth/cloth
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 3
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DissolveParams.x
     path: succubus_cloth/cloth_big
     classID: 137
     script: {fileID: 0}
@@ -286,7 +202,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/boots
+    path: succubus_arm cover
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -307,7 +223,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/boots
+    path: succubus_arm cover
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -328,7 +244,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/boots
+    path: succubus_arm cover
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -349,7 +265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/boots
+    path: succubus_arm cover
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -370,7 +286,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/arm cover
+    path: succubus_boots
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -391,7 +307,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/arm cover
+    path: succubus_boots
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -412,7 +328,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/arm cover
+    path: succubus_boots
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -433,7 +349,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/arm cover
+    path: succubus_boots
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -454,7 +370,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/chain_arm
+    path: succubus_chain_arm
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -475,7 +391,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/chain_arm
+    path: succubus_chain_arm
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -496,7 +412,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/chain_arm
+    path: succubus_chain_arm
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -517,7 +433,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/chain_arm
+    path: succubus_chain_arm
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -538,7 +454,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/chain_leg
+    path: succubus_chain_leg
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -559,7 +475,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/chain_leg
+    path: succubus_chain_leg
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -580,7 +496,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/chain_leg
+    path: succubus_chain_leg
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -601,7 +517,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/chain_leg
+    path: succubus_chain_leg
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -622,7 +538,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/choker
+    path: succubus_choker
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -643,7 +559,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/choker
+    path: succubus_choker
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -664,7 +580,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/choker
+    path: succubus_choker
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -685,7 +601,91 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/choker
+    path: succubus_choker
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DissolveParams.x
+    path: succubus_cloth
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DissolveParams.y
+    path: succubus_cloth
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DissolveParams.z
+    path: succubus_cloth
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DissolveParams.w
+    path: succubus_cloth
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -698,42 +698,6 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1863304755
-      attribute: 135239580
-      script: {fileID: 0}
-      typeID: 137
-      customType: 22
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
-      path: 1863304755
-      attribute: 403675036
-      script: {fileID: 0}
-      typeID: 137
-      customType: 22
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
-      path: 1863304755
-      attribute: 672110492
-      script: {fileID: 0}
-      typeID: 137
-      customType: 22
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
-      path: 1863304755
-      attribute: 940545948
-      script: {fileID: 0}
-      typeID: 137
-      customType: 22
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
       path: 3015255560
       attribute: 135239580
       script: {fileID: 0}
@@ -806,7 +770,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3401550209
+      path: 133842264
       attribute: 135239580
       script: {fileID: 0}
       typeID: 137
@@ -815,7 +779,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3401550209
+      path: 133842264
       attribute: 403675036
       script: {fileID: 0}
       typeID: 137
@@ -824,7 +788,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3401550209
+      path: 133842264
       attribute: 672110492
       script: {fileID: 0}
       typeID: 137
@@ -833,7 +797,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3401550209
+      path: 133842264
       attribute: 940545948
       script: {fileID: 0}
       typeID: 137
@@ -842,7 +806,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2839682980
+      path: 2448078208
       attribute: 135239580
       script: {fileID: 0}
       typeID: 137
@@ -851,7 +815,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2839682980
+      path: 2448078208
       attribute: 403675036
       script: {fileID: 0}
       typeID: 137
@@ -860,7 +824,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2839682980
+      path: 2448078208
       attribute: 672110492
       script: {fileID: 0}
       typeID: 137
@@ -869,7 +833,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2839682980
+      path: 2448078208
       attribute: 940545948
       script: {fileID: 0}
       typeID: 137
@@ -878,7 +842,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 476130199
+      path: 3000594795
       attribute: 135239580
       script: {fileID: 0}
       typeID: 137
@@ -887,7 +851,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 476130199
+      path: 3000594795
       attribute: 403675036
       script: {fileID: 0}
       typeID: 137
@@ -896,7 +860,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 476130199
+      path: 3000594795
       attribute: 672110492
       script: {fileID: 0}
       typeID: 137
@@ -905,7 +869,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 476130199
+      path: 3000594795
       attribute: 940545948
       script: {fileID: 0}
       typeID: 137
@@ -914,7 +878,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4059026764
+      path: 1599573936
       attribute: 135239580
       script: {fileID: 0}
       typeID: 137
@@ -923,7 +887,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4059026764
+      path: 1599573936
       attribute: 403675036
       script: {fileID: 0}
       typeID: 137
@@ -932,7 +896,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4059026764
+      path: 1599573936
       attribute: 672110492
       script: {fileID: 0}
       typeID: 137
@@ -941,7 +905,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4059026764
+      path: 1599573936
       attribute: 940545948
       script: {fileID: 0}
       typeID: 137
@@ -950,7 +914,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2229448077
+      path: 4089366567
       attribute: 135239580
       script: {fileID: 0}
       typeID: 137
@@ -959,7 +923,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2229448077
+      path: 4089366567
       attribute: 403675036
       script: {fileID: 0}
       typeID: 137
@@ -968,7 +932,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2229448077
+      path: 4089366567
       attribute: 672110492
       script: {fileID: 0}
       typeID: 137
@@ -977,7 +941,43 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2229448077
+      path: 4089366567
+      attribute: 940545948
+      script: {fileID: 0}
+      typeID: 137
+      customType: 22
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 878377522
+      attribute: 135239580
+      script: {fileID: 0}
+      typeID: 137
+      customType: 22
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 878377522
+      attribute: 403675036
+      script: {fileID: 0}
+      typeID: 137
+      customType: 22
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 878377522
+      attribute: 672110492
+      script: {fileID: 0}
+      typeID: 137
+      customType: 22
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 878377522
       attribute: 940545948
       script: {fileID: 0}
       typeID: 137
@@ -1024,90 +1024,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/cloth
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DissolveParams.y
-    path: succubus_cloth/cloth
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DissolveParams.z
-    path: succubus_cloth/cloth
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.01
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DissolveParams.w
-    path: succubus_cloth/cloth
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 3
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DissolveParams.x
     path: succubus_cloth/cloth_big
     classID: 137
     script: {fileID: 0}
@@ -1276,7 +1192,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/boots
+    path: succubus_arm cover
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1297,7 +1213,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/boots
+    path: succubus_arm cover
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1318,7 +1234,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/boots
+    path: succubus_arm cover
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1339,7 +1255,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/boots
+    path: succubus_arm cover
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1360,7 +1276,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/arm cover
+    path: succubus_boots
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1381,7 +1297,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/arm cover
+    path: succubus_boots
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1402,7 +1318,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/arm cover
+    path: succubus_boots
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1423,7 +1339,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/arm cover
+    path: succubus_boots
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1444,7 +1360,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/chain_arm
+    path: succubus_chain_arm
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1465,7 +1381,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/chain_arm
+    path: succubus_chain_arm
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1486,7 +1402,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/chain_arm
+    path: succubus_chain_arm
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1507,7 +1423,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/chain_arm
+    path: succubus_chain_arm
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1528,7 +1444,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/chain_leg
+    path: succubus_chain_leg
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1549,7 +1465,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/chain_leg
+    path: succubus_chain_leg
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1570,7 +1486,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/chain_leg
+    path: succubus_chain_leg
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1591,7 +1507,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/chain_leg
+    path: succubus_chain_leg
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1612,7 +1528,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.x
-    path: succubus_cloth/choker
+    path: succubus_choker
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1633,7 +1549,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.y
-    path: succubus_cloth/choker
+    path: succubus_choker
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1654,7 +1570,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.z
-    path: succubus_cloth/choker
+    path: succubus_choker
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -1675,7 +1591,91 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DissolveParams.w
-    path: succubus_cloth/choker
+    path: succubus_choker
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DissolveParams.x
+    path: succubus_cloth
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DissolveParams.y
+    path: succubus_cloth
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DissolveParams.z
+    path: succubus_cloth
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DissolveParams.w
+    path: succubus_cloth
     classID: 137
     script: {fileID: 0}
     flags: 0

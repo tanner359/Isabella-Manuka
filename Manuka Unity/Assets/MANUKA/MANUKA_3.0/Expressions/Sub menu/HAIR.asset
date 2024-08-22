@@ -44,3 +44,13 @@ MonoBehaviour:
     subParameters:
     - name: Hair/Color
     labels: []
+  - name: Anka
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Hair/Anka
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

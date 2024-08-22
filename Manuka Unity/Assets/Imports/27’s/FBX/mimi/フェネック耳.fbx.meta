@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: d125a45dc2d5dd745b49ab1b65b1f6aa
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: "\u30D5\u30A7\u30CD\u30C3\u30AF\u8033(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.013
+      parentName: "\u30D5\u30A7\u30CD\u30C3\u30AF\u8033(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Armature.013
+      position: {x: -0.0053586843, y: -0.0054157996, z: 1.0668426}
+      rotation: {x: 0.006588284, y: 0.707076, z: 0.7070762, w: -0.0065882425}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: 1.07798076e-10, y: 0.061210476, z: -6.444084e-10}
+      rotation: {x: -0.009317237, y: -0.9999566, z: -9.020901e-11, w: 0.000000075325666}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: Chest
+      parentName: Spine
+      position: {x: 1.9056015e-10, y: 0.044534925, z: 6.648518e-11}
+      rotation: {x: -3.3748743e-10, y: -0.00000003871199, z: -0.000000033527613, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -1.4571677e-16, y: 0.04691017, z: 8.301351e-11}
+      rotation: {x: 0.000000012495862, y: -0.000000024156186, z: -0.0043858364, w: 0.9999904}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -2.2131738e-10, y: 0.067695655, z: -5.9734195e-10}
+      rotation: {x: -0.00000001239131, y: 0.000000024155675, z: 0.004385859, w: 0.9999904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animalEar
+      parentName: Head
+      position: {x: 0.0024844555, y: 0.048606277, z: -0.0010437365}
+      rotation: {x: 0.011417585, y: 1.8420818e-10, z: 0.000000016298763, w: 0.9999348}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animalEar.L
+      parentName: animalEar
+      position: {x: -0.025333852, y: 0.036646396, z: -0.00681744}
+      rotation: {x: -0.024142625, y: 0.039796628, z: 0.20953794, w: 0.97669196}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: animalEar.L.018
+      parentName: animalEar.L
+      position: {x: -0.05860403, y: 0.053217676, z: -0.004537351}
+      rotation: {x: -0.035517678, y: -0.003837809, z: 0.5175553, w: 0.85490376}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: animalEar.L.019
+      parentName: animalEar.L.018
+      position: {x: -0.0000000040017767, y: 0.06689907, z: 9.313226e-10}
+      rotation: {x: -0.0024169069, y: 0.00000013329552, z: 0.03388098, w: 0.999423}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1}
+    - name: animalEar.L.020
+      parentName: animalEar.L.019
+      position: {x: 0.000000077692675, y: 0.05201959, z: -0.0000000037252903}
+      rotation: {x: -0.015290047, y: 0.000000597758, z: 0.21433584, w: 0.9766404}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+    - name: animalEar.R
+      parentName: animalEar
+      position: {x: 0.027613558, y: 0.036646396, z: -0.00681744}
+      rotation: {x: -0.024142602, y: -0.039796643, z: -0.20953788, w: 0.97669196}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: animalEar.R.018
+      parentName: animalEar.R
+      position: {x: 0.058604036, y: 0.053217676, z: -0.0045373524}
+      rotation: {x: -0.03551764, y: 0.003837829, z: -0.5175551, w: 0.85490376}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: animalEar.R.019
+      parentName: animalEar.R.018
+      position: {x: 0.0000000040017767, y: 0.06689907, z: 6.9849193e-10}
+      rotation: {x: -0.0024169008, y: -0.00000013189853, z: -0.033881072, w: 0.99942297}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+    - name: animalEar.R.020
+      parentName: animalEar.R.019
+      position: {x: -0.00000007767812, y: 0.05201959, z: 0.0000000030267984}
+      rotation: {x: -0.015290042, y: -0.0000005966116, z: -0.21433565, w: 0.97664046}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: "\u30D5\u30A7\u30CD\u30C3\u30AF\u8033.013"
+      parentName: "\u30D5\u30A7\u30CD\u30C3\u30AF\u8033(Clone)"
+      position: {x: -0.12328793, y: 1.4535092, z: 0.020360317}
+      rotation: {x: -0.6980104, y: -0.11305577, z: 0.113055795, w: 0.6980103}
+      scale: {x: 0.07455323, y: 0.07455323, z: 0.07455323}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

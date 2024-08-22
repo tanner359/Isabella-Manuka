@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 1f4766c43652d9f419793061f99719be
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: "\u8033(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.025
+      parentName: "\u8033(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Armature.025
+      position: {x: -0.0053586843, y: -0.0054157996, z: 1.0668426}
+      rotation: {x: 0.006588294, y: 0.70707595, z: 0.70707625, w: -0.006588244}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: 1.07798076e-10, y: 0.061210476, z: -6.444084e-10}
+      rotation: {x: 0.009317252, y: 0.9999566, z: 1.1039238e-10, w: -0.00000007550015}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1}
+    - name: Chest
+      parentName: Spine
+      position: {x: 1.9056015e-10, y: 0.044534925, z: 6.648518e-11}
+      rotation: {x: -6.620198e-10, y: -0.00000003871513, z: 9.3132246e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -1.4571677e-16, y: 0.04691017, z: 8.301351e-11}
+      rotation: {x: 0.0000000012334829, y: -0.000000024319974, z: -0.0043858383, w: 0.9999904}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -2.2131738e-10, y: 0.067695655, z: -5.9734195e-10}
+      rotation: {x: -0.0000000024384357, y: 0.00000002431469, z: 0.0043858383, w: 0.9999904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animalEar
+      parentName: Head
+      position: {x: 0.0024844555, y: 0.048606277, z: -0.0010437365}
+      rotation: {x: 0.011417585, y: -1.7629667e-15, z: -4.2818243e-18, w: 0.99993485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animalEar.L
+      parentName: animalEar
+      position: {x: -0.025333852, y: 0.036646396, z: -0.00681744}
+      rotation: {x: -0.016931055, y: 0.0355455, z: -0.0034990641, w: 0.9992185}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: animalEar.R
+      parentName: animalEar
+      position: {x: 0.027613558, y: 0.036646396, z: -0.00681744}
+      rotation: {x: -0.016931055, y: -0.035545506, z: 0.0034990641, w: 0.9992185}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: "\u8033.025"
+      parentName: "\u8033(Clone)"
+      position: {x: -0.086724855, y: 1.4017957, z: 0.023745632}
+      rotation: {x: -0.5226774, y: -0.42465314, z: 0.20447373, w: 0.7104003}
+      scale: {x: 0.06930064, y: 0.04117646, z: 0.05630782}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

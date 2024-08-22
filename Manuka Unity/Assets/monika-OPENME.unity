@@ -7668,6 +7668,959 @@ MonoBehaviour:
   m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &61596940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8083439123664603252, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &61596942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61596940}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.3
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 1
+  immobile: 0.3
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.02
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 2
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 90, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &108988116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6979417715246323207, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &108988117 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1404638672623102517, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &108988118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108988116}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 108988117}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.4
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 2
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 90, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &116431583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2496071563737431704, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &116431584 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1836292016297167706, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &116431585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116431583}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 116431584}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.3
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.1
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.02
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 60
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &176808608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6681841436578081618, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &176808609 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 39667505972074776, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &176808610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176808608}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 176808609}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.4
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 2
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 90, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &183519120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1852681499072116223, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &183519121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2778164794759324402, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &183519122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183519120}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 183519121}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.3
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.1
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.02
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 60
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1001 &309229319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1130691194}
+    m_Modifications:
+    - target: {fileID: 5766691976136461342, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_Name
+      value: Love aura
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766691976136461342, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5808733625277994035, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3805511
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3805511
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3805511
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.567
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910603292438892066, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910603292438892066, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910603292438892066, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910603292438892066, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.36967197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910603292438892066, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.10194911
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910603292438892066, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965863042199474992, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: simulationSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965863042199474992, guid: 43d1d06cf70fcb2488255051aaae40a5,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43d1d06cf70fcb2488255051aaae40a5, type: 3}
+--- !u!4 &309229320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6640137938462102475, guid: 43d1d06cf70fcb2488255051aaae40a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 309229319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &331439791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7871,6 +8824,170 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7218117319018927055}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &597768978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5451738583635147042, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &597768979 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6127826870134050797, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &597768980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597768978}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 597768979}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.4
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 2
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 90, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
 --- !u!1 &602605048
 GameObject:
   m_ObjectHideFlags: 0
@@ -7965,6 +9082,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!4 &632166894 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6336916858167665717, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &638547325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8162,6 +9285,170 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!1 &657617419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4610001528180594104, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &657617420 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6538596882078069018, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &657617421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657617419}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 657617420}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.4
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 2
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 90, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
 --- !u!1 &710179779
 GameObject:
   m_ObjectHideFlags: 0
@@ -8254,6 +9541,97 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &744239218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744239219}
+  - component: {fileID: 744239221}
+  - component: {fileID: 744239220}
+  m_Layer: 0
+  m_Name: Lock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &744239219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744239218}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2121914066}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &744239220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744239218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 0}
+  shapeType: 0
+  radius: 0.013
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - Hand
+  - Finger
+  allowSelf: 1
+  allowOthers: 1
+  localOnly: 0
+  receiverType: 0
+  parameter: Succubus/lock
+  minVelocity: 0.05
+--- !u!1773428102 &744239221
+ParentConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744239218}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Weight: 0.5
+  m_TranslationAtRest: {x: 0, y: 0, z: 0.0646}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffsets:
+  - {x: -0.0147062205, y: 0.06544638, z: -0.05078441}
+  - {x: 0.0147062205, y: 0.06544638, z: -0.05078441}
+  m_RotationOffsets:
+  - {x: -69.9598, y: -33.207546, z: -143.78246}
+  - {x: -69.9598, y: 33.207546, z: 143.78246}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_Active: 1
+  m_IsLocked: 0
+  m_Sources:
+  - sourceTransform: {fileID: 632166894}
+    weight: 1
+  - sourceTransform: {fileID: 2144891932}
+    weight: 1
 --- !u!4 &791814548 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8712909812309329368, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
@@ -8425,6 +9803,346 @@ MonoBehaviour:
     allowSelf: 1
     allowOthers: 1
   allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 1
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &823723597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 66282761168457339, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &823723598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2186164763698914914, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &823723599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823723597}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 823723598}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.4
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 2
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 90, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &969443179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2717902240837478133, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &969443181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969443179}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 1
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.25
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.25
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.6
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 0
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.07
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.11556661
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 20
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 0
   poseFilter:
     allowSelf: 1
     allowOthers: 1
@@ -9538,6 +11256,638 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!1 &1049997405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5156804302924806160, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1049997407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049997405}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.3
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.1
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.02
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 60
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &1055609560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5146741317265688872, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1055609562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055609560}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 1
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.25
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.25
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.6
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 0
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.07
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.11556661
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 20
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 0
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 1
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &1071022010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2632113524101996767, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1071022011 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6180599971020083251, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1071022012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071022010}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 1071022011}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.3
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.1
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.02
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 60
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!4 &1130691194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1984946619256608026, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1223729916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1223729917}
+  - component: {fileID: 1223729918}
+  m_Layer: 0
+  m_Name: Shika
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1223729917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223729916}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1130691194}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1223729918
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223729916}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e74e3e905a91feb449c006420f9e95bc, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1250122263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10242,6 +12592,134 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!1 &1591083668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591083669}
+  - component: {fileID: 1591083670}
+  m_Layer: 0
+  m_Name: succubus_off_sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1591083669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591083668}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1130691194}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1591083670
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591083668}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 708f2377fd2cdd34e87a3ae17d8c13cb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1592769296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10325,6 +12803,322 @@ MonoBehaviour:
   colliders: []
   limitType: 2
   maxAngleX: 10
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 1
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &1654762149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9113996859896676896, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1654762151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654762149}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 1
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.2
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 0
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &1665647462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 138398658806103057, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1665647464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665647462}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 1
+  integrationType: 0
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.25
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.25
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 0
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.9
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.015
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 20
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
@@ -10591,6 +13385,322 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!1 &1934862404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3287052349269582320, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1934862406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934862404}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.1
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.4
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 2
+  maxAngleX: 45
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 90, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
+--- !u!1 &2023424266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3311997190224964978, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2023424268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023424266}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foldout_transforms: 1
+  foldout_forces: 1
+  foldout_collision: 1
+  foldout_stretchsquish: 1
+  foldout_limits: 1
+  foldout_grabpose: 1
+  foldout_options: 1
+  foldout_gizmos: 0
+  version: 0
+  integrationType: 1
+  rootTransform: {fileID: 0}
+  ignoreTransforms: []
+  endpointPosition: {x: 0, y: 0, z: 0}
+  multiChildType: 0
+  pull: 0.2
+  pullCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spring: 0.2
+  springCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stiffness: 0.2
+  stiffnessCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravity: 0.1
+  gravityCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  gravityFalloff: 1
+  gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0
+  immobileCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowCollision: 1
+  collisionFilter:
+    allowSelf: 1
+    allowOthers: 1
+  radius: 0.01
+  radiusCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colliders: []
+  limitType: 1
+  maxAngleX: 30
+  maxAngleXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxAngleZ: 45
+  maxAngleZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotation: {x: 0, y: 0, z: 0}
+  limitRotationXCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationYCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  limitRotationZCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allowGrabbing: 1
+  grabFilter:
+    allowSelf: 1
+    allowOthers: 1
+  allowPosing: 1
+  poseFilter:
+    allowSelf: 1
+    allowOthers: 1
+  snapToHand: 0
+  grabMovement: 0.5
+  maxStretch: 0
+  maxStretchCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSquish: 0
+  maxSquishCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  stretchMotion: 0
+  stretchMotionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isAnimated: 0
+  resetWhenDisabled: 0
+  parameter: 
+  showGizmos: 1
+  boneOpacity: 0.5
+  limitOpacity: 0.5
 --- !u!114 &2083108854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10788,6 +13898,140 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!1 &2087468898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2087468899}
+  - component: {fileID: 2087468900}
+  m_Layer: 0
+  m_Name: Caramell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2087468899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087468898}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1130691194}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2087468900
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087468898}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8a7462d47c3fc5947baeb3c1ff6c8597, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2121914066 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7813173102604685164, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2132799626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10985,6 +14229,12 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!4 &2144891932 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1643353986251027835, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218117319018927055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &48355905698466127
 Transform:
   m_ObjectHideFlags: 0
@@ -12919,6 +16169,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 269431671199761386, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 328137710803882805, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: colliders.Array.data[0]
@@ -12954,10 +16209,30 @@ PrefabInstance:
       propertyPath: colliders.Array.data[6]
       value: 
       objectReference: {fileID: 35657131}
+    - target: {fileID: 380614402122810141, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 433431890080998707, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b995d30eee2c0494192673cae0ec0364, type: 2}
+    - target: {fileID: 532660832149387715, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 644423199289133612, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 744156794599036994, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 759219530519237730, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -12984,6 +16259,11 @@ PrefabInstance:
       propertyPath: colliders.Array.data[4]
       value: 
       objectReference: {fileID: 35657131}
+    - target: {fileID: 765880701389942691, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ac5df52c3d9ead4d9a14399ce43624d, type: 2}
     - target: {fileID: 765880701389942691, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -13034,6 +16314,11 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[2]
       value: 6.5
       objectReference: {fileID: 0}
+    - target: {fileID: 915099736820254182, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58b82c98258632e449a738dc49984d74, type: 2}
     - target: {fileID: 1207002918370627488, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_Name
@@ -13124,6 +16409,16 @@ PrefabInstance:
       propertyPath: colliders.Array.data[4]
       value: 
       objectReference: {fileID: 35657131}
+    - target: {fileID: 1390817414182492266, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452384163939754387, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1491033265350385000, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_IsActive
@@ -13168,7 +16463,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d05d5c18de2401e43b71c2006f3fa675, type: 2}
+      objectReference: {fileID: 2100000, guid: 38808988f4971d24d9b585bde01a5aa7, type: 2}
     - target: {fileID: 1645926613103138534, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
@@ -13304,11 +16599,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2341798662728992670, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58b82c98258632e449a738dc49984d74, type: 2}
     - target: {fileID: 2489625540896207544, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: colliders.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2536086568041269516, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 29cce271b611a7c4385815b7e582aa9a, type: 2}
     - target: {fileID: 2569306050278297892, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13354,6 +16659,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3416237007364360006, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3488679279745752110, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13385,6 +16695,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3534597864667479810, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534764661835762518, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580816322441215340, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -13434,10 +16754,20 @@ PrefabInstance:
       propertyPath: colliders.Array.data[0]
       value: 
       objectReference: {fileID: 35657136}
+    - target: {fileID: 4192081995980719268, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9593519f4cf35a14da1a2da7cae495d0, type: 2}
     - target: {fileID: 4201528966586414710, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233256796719790746, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4479942809750584984, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -13472,7 +16802,7 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.size
-      value: 794
+      value: 811
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -13486,588 +16816,768 @@ PrefabInstance:
       objectReference: {fileID: 1539958101}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
+      propertyPath: animationHashSet.Array.data[653].hash
+      value: -1963515926
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[653].name
+      value: Fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[654].hash
+      value: -1368897710
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[654].name
+      value: Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[655].hash
+      value: 99779634
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[655].name
+      value: Open
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[656].hash
+      value: 282634289
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[656].name
+      value: Peace
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[657].hash
+      value: 935782528
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[657].name
+      value: RockNRoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[658].hash
+      value: 420425210
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[658].name
+      value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[659].hash
+      value: 1949755150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[659].name
+      value: Thumbs up
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[660].hash
+      value: 2108076675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[660].name
+      value: Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[661].hash
+      value: -998029940
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[661].name
+      value: Peace
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[662].hash
+      value: 2050206447
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[662].name
+      value: Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[663].hash
+      value: 297357552
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[663].name
+      value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[664].hash
+      value: -449848495
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[664].name
+      value: Open
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[665].hash
+      value: -1652822560
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[665].name
+      value: Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[666].hash
+      value: 1781153929
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[666].name
+      value: Fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[667].hash
+      value: -488267544
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[667].name
+      value: Thumbs up
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[668].hash
+      value: -1592414362
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[668].name
+      value: RockNRoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[669].hash
+      value: 1147122716
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[669].name
+      value: CaramellDansen_FX
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[670].hash
+      value: 702191563
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[670].name
+      value: NONE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
       propertyPath: animationHashSet.Array.data[671].hash
-      value: -464528761
+      value: -432137378
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[671].name
-      value: Idle
+      value: ShikaSFX
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[672].hash
-      value: -603343606
+      value: 1588181426
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[672].name
-      value: Underwear
+      value: Sync_Active
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[673].hash
-      value: 1514597292
+      value: 1772093680
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[673].name
-      value: Shirt set
+      value: Sync_Inactive
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[674].hash
-      value: -558034637
+      value: -464528761
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[674].name
-      value: VIRAL [Costume]
+      value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[675].hash
-      value: -1138747607
+      value: -603343606
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[675].name
-      value: Kigurumi [Costume]
+      value: Underwear
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[676].hash
-      value: 1800677682
+      value: 1514597292
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[676].name
-      value: Naked
+      value: Shirt set
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[677].hash
-      value: -131779744
+      value: -558034637
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[677].name
-      value: Breast size
+      value: VIRAL [Costume]
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[678].hash
-      value: -1706976264
+      value: -1138747607
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[678].name
-      value: Idle
+      value: Kigurumi [Costume]
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[679].hash
-      value: 653059657
+      value: 1800677682
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[679].name
-      value: Ecchi Mouth
+      value: Naked
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[680].hash
-      value: 597920460
+      value: -547320854
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[680].name
-      value: Stocking_ON
+      value: Succubus
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[681].hash
-      value: 395684913
+      value: -131779744
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[681].name
-      value: Stocking_OFF
+      value: Breast size
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[682].hash
-      value: -1052321108
+      value: -1706976264
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[682].name
-      value: Shoes_ON
+      value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[683].hash
-      value: 1522870329
+      value: 653059657
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[683].name
-      value: Shoes_OFF
+      value: Ecchi Mouth
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[684].hash
-      value: 714906521
+      value: 597920460
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[684].name
-      value: Tie_ON
+      value: Stocking_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[685].hash
-      value: 211629659
+      value: 395684913
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[685].name
-      value: Tie_OFF
+      value: Stocking_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[686].hash
-      value: -399955524
+      value: -1052321108
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[686].name
-      value: Bracelet_ON
+      value: Shoes_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[687].hash
-      value: 1197168558
+      value: 1522870329
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[687].name
-      value: Bracelet_OFF
+      value: Shoes_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[688].hash
-      value: -1252099328
+      value: 714906521
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[688].name
-      value: Hairpin_ON
+      value: Tie_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[689].hash
-      value: -2049843365
+      value: 211629659
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[689].name
-      value: Hairpin_OFF
+      value: Tie_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[690].hash
-      value: -1559060728
+      value: -399955524
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[690].name
-      value: Hair ribbon_ON
+      value: Bracelet_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[691].hash
-      value: -1961092211
+      value: 1197168558
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[691].name
-      value: Hair ribbon_OFF
+      value: Bracelet_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[692].hash
-      value: -1141528338
+      value: -1252099328
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[692].name
-      value: Kemono_ON
+      value: Hairpin_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[693].hash
-      value: -1032995849
+      value: -2049843365
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[693].name
-      value: Kemono_OFF
+      value: Hairpin_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[694].hash
-      value: 1999343663
+      value: -1559060728
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[694].name
-      value: Side 1_ON
+      value: Hair ribbon_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[695].hash
-      value: 784504809
+      value: -1961092211
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[695].name
-      value: Side 1_OFF
+      value: Hair ribbon_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[696].hash
-      value: -58959424
+      value: -1141528338
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[696].name
-      value: Side 2_ON
+      value: Kemono_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[697].hash
-      value: 519847881
+      value: -1032995849
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[697].name
-      value: Side 2_OFF
+      value: Kemono_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[698].hash
-      value: 981765898
+      value: 1999343663
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[698].name
-      value: Bun_ON
+      value: Side 1_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[699].hash
-      value: 1703668913
+      value: 784504809
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[699].name
-      value: Bun_OFF
+      value: Side 1_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[700].hash
-      value: 1190072331
+      value: -58959424
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[700].name
-      value: Twin_ON
+      value: Side 2_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[701].hash
-      value: 317765560
+      value: 519847881
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[701].name
-      value: Twin_OFF
+      value: Side 2_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[702].hash
-      value: 1911262081
+      value: 981765898
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[702].name
-      value: Cheek_OFF
+      value: Bun_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[703].hash
-      value: 1539305494
+      value: 1703668913
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[703].name
-      value: Cheek_ON
+      value: Bun_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[704].hash
-      value: -25360127
+      value: 1190072331
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[704].name
-      value: Tear_OFF
+      value: Twin_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[705].hash
-      value: -1465675830
+      value: 317765560
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[705].name
-      value: Tear_ON
+      value: Twin_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[706].hash
-      value: 1272820885
+      value: 1911262081
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[706].name
-      value: Sweat_OFF
+      value: Cheek_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[707].hash
-      value: -657380745
+      value: 1539305494
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[707].name
-      value: Sweat_ON
+      value: Cheek_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[708].hash
-      value: -515388205
+      value: -25360127
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[708].name
-      value: New State
+      value: Tear_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[709].hash
-      value: 1379665953
+      value: -1465675830
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[709].name
-      value: Heart eye
+      value: Tear_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[710].hash
-      value: 1186145417
+      value: 1272820885
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[710].name
-      value: New State
+      value: Sweat_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[711].hash
-      value: 1405937841
+      value: -657380745
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[711].name
-      value: Kirakira eye
+      value: Sweat_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[712].hash
-      value: -250822605
+      value: -515388205
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[712].name
-      value: White eye_OFF
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[713].hash
-      value: -644642429
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[713].name
-      value: White eye_ON
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[714].hash
-      value: 381735818
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[714].name
-      value: Dead eye_OFF
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[715].hash
-      value: -1381156979
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[715].name
-      value: Dead eye_ON
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[716].hash
-      value: 305085960
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[716].name
-      value: NadeNade_Head_OFF
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[717].hash
-      value: -1721327605
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[717].name
-      value: NadeNade_Head_ON
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[718].hash
-      value: 72423297
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[718].name
-      value: NadeNade_Head_toggle_ON
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[719].hash
-      value: 534733697
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[719].name
-      value: NadeNade_Head_toggle_OFF
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[720].hash
-      value: 1518752179
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[720].name
-      value: Ear_L
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[721].hash
-      value: -1601606448
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[721].name
-      value: Ear_R
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[722].hash
-      value: 851067638
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[722].name
       value: New State
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
+      propertyPath: animationHashSet.Array.data[713].hash
+      value: 1379665953
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[713].name
+      value: Heart eye
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[714].hash
+      value: 1186145417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[714].name
+      value: New State
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[715].hash
+      value: 1405937841
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[715].name
+      value: Kirakira eye
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[716].hash
+      value: -250822605
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[716].name
+      value: White eye_OFF
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[717].hash
+      value: -644642429
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[717].name
+      value: White eye_ON
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[718].hash
+      value: 381735818
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[718].name
+      value: Dead eye_OFF
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[719].hash
+      value: -1381156979
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[719].name
+      value: Dead eye_ON
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[720].hash
+      value: 305085960
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[720].name
+      value: NadeNade_Head_OFF
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[721].hash
+      value: -1721327605
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[721].name
+      value: NadeNade_Head_ON
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[722].hash
+      value: 72423297
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[722].name
+      value: NadeNade_Head_toggle_ON
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
       propertyPath: animationHashSet.Array.data[723].hash
-      value: 1169074812
+      value: 534733697
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[723].name
-      value: Tail_OFF
+      value: NadeNade_Head_toggle_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[724].hash
-      value: 1883763071
+      value: 1518752179
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[724].name
-      value: Tail_ON
+      value: Ear_L
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[725].hash
-      value: 1670517438
+      value: -1601606448
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[725].name
-      value: Idle
+      value: Ear_R
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[726].hash
-      value: -1460211033
+      value: 851067638
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[726].name
-      value: VIRAL Belly Ring
+      value: New State
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[727].hash
-      value: 829471711
+      value: 1169074812
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[727].name
-      value: VIRAL Pants
+      value: Tail_OFF
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[728].hash
-      value: -858374502
+      value: 1883763071
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[728].name
-      value: Idle
+      value: Tail_ON
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[729].hash
-      value: 1145978951
+      value: 1670517438
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14077,37 +17587,37 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[730].hash
-      value: -1587192989
+      value: -1460211033
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[730].name
-      value: VIRAL Coat
+      value: VIRAL Belly Ring
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[731].hash
-      value: 2049914235
+      value: 829471711
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[731].name
-      value: Idle
+      value: VIRAL Pants
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[732].hash
-      value: 1619591367
+      value: -858374502
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[732].name
-      value: VIRAL Collar
+      value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[733].hash
-      value: -832714690
+      value: 1145978951
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14117,17 +17627,17 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[734].hash
-      value: -1780394594
+      value: -1587192989
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[734].name
-      value: VIRAL Eye Patch
+      value: VIRAL Coat
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[735].hash
-      value: 1247935436
+      value: 2049914235
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14137,17 +17647,17 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[736].hash
-      value: -2051455936
+      value: 1619591367
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[736].name
-      value: VIRAL Headband
+      value: VIRAL Collar
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[737].hash
-      value: -1324440065
+      value: -832714690
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14157,17 +17667,17 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[738].hash
-      value: 633962357
+      value: -1780394594
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[738].name
-      value: VIRAL Leg Warmer
+      value: VIRAL Eye Patch
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[739].hash
-      value: -2042518490
+      value: 1247935436
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14177,37 +17687,37 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[740].hash
-      value: -1788570614
+      value: -2051455936
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[740].name
-      value: VIRAL Shoes
+      value: VIRAL Headband
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[741].hash
-      value: -1232865131
+      value: -1324440065
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[741].name
-      value: VIRAL Black
+      value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[742].hash
-      value: 2110361369
+      value: 633962357
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[742].name
-      value: VIRAL White
+      value: VIRAL Leg Warmer
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[743].hash
-      value: 1321786312
+      value: -2042518490
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14217,37 +17727,37 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[744].hash
-      value: -657026971
+      value: -1788570614
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[744].name
-      value: Kigurumi Suit
+      value: VIRAL Shoes
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[745].hash
-      value: -828310164
+      value: -1232865131
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[745].name
-      value: VIRAL Top
+      value: VIRAL Black
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[746].hash
-      value: -1372499220
+      value: 2110361369
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[746].name
-      value: Idle
+      value: VIRAL White
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[747].hash
-      value: -83638052
+      value: 1321786312
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14257,37 +17767,37 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[748].hash
-      value: -1022115141
+      value: -657026971
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[748].name
-      value: Kigurumi Bikini
+      value: Kigurumi Suit
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[749].hash
-      value: -1584362255
+      value: -828310164
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[749].name
-      value: Idle
+      value: VIRAL Top
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[750].hash
-      value: 1040162639
+      value: -1372499220
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[750].name
-      value: Kigurumi Choker
+      value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[751].hash
-      value: 1591542944
+      value: -83638052
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14297,17 +17807,17 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[752].hash
-      value: 413219594
+      value: -1022115141
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[752].name
-      value: Kigurumi Hand
+      value: Kigurumi Bikini
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[753].hash
-      value: 1811586657
+      value: -1584362255
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14317,17 +17827,17 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[754].hash
-      value: -909041750
+      value: 1040162639
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[754].name
-      value: Kigurumi Headband
+      value: Kigurumi Choker
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[755].hash
-      value: 1037895974
+      value: 1591542944
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14337,297 +17847,297 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[756].hash
-      value: 1138678840
+      value: 413219594
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[756].name
-      value: Kigurumi Tail
+      value: Kigurumi Hand
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[757].hash
-      value: 811924826
+      value: 1811586657
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[757].name
-      value: Kigurumi Color 3 [Base]
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[758].hash
-      value: 850964910
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[758].name
-      value: Kigurumi Color 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[759].hash
-      value: -1414406124
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[759].name
-      value: Kigurumi Color 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[760].hash
-      value: -1929371292
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[760].name
-      value: no_sound
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[761].hash
-      value: 2010622120
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[761].name
-      value: ecchi_sound_kiss
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[762].hash
-      value: -259044450
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[762].name
-      value: ecchi_sound_finger_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[763].hash
-      value: 1770396196
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[763].name
-      value: ecchi_sound_finger_02
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[764].hash
-      value: 653356925
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[764].name
-      value: ou
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[765].hash
-      value: -1681812116
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[765].name
-      value: pp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[766].hash
-      value: 1207539394
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[766].name
-      value: rr
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[767].hash
-      value: 702912277
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[767].name
-      value: ss
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[768].hash
-      value: -322844610
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[768].name
-      value: th
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[769].hash
-      value: -394746568
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[769].name
-      value: Disable
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[770].hash
-      value: 1938658794
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[770].name
-      value: ff
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[771].hash
-      value: 1272920409
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[771].name
-      value: sil
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[772].hash
-      value: -1566009714
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[772].name
-      value: aa
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[773].hash
-      value: -381530968
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[773].name
-      value: ch
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[774].hash
-      value: -1347054012
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[774].name
-      value: dd
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[775].hash
-      value: -941602691
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[775].name
-      value: e
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[776].hash
-      value: 330146850
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[776].name
-      value: ih
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[777].hash
-      value: -1198352614
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[777].name
-      value: kk
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[778].hash
-      value: -1248880688
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[778].name
-      value: nn
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[779].hash
-      value: 1173816228
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[779].name
-      value: oh
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[780].hash
-      value: 86941223
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[780].name
-      value: Lavender Hair [Set]
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[781].hash
-      value: 1316159452
-      objectReference: {fileID: 0}
-    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
-        type: 3}
-      propertyPath: animationHashSet.Array.data[781].name
       value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
+      propertyPath: animationHashSet.Array.data[758].hash
+      value: -909041750
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[758].name
+      value: Kigurumi Headband
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[759].hash
+      value: 1037895974
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[759].name
+      value: Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[760].hash
+      value: 1138678840
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[760].name
+      value: Kigurumi Tail
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[761].hash
+      value: 811924826
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[761].name
+      value: Kigurumi Color 3 [Base]
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[762].hash
+      value: 850964910
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[762].name
+      value: Kigurumi Color 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[763].hash
+      value: -1414406124
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[763].name
+      value: Kigurumi Color 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[764].hash
+      value: -1929371292
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[764].name
+      value: no_sound
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[765].hash
+      value: 2010622120
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[765].name
+      value: ecchi_sound_kiss
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[766].hash
+      value: -259044450
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[766].name
+      value: ecchi_sound_finger_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[767].hash
+      value: 1770396196
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[767].name
+      value: ecchi_sound_finger_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[768].hash
+      value: 653356925
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[768].name
+      value: ou
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[769].hash
+      value: -1681812116
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[769].name
+      value: pp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[770].hash
+      value: 1207539394
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[770].name
+      value: rr
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[771].hash
+      value: 702912277
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[771].name
+      value: ss
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[772].hash
+      value: -322844610
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[772].name
+      value: th
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[773].hash
+      value: -394746568
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[773].name
+      value: Disable
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[774].hash
+      value: 1938658794
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[774].name
+      value: ff
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[775].hash
+      value: 1272920409
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[775].name
+      value: sil
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[776].hash
+      value: -1566009714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[776].name
+      value: aa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[777].hash
+      value: -381530968
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[777].name
+      value: ch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[778].hash
+      value: -1347054012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[778].name
+      value: dd
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[779].hash
+      value: -941602691
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[779].name
+      value: e
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[780].hash
+      value: 330146850
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[780].name
+      value: ih
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[781].hash
+      value: -1198352614
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[781].name
+      value: kk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
       propertyPath: animationHashSet.Array.data[782].hash
-      value: -455581592
+      value: -1248880688
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[782].name
-      value: Monuka Hair [Set]
+      value: nn
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[783].hash
-      value: -1180881307
+      value: 1173816228
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[783].name
-      value: Hair Color
+      value: oh
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[784].hash
-      value: 544400043
+      value: 86941223
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[784].name
-      value: Lavender Ribbon
+      value: Lavender Hair [Set]
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[785].hash
-      value: 1465721847
+      value: 1316159452
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -14637,88 +18147,278 @@ PrefabInstance:
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[786].hash
-      value: -11667441
+      value: -455581592
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[786].name
-      value: Idle
+      value: Monuka Hair [Set]
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[787].hash
-      value: -350224543
+      value: 2079647765
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[787].name
-      value: Lavender Braids
+      value: Anka Hair [Set]
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[788].hash
-      value: -1637085408
+      value: -1180881307
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[788].name
-      value: Ears Size
+      value: Hair Color
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[789].hash
-      value: 83775370
+      value: 544400043
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[789].name
-      value: Ears Cat 01
+      value: Lavender Ribbon
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[790].hash
-      value: -1644749264
+      value: 1465721847
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[790].name
-      value: Ears Cat 02
+      value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[791].hash
-      value: -1579819040
+      value: -11667441
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[791].name
-      value: Ears Fox 01
+      value: Idle
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[792].hash
-      value: 953978458
+      value: -350224543
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[792].name
-      value: Ears Fox 02
+      value: Lavender Braids
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[793].hash
-      value: -579858411
+      value: -1637085408
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: animationHashSet.Array.data[793].name
+      value: Ears Size
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[794].hash
+      value: 83775370
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[794].name
+      value: Ears Cat 01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[795].hash
+      value: -1644749264
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[795].name
+      value: Ears Cat 02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[796].hash
+      value: -1579819040
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[796].name
+      value: Ears Fox 01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[797].hash
+      value: 953978458
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[797].name
+      value: Ears Fox 02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[798].hash
+      value: -579858411
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[798].name
       value: Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[799].hash
+      value: 806888100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[799].name
+      value: succubus_body
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[800].hash
+      value: -1962662880
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[800].name
+      value: succubus_body_nude
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[801].hash
+      value: 1003876496
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[801].name
+      value: succubus_body_off
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[802].hash
+      value: -1932092170
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[802].name
+      value: NONE
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[803].hash
+      value: -997797124
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[803].name
+      value: wings_idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[804].hash
+      value: -463424295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[804].name
+      value: tail_idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[805].hash
+      value: -2036715809
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[805].name
+      value: succubus_dissolve_off
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[806].hash
+      value: 1213068194
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[806].name
+      value: succubus_dissolve_on
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[807].hash
+      value: -39255489
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[807].name
+      value: succubus_sound_off
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[808].hash
+      value: -901071512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[808].name
+      value: succubus_sound_on
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[809].hash
+      value: -820612435
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[809].name
+      value: Love Particles
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[810].hash
+      value: -55228410
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[810].name
+      value: New State
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[811].hash
+      value: -55228410
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[811].name
+      value: New State
       objectReference: {fileID: 0}
     - target: {fileID: 5394667163464449432, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: customEyeLookSettings.eyelidsSkinnedMesh
       value: 
       objectReference: {fileID: 35657121}
+    - target: {fileID: 5428117175963479244, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457712322310042386, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58b82c98258632e449a738dc49984d74, type: 2}
     - target: {fileID: 5714556873659691819, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_RootBone
@@ -14844,6 +18544,16 @@ PrefabInstance:
       propertyPath: fallbackStatus
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6255449535563650304, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268727931666711912, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6280515053238312916, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[0]
@@ -14904,11 +18614,31 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2965afdb9ee7bfe499bf1e613ddcda44, type: 2}
-    - target: {fileID: 7110609083138643653, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+    - target: {fileID: 6817951428004993657, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907772777227475880, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 29cce271b611a7c4385815b7e582aa9a, type: 2}
+    - target: {fileID: 7061582750765692584, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7110609083138643653, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149818701516321649, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58b82c98258632e449a738dc49984d74, type: 2}
     - target: {fileID: 7237230945585774668, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_IsActive
@@ -14919,11 +18649,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7527504746214866915, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7876534719527487457, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 56a8204b22b15c147a2a14edc7d94468, type: 2}
+    - target: {fileID: 7923250511985760990, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7938717569861076330, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14959,6 +18699,16 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8088699151011730445, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9593519f4cf35a14da1a2da7cae495d0, type: 2}
+    - target: {fileID: 8278598259658923016, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8450198606089230197, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14968,6 +18718,11 @@ PrefabInstance:
         type: 3}
       propertyPath: colliders.Array.data[0]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574167789048184045, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8588470520504573472, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
@@ -15034,6 +18789,16 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.size
       value: 118
       objectReference: {fileID: 0}
+    - target: {fileID: 8638298389681544407, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 29cce271b611a7c4385815b7e582aa9a, type: 2}
+    - target: {fileID: 8689550780577261306, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8884989138266650628, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: isAnimated
@@ -15067,6 +18832,26 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1984946619256608026, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1223729917}
+    - targetCorrespondingSourceObject: {fileID: 1984946619256608026, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2087468899}
+    - targetCorrespondingSourceObject: {fileID: 1984946619256608026, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1591083669}
+    - targetCorrespondingSourceObject: {fileID: 1984946619256608026, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 309229320}
+    - targetCorrespondingSourceObject: {fileID: 7813173102604685164, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 744239219}
     - targetCorrespondingSourceObject: {fileID: 7801679110123059555, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       insertIndex: -1
@@ -15096,6 +18881,58 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 7218117319018927058}
+    - targetCorrespondingSourceObject: {fileID: 3311997190224964978, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023424268}
+    - targetCorrespondingSourceObject: {fileID: 9113996859896676896, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1654762151}
+    - targetCorrespondingSourceObject: {fileID: 5156804302924806160, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1049997407}
+    - targetCorrespondingSourceObject: {fileID: 2632113524101996767, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1071022012}
+    - targetCorrespondingSourceObject: {fileID: 1852681499072116223, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 183519122}
+    - targetCorrespondingSourceObject: {fileID: 2496071563737431704, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 116431585}
+    - targetCorrespondingSourceObject: {fileID: 8083439123664603252, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 61596942}
+    - targetCorrespondingSourceObject: {fileID: 3287052349269582320, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1934862406}
+    - targetCorrespondingSourceObject: {fileID: 5451738583635147042, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 597768980}
+    - targetCorrespondingSourceObject: {fileID: 6681841436578081618, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 176808610}
+    - targetCorrespondingSourceObject: {fileID: 6979417715246323207, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 108988118}
+    - targetCorrespondingSourceObject: {fileID: 66282761168457339, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 823723599}
+    - targetCorrespondingSourceObject: {fileID: 4610001528180594104, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 657617421}
     - targetCorrespondingSourceObject: {fileID: 8636144295973012898, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       insertIndex: -1
@@ -15160,6 +18997,18 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2083108854}
+    - targetCorrespondingSourceObject: {fileID: 138398658806103057, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1665647464}
+    - targetCorrespondingSourceObject: {fileID: 2717902240837478133, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 969443181}
+    - targetCorrespondingSourceObject: {fileID: 5146741317265688872, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1055609562}
   m_SourcePrefab: {fileID: 100100000, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09, type: 3}
 --- !u!4 &7218117319018927056 stripped
 Transform:

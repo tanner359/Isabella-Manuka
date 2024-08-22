@@ -47,7 +47,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: succubus_cloth/Armature.1/Hips/succubus_tail_root/succubus_tail.001
+    path: Armature/Hips/succubus_tail_root/succubus_tail.001
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
@@ -60,7 +60,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2725267026
+      path: 1358395692
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: succubus_cloth/Armature.1/Hips/succubus_tail_root/succubus_tail.001
+    path: Armature/Hips/succubus_tail_root/succubus_tail.001
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -110,7 +110,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: succubus_cloth/Armature.1/Hips/succubus_tail_root/succubus_tail.001
+    path: Armature/Hips/succubus_tail_root/succubus_tail.001
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -149,7 +149,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: succubus_cloth/Armature.1/Hips/succubus_tail_root/succubus_tail.001
+    path: Armature/Hips/succubus_tail_root/succubus_tail.001
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -162,7 +162,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: succubus_cloth/Armature.1/Hips/succubus_tail_root/succubus_tail.001
+    path: Armature/Hips/succubus_tail_root/succubus_tail.001
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -174,7 +174,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: succubus_cloth/Armature.1/Hips/succubus_tail_root/succubus_tail.001
+    path: Armature/Hips/succubus_tail_root/succubus_tail.001
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -186,7 +186,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: succubus_cloth/Armature.1/Hips/succubus_tail_root/succubus_tail.001
+    path: Armature/Hips/succubus_tail_root/succubus_tail.001
     classID: 4
     script: {fileID: 0}
     flags: 0

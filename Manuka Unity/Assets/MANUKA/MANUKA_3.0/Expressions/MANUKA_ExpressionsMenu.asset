@@ -83,3 +83,13 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: ac1d6911237686e44a131e47b2b4b873, type: 2}
     subParameters: []
     labels: []
+  - name: FUN
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: 11400000, guid: 9ec781930adbb8d4e932ad7d6d1ab411, type: 2}
+    subParameters: []
+    labels: []
