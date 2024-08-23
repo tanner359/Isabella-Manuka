@@ -363,3 +363,13 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: Kame
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: DBZ/Aura
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1

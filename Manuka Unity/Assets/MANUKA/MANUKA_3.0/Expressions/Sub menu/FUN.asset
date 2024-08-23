@@ -33,3 +33,23 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: DBZ Aura
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: DBZ/Aura
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: DBZ Kamehameha
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Kame
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
