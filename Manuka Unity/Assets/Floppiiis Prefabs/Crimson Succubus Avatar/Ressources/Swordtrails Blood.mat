@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Swordtrails Blood
+  m_Shader: {fileID: 4800000, guid: 130d7621edc601c468f941c56b522703, type: 3}
+  m_ShaderKeywords: _DISABLEMAINEFFECT_ON _TEXTURE1COLOR_ON _TEXTURE2COLOR_ON _TEXTURE3COLOR_ON
+    _TOGGLEBACKFADE_ON _TOGGLEBLENDMASK_ON _TOGGLEDISTORTIONMAP_ON _TOGGLEMASKTEXTURE_ON
+    _TOGGLESIMPLETRAILDISTORTION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 4888
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaBlendMask:
+        m_Texture: {fileID: 2800000, guid: 4453a5a7be5cc83469c08852b1e67e32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlendMask:
+        m_Texture: {fileID: 2800000, guid: 7dabb6490ab545f4d9f25e19f2104023, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion1:
+        m_Texture: {fileID: 2800000, guid: 937f970535e429b4a9dea5cb847e8dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionMap:
+        m_Texture: {fileID: 2800000, guid: 2a43316f563746e9a499f083ca6072f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: bc3a15b94af7b014a8e82acd2a744f78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskDistortion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: 4ef09261487624a42b92b43ce6e94740, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SimpleTrailMaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SimpleTrailNormalDistortion:
+        m_Texture: {fileID: 2800000, guid: 8806362d7e9ad5141b23999ce01adc8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SimpleTrailTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: f32aeed68aea03a4bbc9e76760489ade, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Additive: 3
+    - _AlphaBlend: 3
+    - _BackFadeDissolveSoftness: 0.2705882
+    - _Bias: 0.17
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DisableMainEffect: 1
+    - _DissolveSoftness: 0.2705882
+    - _Distortion1Strength: 0.1
+    - _Distortion1X: 1
+    - _Distortion1Y: 0
+    - _Distortion2Strength: 0
+    - _Distortion2X: 0
+    - _Distortion2Y: 0
+    - _Distortion3Strength: 0
+    - _Distortion3X: 0
+    - _Distortion3Y: 0
+    - _DistortionMapAmount: 3
+    - _DstBlend: 0
+    - _Emission: 4
+    - _EmissionBloom: 3
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MaskDisortionX: 0
+    - _MaskDisortionY: 0
+    - _MaskDistortionStrength: 0
+    - _MaskRotation: 0
+    - _MaskX: 0
+    - _MaskY: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReversedBias: 0.7
+    - _ReversedScale: 0.69
+    - _Scale: 1.8
+    - _SimpleTrailDistortionAmount: 1
+    - _SimpleTrailScrollSpeed: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Strength: 3
+    - _StrengthScale: 1
+    - _Texture1Color: 1
+    - _Texture1Rotation: 0
+    - _Texture1Strength: 4
+    - _Texture1X: 0
+    - _Texture1Y: 0
+    - _Texture2Color: 1
+    - _Texture2Rotation: 0
+    - _Texture2Strength: 0
+    - _Texture2X: 0
+    - _Texture2Y: 0
+    - _Texture3Color: 1
+    - _Texture3Rotation: 0
+    - _Texture3Strength: 0
+    - _Texture3X: 0
+    - _Texture3Y: 0
+    - _TimeScale: 0
+    - _ToggleBackFade: 1
+    - _ToggleBlendMask: 1
+    - _ToggleBlendmask: 1
+    - _ToggleDistortionMap: 1
+    - _ToggleMaskTexture: 1
+    - _ToggleSimpleFadeBackFade: 0
+    - _ToggleSimpleTrail: 0
+    - _ToggleSimpleTrailDistortion: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _BlendMaskTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorEnd: {r: 1, g: 0, b: 0, a: 0}
+    - _ColorStart: {r: 1, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SimpleTrailColor: {r: 0, g: 0.6275859, b: 1, a: 1}
+    - _SimpleTrailColor2: {r: 0, g: 0.25517225, b: 1, a: 1}
+    - _SimpleTrailMainColor: {r: 0, g: 0.6275863, b: 1, a: 0}

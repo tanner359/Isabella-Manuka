@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bloodring inner 1
+  m_Shader: {fileID: 4800000, guid: 130d7621edc601c468f941c56b522703, type: 3}
+  m_ShaderKeywords: _TEXTURE1COLOR_ON _TEXTURE2COLOR_ON _TEXTURE3COLOR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distortion1:
+        m_Texture: {fileID: 2800000, guid: 937f970535e429b4a9dea5cb847e8dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 451c3270c89ac7641ab72f1fcae59d27, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: cf294f97390bbc347b670f6433146318, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskDistortion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: dd5934cf44e748e489b1ef78e7475a40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Additive: 3
+    - _AlphaBlend: 3
+    - _Distortion1Strength: 0.1
+    - _Distortion1X: 0.2
+    - _Distortion1Y: -0.5
+    - _Distortion2Strength: 0
+    - _Distortion2X: 0
+    - _Distortion2Y: 0
+    - _Distortion3Strength: 0
+    - _Distortion3X: 0
+    - _Distortion3Y: 0
+    - _EmissionBloom: 5
+    - _Glow: 50
+    - _InvFade: 3
+    - _MaskDisortionX: 0
+    - _MaskDisortionY: 0
+    - _MaskDistortionStrength: 0
+    - _MaskRotation: 0
+    - _MaskX: 0
+    - _MaskY: 0
+    - _Texture1Color: 1
+    - _Texture1Rotation: 0
+    - _Texture1Strength: 1
+    - _Texture1X: 0
+    - _Texture1Y: 0
+    - _Texture2Color: 1
+    - _Texture2Rotation: 0
+    - _Texture2Strength: 0
+    - _Texture2X: 0
+    - _Texture2Y: 0
+    - _Texture3Color: 1
+    - _Texture3Rotation: 0
+    - _Texture3Strength: 0
+    - _Texture3X: 0
+    - _Texture3Y: 0
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}

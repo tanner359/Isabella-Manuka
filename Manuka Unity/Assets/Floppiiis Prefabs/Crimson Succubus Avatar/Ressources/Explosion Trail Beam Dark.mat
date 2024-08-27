@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Explosion Trail Beam Dark
+  m_Shader: {fileID: 4800000, guid: 130d7621edc601c468f941c56b522703, type: 3}
+  m_ShaderKeywords: Enable_UVRotation _TEXTURE1COLOR_ON _TEXTURE2COLOR_ON _TEXTURE3COLOR_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3002
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion1:
+        m_Texture: {fileID: 2800000, guid: 937f970535e429b4a9dea5cb847e8dbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 062e4cda4e285ed4a91e994428a1dc2d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 3f7fc4925782f224698bc73b85f393af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskDistortion:
+        m_Texture: {fileID: 2800000, guid: 2d38b44789715cd4383414c0d8f25e41, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 09981081d3461d84eb80b5a6778040c5, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Additive: 0.007
+    - _AlphaBlend: 100
+    - _BumpScale: 1
+    - _CutRotation: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Distortion1Strength: 0.1
+    - _Distortion1X: 1
+    - _Distortion1Y: 0
+    - _Distortion2Strength: 0
+    - _Distortion2X: 0
+    - _Distortion2Y: 0
+    - _Distortion3Strength: 0
+    - _Distortion3X: 0
+    - _Distortion3Y: 0
+    - _DstBlend: 0
+    - _EmissionBloom: 1
+    - _EmissionGain: 0
+    - _Emissionpower: 4
+    - _Glossiness: 0.5
+    - _Glow: 1
+    - _InvFade: 1
+    - _MainRotation: 270
+    - _MaskDisortionX: 1.8
+    - _MaskDisortionY: 0
+    - _MaskDistortionStrength: 0.1
+    - _MaskRotation: 0
+    - _MaskX: 0
+    - _MaskY: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SrcBlend: 1
+    - _Texture1Color: 1
+    - _Texture1Rotation: 0
+    - _Texture1Strength: 6
+    - _Texture1X: 0
+    - _Texture1Y: 0
+    - _Texture2Color: 1
+    - _Texture2Rotation: 0
+    - _Texture2Strength: 0
+    - _Texture2X: 0
+    - _Texture2Y: 0
+    - _Texture3Color: 1
+    - _Texture3Rotation: 0
+    - _Texture3Strength: 0
+    - _Texture3X: 0
+    - _Texture3Y: 0
+    - _UVCutScrollX: 0
+    - _UVCutScrollY: 0
+    - _UVMirrorX: 0
+    - _UVMirrorY: 0
+    - _UVScrollX: 0
+    - _UVScrollY: 0
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 0.5}
