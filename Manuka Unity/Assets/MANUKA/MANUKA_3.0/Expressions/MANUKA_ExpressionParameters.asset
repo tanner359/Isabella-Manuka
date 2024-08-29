@@ -373,3 +373,23 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: Swordspawn
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: Orbspawn
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: Darknessbeam
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: Darkness Beam Toggle
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1

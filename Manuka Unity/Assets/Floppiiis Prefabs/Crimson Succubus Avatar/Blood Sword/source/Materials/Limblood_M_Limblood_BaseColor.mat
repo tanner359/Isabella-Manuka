@@ -2,29 +2,44 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Limblood_M_Limblood_BaseColor
-  m_Shader: {fileID: 4800000, guid: 917b37092bae034459c28c00a3a19b54, type: 3}
-  m_ShaderKeywords: DISTORT EFFECT_HUE_VARIATION VIGNETTE_CLASSIC VIGNETTE_MASKED
-    _COLORADDSUBDIFF_ON _EMISSION _GLOSSYREFLECTIONS_OFF _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-    _SPECGLOSSMAP
+  m_Shader: {fileID: 4800000, guid: c8dc3180296ab394b9abd40e42fc70f5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - DISTORT
+  - EFFECT_HUE_VARIATION
+  - VIGNETTE_CLASSIC
+  - VIGNETTE_MASKED
+  - _COLORADDSUBDIFF_ON
+  - _EMISSION
+  - _GLOSSYREFLECTIONS_OFF
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  - _SPECGLOSSMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2010
   stringTagMap:
+    AllLockedGUIDS: b7a1180bcaecab242a97820add008998
     OptimizedShaderFolder: Limblood_M_Limblood_BaseColor
-    OriginalShader: ".poiyomi/\u2022 Poiyomi Toon \u2022"
+    OriginalKeywords: DISTORT EFFECT_HUE_VARIATION VIGNETTE_CLASSIC VIGNETTE_MASKED
+      _COLORADDSUBDIFF_ON _EMISSION _GLOSSYREFLECTIONS_OFF _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+      _SPECGLOSSMAP
+    OriginalShader: ".poiyomi/Poiyomi 7.3/\u2022 Poiyomi Toon \u2022"
     RenderType: Opaque
     _DissolveAlphaAnimated: 2
     _DissolveEdgeEmissionAnimated: 2
     _MatcapEmissionStrengthAnimated: 2
     _MatcapIntensityAnimated: 2
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -420,6 +435,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - DSGI: 0
     - Instancing: 0
@@ -613,10 +629,12 @@ Material:
     - _DissolveAlpha7: 0
     - _DissolveAlpha8: 0
     - _DissolveAlpha9: 0
+    - _DissolveAlpha_Limblood_M_Limblood_BaseColor: 1
     - _DissolveAlpha_limbloodmlimbloodbasecolor: 1
     - _DissolveDetailNoiseUV: 0
     - _DissolveDetailStrength: 0
     - _DissolveEdgeEmission: 5
+    - _DissolveEdgeEmission_Limblood_M_Limblood_BaseColor: 5
     - _DissolveEdgeEmission_limbloodmlimbloodbasecolor: 5
     - _DissolveEdgeHardness: 0
     - _DissolveEdgeHueShift: 0
@@ -857,12 +875,14 @@ Material:
     - _MatcapAdd: 0
     - _MatcapBorder: 0.363
     - _MatcapEmissionStrength: 13.33
+    - _MatcapEmissionStrength_Limblood_M_Limblood_BaseColor: 13.33
     - _MatcapEmissionStrength_limbloodmlimbloodbasecolor: 13.33
     - _MatcapEnable: 1
     - _MatcapHueShift: 0
     - _MatcapHueShiftEnabled: 0
     - _MatcapHueShiftSpeed: 0
     - _MatcapIntensity: 4.58
+    - _MatcapIntensity_Limblood_M_Limblood_BaseColor: 4.58
     - _MatcapIntensity_limbloodmlimbloodbasecolor: 4.58
     - _MatcapLightMask: 0
     - _MatcapMaskInvert: 0
@@ -984,7 +1004,9 @@ Material:
     - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
+    - _ShaderUIWarning0: -0
+    - _ShaderUIWarning1: -0
     - _ShadowMix: 0
     - _ShadowMixThreshold: 0.5
     - _ShadowMixWidthMod: 0.5
@@ -1515,3 +1537,4 @@ Material:
     - _VertexManipulationLocalScale: {r: 1, g: 1, b: 1, a: 1}
     - _VertexManipulationLocalTranslation: {r: 0, g: 0, b: 0, a: 1}
     - _VertexManipulationWorldTranslation: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

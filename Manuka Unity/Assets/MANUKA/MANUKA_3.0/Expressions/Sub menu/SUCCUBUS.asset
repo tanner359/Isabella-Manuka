@@ -43,3 +43,13 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: Darkness Beam
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Darkness Beam Toggle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
