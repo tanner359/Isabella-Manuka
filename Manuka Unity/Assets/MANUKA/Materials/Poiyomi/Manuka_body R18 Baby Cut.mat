@@ -8,11 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Manuka_body R18 Baby Cut
-  m_Shader: {fileID: 4800000, guid: 2db156b5ded24df499199a4015aa064a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 034460dc851505a42baca2ba6514f9f0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
   - COLOR_GRADING_HDR
   - GEOM_TYPE_BRANCH
   - POI_STYLIZED_StylizedSpecular
@@ -22,12 +21,12 @@ Material:
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_LILTOON
   - _STOCHASTICMODE_DELIOT_HEITZ
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
-    AllLockedGUIDS: 38808988f4971d24d9b585bde01a5aa7
     OriginalKeywords: COLOR_GRADING_HDR GEOM_TYPE_BRANCH POI_STYLIZED_StylizedSpecular
       VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI
       _RIMSTYLE_LILTOON _STOCHASTICMODE_DELIOT_HEITZ
@@ -2697,7 +2696,7 @@ Material:
     - _Set_RimLightMaskUV: 0
     - _Set_SystemShadowsToBase: 1
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 1
+    - _ShaderOptimizerEnabled: 0
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
