@@ -14,12 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: "Naked \U0001F60D"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 43066d8a73c579048891e3c123e252a0, type: 3}
     type: 102
     parameter:
       name: MANUKA_costume
     value: 99
     style: 0
     subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pussy (DPS)
+    icon: {fileID: 2800000, guid: 147c35fee2720c84ab937c82464f78f8, type: 3}
+    type: 102
+    parameter:
+      name: DPS/Pussy
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Ecchi Mouth
+    icon: {fileID: 2800000, guid: 54ed06dc4b00e9e4cad66f02935461a7, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 61c9c8fd67b69514c91da82a714049de, type: 2}
     subParameters: []
     labels: []

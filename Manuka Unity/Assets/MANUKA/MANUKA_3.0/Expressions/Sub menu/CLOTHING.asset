@@ -53,3 +53,13 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 6c023b57a7d706c449c565d796491acd, type: 2}
     subParameters: []
     labels: []
+  - name: SAILOR
+    icon: {fileID: 2800000, guid: 7f55947ce5e3ba94782bcbe93b80e44c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 32fd6775ef551824a8711ab0b62b1c83, type: 2}
+    subParameters: []
+    labels: []

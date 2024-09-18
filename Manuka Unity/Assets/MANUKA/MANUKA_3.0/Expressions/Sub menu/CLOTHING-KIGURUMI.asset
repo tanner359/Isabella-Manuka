@@ -84,7 +84,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Colors
-    icon: {fileID: 2800000, guid: 2f791cb5c275ced4997a0a6afe055826, type: 3}
+    icon: {fileID: 2800000, guid: 53f0723ebd8f1b645b96d0ed851f716e, type: 3}
     type: 103
     parameter:
       name: 

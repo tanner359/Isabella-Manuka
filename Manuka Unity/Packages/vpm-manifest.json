@@ -11,6 +11,9 @@
     },
     "vrchat.blackstartx.gesture-manager": {
       "version": "3.9.2"
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.0.33"
     }
   },
   "locked": {
@@ -36,6 +39,12 @@
       "version": "3.9.2",
       "dependencies": {
         "com.vrchat.avatars": ">=3.5.2 < 3.8.X"
+      }
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.0.33",
+      "dependencies": {
+        "com.vrchat.avatars": "3.2 - 3.7"
       }
     }
   }

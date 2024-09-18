@@ -34,7 +34,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Hair Colors
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 53f0723ebd8f1b645b96d0ed851f716e, type: 3}
     type: 203
     parameter:
       name: 

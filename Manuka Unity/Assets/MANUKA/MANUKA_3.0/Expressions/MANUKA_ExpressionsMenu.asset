@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: CLOTHING
-    icon: {fileID: 2800000, guid: 939d927c6711c88459f94a701238353c, type: 3}
+    icon: {fileID: 2800000, guid: a9e2f5972ae67c540b6bff0e0d2a0b33, type: 3}
     type: 103
     parameter:
       name: 
@@ -24,7 +24,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: OPTIONS
-    icon: {fileID: 2800000, guid: bddd44a4f8c341244b137cbee9af84ec, type: 3}
+    icon: {fileID: 2800000, guid: ce4b80cdb7e9a644b85abdf5dcbd8ccd, type: 3}
     type: 103
     parameter:
       name: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: FACE
-    icon: {fileID: 2800000, guid: c861a82dee44d7544aa172a5ce8e0c42, type: 3}
+    icon: {fileID: 2800000, guid: 4a56918198bfeb04a9f732346a821780, type: 3}
     type: 103
     parameter:
       name: 
@@ -51,16 +51,6 @@ MonoBehaviour:
     value: 1
     style: 0
     subMenu: {fileID: 11400000, guid: d5ae14c463b6b494494c2f5064089632, type: 2}
-    subParameters: []
-    labels: []
-  - name: "ECCHI \U0001F49E"
-    icon: {fileID: 2800000, guid: 741590f6d41061140a3f24cc28898b9e, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 11400000, guid: 61c9c8fd67b69514c91da82a714049de, type: 2}
     subParameters: []
     labels: []
   - name: HAIR

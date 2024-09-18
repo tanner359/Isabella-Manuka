@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Sailor Outfit Menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Outfit
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Sailor/All
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Color Preset
+    icon: {fileID: 0}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Sailor/Colors
+    labels: []
+  - name: Skirt
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Sailor/Skirt
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Top
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Sailor/Tops
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Thigh Highs
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Sailor/Thigh Highs
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Socks
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Sailor/Socks
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Shoes
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Sailor/Shoes
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: More
+    icon: {fileID: 2800000, guid: 2f791cb5c275ced4997a0a6afe055826, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 176cbcaac3043c7488ee38db86b46af5, type: 2}
+    subParameters: []
+    labels: []
