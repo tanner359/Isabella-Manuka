@@ -2107,7 +2107,7 @@ Material:
     - _LightingIgnoreAmbientColor: 1
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
-    - _LightingMinLightBrightness: 0.2
+    - _LightingMinLightBrightness: 0.05
     - _LightingMode: 1
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1

@@ -3405,14 +3405,14 @@ Material:
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 1
+    - m_mainCategory: 0
     - m_modifierCategory: 1
     - m_postprocessing: 0
     - m_renderingCategory: 1
     - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
-    - m_start_Alpha: 1
+    - m_start_Alpha: 0
     - m_start_AlphaGlobalMask: 0
     - m_start_Aniso: 0
     - m_start_BlackLightMasking: 0
@@ -3430,7 +3430,7 @@ Material:
     - m_start_Decal3AudioLink: 0
     - m_start_DecalSection: 1
     - m_start_DepthBulge: 0
-    - m_start_DetailOptions: 1
+    - m_start_DetailOptions: 0
     - m_start_DistortionAudioLink: 0
     - m_start_FXProximityColor: 0
     - m_start_FlipbookAudioLink: 0
