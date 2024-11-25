@@ -10370,6 +10370,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MANUKA_CUSTOM
       objectReference: {fileID: 0}
+    - target: {fileID: 1332553482972442144, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c229e6fd2b1868b4490f9be5a037c574, type: 2}
     - target: {fileID: 1645926613103138534, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[27]
@@ -10475,6 +10480,36 @@ PrefabInstance:
       propertyPath: colliders.Array.data[7]
       value: 
       objectReference: {fileID: 35657119}
+    - target: {fileID: 4328109001097095144, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c229e6fd2b1868b4490f9be5a037c574, type: 2}
+    - target: {fileID: 4328109001097095144, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328109001097095144, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328109001097095144, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328109001097095144, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328109001097095144, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4479942809750584984, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: colliders.Array.data[0]
@@ -10540,6 +10575,16 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8226135789377518084, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c229e6fd2b1868b4490f9be5a037c574, type: 2}
+    - target: {fileID: 8320053726601511301, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c229e6fd2b1868b4490f9be5a037c574, type: 2}
     - target: {fileID: 8884989138266650628, guid: 5c63e6cb05fac9e4dba7ecf9731e9e09,
         type: 3}
       propertyPath: colliders.Array.data[0]
