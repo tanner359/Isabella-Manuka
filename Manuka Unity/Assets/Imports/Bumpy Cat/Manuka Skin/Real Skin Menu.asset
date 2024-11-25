@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: Real Skin Menu
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
   - name: Dark Skin
     icon: {fileID: 2800000, guid: 74dfda98c3027174bbab7c269ad249e3, type: 3}

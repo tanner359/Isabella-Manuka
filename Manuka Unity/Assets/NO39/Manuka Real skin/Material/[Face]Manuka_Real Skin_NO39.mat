@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap:
     VRCFallback: Unlit
   disabledShaderPasses: []
@@ -121,7 +121,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionBlendMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e3a4d2c9f163de447bd3376743742867, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionGradTex:
@@ -129,7 +129,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 51a93a3717cd378468e6c5ce3dfd5261, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef3a33a2dd0cde04aa97f342a2c639c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emissive_Tex:
@@ -181,7 +181,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainColorAdjustMask:
-        m_Texture: {fileID: 2800000, guid: 80e7d749b44f7484dbc0ec93d0fe774d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef3a33a2dd0cde04aa97f342a2c639c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainGradationTex:
@@ -542,7 +542,7 @@ Material:
     - _Main2ndEnableLighting: 1
     - _Main2ndTexAlphaMode: 0
     - _Main2ndTexAngle: 0
-    - _Main2ndTexBlendMode: 0
+    - _Main2ndTexBlendMode: 3
     - _Main2ndTexIsDecal: 0
     - _Main2ndTexIsLeftOnly: 0
     - _Main2ndTexIsMSDF: 0
@@ -571,10 +571,10 @@ Material:
     - _MatCap2ndApplyTransparency: 1
     - _MatCap2ndBackfaceMask: 0
     - _MatCap2ndBlend: 1
-    - _MatCap2ndBlendMode: 1
+    - _MatCap2ndBlendMode: 3
     - _MatCap2ndBumpScale: 1
     - _MatCap2ndCustomNormal: 0
-    - _MatCap2ndEnableLighting: 1
+    - _MatCap2ndEnableLighting: 0
     - _MatCap2ndLod: 0
     - _MatCap2ndMainStrength: 0
     - _MatCap2ndNormalStrength: 1
@@ -774,7 +774,7 @@ Material:
     - _UseClippingCanceller: 0
     - _UseDither: 0
     - _UseEmission: 1
-    - _UseEmission2nd: 1
+    - _UseEmission2nd: 0
     - _UseGlitter: 0
     - _UseMain2ndTex: 0
     - _UseMain3rdTex: 0
@@ -817,8 +817,8 @@ Material:
     - _AudioLinkVertexUVParams: {r: 0.25, g: 0, b: 0, a: 0.125}
     - _BackfaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BacklightColor: {r: 0.85, g: 0.8, b: 0.7, a: 1}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.990566, g: 0.82136726, b: 0.7242346, a: 1}
+    - _Color: {r: 0.990566, g: 0.82136726, b: 0.7242346, a: 1}
     - _Color2nd: {r: 1, g: 1, b: 1, a: 1}
     - _Color3rd: {r: 1, g: 1, b: 1, a: 1}
     - _ColorShift: {r: 0, g: 0, b: 0, a: 1}
@@ -833,9 +833,9 @@ Material:
     - _Emission2ndBlink: {r: 0, g: 0, b: 3.1415932, a: 0}
     - _Emission2ndColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission2ndMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionBlendMask_ScrollRotate: {r: 0, g: -0.05, b: 0, a: 0}
     - _EmissionBlink: {r: 0, g: 0, b: 3.1415932, a: 0}
-    - _EmissionColor: {r: 0, g: 1, b: 0.062745094, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _Emissive_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
     - _GlitterAtras: {r: 1, g: 1, b: 0, a: 0}
@@ -861,7 +861,7 @@ Material:
     - _Main3rdTexDecalAnimation: {r: 1, g: 1, b: 1, a: 30}
     - _Main3rdTexDecalSubParam: {r: 1, g: 1, b: 0, a: 1}
     - _Main3rdTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _MainTexHSVG: {r: 0.099, g: 1, b: 1, a: 1}
+    - _MainTexHSVG: {r: 0, g: 1.2, b: 1, a: 1.72}
     - _MainTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndColor: {r: 1, g: 1, b: 1, a: 1}

@@ -2477,7 +2477,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				if ((1 /*_OrifaceEnabled*/))
 				{
 					#ifdef UNITY_PASS_SHADOWCASTER
-					if ((1 /*_RalivDPSDisableShadowCaster*/)) return (VertexOut)POI_NAN;
+					if ((0 /*_RalivDPSDisableShadowCaster*/)) return (VertexOut)POI_NAN;
 					#endif
 					OrificeReshape(v.vertex, v.normal, v.tangent, v.vertexId);
 				}
@@ -3250,7 +3250,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				indirectColor = lerp(poiLight.directColor, indirectColor, shadowStrength * poiLight.shadowMask);
 				poiLight.finalLighting = lerp(indirectColor, poiLight.directColor, lns.x) * attenuation;
 				#endif
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float3 vertexLighting = float3(0, 0, 0);
@@ -3610,7 +3610,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 					break;
 				}
 				float3 vSpecMask = 0;
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					for (int index = 0; index < 4; index++)
@@ -3806,7 +3806,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				{
 					lightExists = true;
 				}
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float4 toLightX = unity_4LightPosX0 - i.worldPos.x;
@@ -3942,15 +3942,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 					UNITY_LIGHT_ATTENUATION(attenuation, i, poiMesh.worldPos)
 					poiLight.attenuation *= attenuation;
 				}
-				#ifdef RALIV_PENETRATION
-				if ((0 /*_PenetratorEnabled*/) || (1 /*_OrifaceEnabled*/))
-				{
-					if ((1 /*_RalivDPSDisableShadowCaster*/))
-					{
-						poiLight.attenuation = 1;
-					}
-				}
-				#endif
 				if (!any(poiLight.directColor) && !any(poiLight.indirectColor) && lightMapMode == 0)
 				{
 					lightMapMode = 1;
@@ -5721,7 +5712,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				if ((1 /*_OrifaceEnabled*/))
 				{
 					#ifdef UNITY_PASS_SHADOWCASTER
-					if ((1 /*_RalivDPSDisableShadowCaster*/)) return (VertexOut)POI_NAN;
+					if ((0 /*_RalivDPSDisableShadowCaster*/)) return (VertexOut)POI_NAN;
 					#endif
 					OrificeReshape(v.vertex, v.normal, v.tangent, v.vertexId);
 				}
@@ -6248,7 +6239,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				indirectColor = lerp(poiLight.directColor, indirectColor, shadowStrength * poiLight.shadowMask);
 				poiLight.finalLighting = lerp(indirectColor, poiLight.directColor, lns.x) * attenuation;
 				#endif
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float3 vertexLighting = float3(0, 0, 0);
@@ -6426,7 +6417,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				{
 					lightExists = true;
 				}
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float4 toLightX = unity_4LightPosX0 - i.worldPos.x;
@@ -6562,15 +6553,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 					UNITY_LIGHT_ATTENUATION(attenuation, i, poiMesh.worldPos)
 					poiLight.attenuation *= attenuation;
 				}
-				#ifdef RALIV_PENETRATION
-				if ((0 /*_PenetratorEnabled*/) || (1 /*_OrifaceEnabled*/))
-				{
-					if ((1 /*_RalivDPSDisableShadowCaster*/))
-					{
-						poiLight.attenuation = 1;
-					}
-				}
-				#endif
 				if (!any(poiLight.directColor) && !any(poiLight.indirectColor) && lightMapMode == 0)
 				{
 					lightMapMode = 1;
@@ -8474,7 +8456,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				if ((1 /*_OrifaceEnabled*/))
 				{
 					#ifdef UNITY_PASS_SHADOWCASTER
-					if ((1 /*_RalivDPSDisableShadowCaster*/)) return (VertexOut)POI_NAN;
+					if ((0 /*_RalivDPSDisableShadowCaster*/)) return (VertexOut)POI_NAN;
 					#endif
 					OrificeReshape(v.vertex, v.normal, v.tangent, v.vertexId);
 				}
@@ -9247,7 +9229,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				indirectColor = lerp(poiLight.directColor, indirectColor, shadowStrength * poiLight.shadowMask);
 				poiLight.finalLighting = lerp(indirectColor, poiLight.directColor, lns.x) * attenuation;
 				#endif
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float3 vertexLighting = float3(0, 0, 0);
@@ -9607,7 +9589,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 					break;
 				}
 				float3 vSpecMask = 0;
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					for (int index = 0; index < 4; index++)
@@ -9803,7 +9785,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				{
 					lightExists = true;
 				}
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float4 toLightX = unity_4LightPosX0 - i.worldPos.x;
@@ -9939,15 +9921,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 					UNITY_LIGHT_ATTENUATION(attenuation, i, poiMesh.worldPos)
 					poiLight.attenuation *= attenuation;
 				}
-				#ifdef RALIV_PENETRATION
-				if ((0 /*_PenetratorEnabled*/) || (1 /*_OrifaceEnabled*/))
-				{
-					if ((1 /*_RalivDPSDisableShadowCaster*/))
-					{
-						poiLight.attenuation = 1;
-					}
-				}
-				#endif
 				if (!any(poiLight.directColor) && !any(poiLight.indirectColor) && lightMapMode == 0)
 				{
 					lightMapMode = 1;
@@ -11529,7 +11502,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/274a16ca86d4a014d
 				if ((1 /*_OrifaceEnabled*/))
 				{
 					#ifdef UNITY_PASS_SHADOWCASTER
-					if ((1 /*_RalivDPSDisableShadowCaster*/)) return (VertexOut)POI_NAN;
+					if ((0 /*_RalivDPSDisableShadowCaster*/)) return (VertexOut)POI_NAN;
 					#endif
 					OrificeReshape(v.vertex, v.normal, v.tangent, v.vertexId);
 				}

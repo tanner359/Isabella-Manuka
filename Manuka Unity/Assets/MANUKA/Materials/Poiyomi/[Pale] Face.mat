@@ -236,11 +236,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission2ndMap:
-        m_Texture: {fileID: 2800000, guid: adb02efce2c15994e846c31fe7d07bfe, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3d3b8e593c4e63349bba19276e0f7f62, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionBlendMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e3a4d2c9f163de447bd3376743742867, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionGradTex:
@@ -248,7 +248,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: ce7f077fbac6d224ea47ec2e654c6b34, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef3a33a2dd0cde04aa97f342a2c639c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap1:
@@ -416,7 +416,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainColorAdjustMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ef3a33a2dd0cde04aa97f342a2c639c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainColorAdjustTexture:
@@ -1442,7 +1442,7 @@ Material:
     - _EmissionHueShiftSpeed1: 28.39
     - _EmissionHueShiftSpeed2: 0
     - _EmissionHueShiftSpeed3: 0
-    - _EmissionMainStrength: 0
+    - _EmissionMainStrength: 1
     - _EmissionMap1UV: 0
     - _EmissionMap2UV: 0
     - _EmissionMap3UV: 0
@@ -2889,7 +2889,7 @@ Material:
     - _UseClippingCanceller: 0
     - _UseDither: 0
     - _UseEmission: 1
-    - _UseEmission2nd: 0
+    - _UseEmission2nd: 1
     - _UseGlitter: 0
     - _UseLightColor: 1
     - _UseMain2ndTex: 0
@@ -3490,7 +3490,7 @@ Material:
     - _DistortionStrength1AudioLink: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionStrengthAudioLink: {r: 0, g: 0, b: 0, a: 0}
     - _Emission2ndBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _Emission2ndBlink: {r: 0, g: 0, b: 3.141593, a: 0}
+    - _Emission2ndBlink: {r: 0, g: 0, b: 3.1415932, a: 0}
     - _Emission2ndColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission2ndMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionAL0Multipliers: {r: 1, g: 1, b: 0, a: 0}
@@ -3501,9 +3501,9 @@ Material:
     - _EmissionAL2StrengthMod: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionAL3Multipliers: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionAL3StrengthMod: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionBlink: {r: 0, g: 0, b: 3.141593, a: 0}
-    - _EmissionColor: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
+    - _EmissionBlendMask_ScrollRotate: {r: 0, g: -0.05, b: 0, a: 0}
+    - _EmissionBlink: {r: 0, g: 0, b: 3.1415932, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor1: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
     - _EmissionColor2: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor3: {r: 1, g: 1, b: 1, a: 1}
@@ -3626,7 +3626,7 @@ Material:
     - _Main3rdTexDecalSubParam: {r: 1, g: 1, b: 0, a: 1}
     - _Main3rdTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
-    - _MainTexHSVG: {r: 0, g: 0.8, b: 1, a: 1}
+    - _MainTexHSVG: {r: 0, g: 1.2, b: 1, a: 1.72}
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _MainTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}

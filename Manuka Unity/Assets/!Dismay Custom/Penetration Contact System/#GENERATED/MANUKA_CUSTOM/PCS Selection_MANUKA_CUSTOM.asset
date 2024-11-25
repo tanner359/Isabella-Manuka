@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: PCS Selection_MANUKA_CUSTOM
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
   - name: Mouth
     icon: {fileID: 2800000, guid: 616c8310c2af8b445b3faf21070c1564, type: 3}

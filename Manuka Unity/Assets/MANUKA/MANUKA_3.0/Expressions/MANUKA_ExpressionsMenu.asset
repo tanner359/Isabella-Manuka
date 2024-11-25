@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: MANUKA_ExpressionsMenu
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 69db4227768a1ca46989132274126be2, type: 2}
   controls:
   - name: CLOTHING
     icon: {fileID: 2800000, guid: a9e2f5972ae67c540b6bff0e0d2a0b33, type: 3}
@@ -81,5 +82,15 @@ MonoBehaviour:
     value: 0
     style: 0
     subMenu: {fileID: 11400000, guid: 9ec781930adbb8d4e932ad7d6d1ab411, type: 2}
+    subParameters: []
+    labels: []
+  - name: HALLOWEEN
+    icon: {fileID: 2800000, guid: 7bc685ecb7ceb8d4f82f5fb4188d31cc, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: f8191949d74ce9145a6d700c32dd5082, type: 2}
     subParameters: []
     labels: []

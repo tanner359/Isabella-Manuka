@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: OPTIONS
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 69db4227768a1ca46989132274126be2, type: 2}
   controls:
   - name: Breast size
     icon: {fileID: 2800000, guid: bddd44a4f8c341244b137cbee9af84ec, type: 3}
@@ -32,16 +33,6 @@ MonoBehaviour:
     value: 1
     style: 0
     subMenu: {fileID: 11400000, guid: b1e9411d3d6cced41bbd6a7facd928ba, type: 2}
-    subParameters: []
-    labels: []
-  - name: NadeNade_Head
-    icon: {fileID: 2800000, guid: 54b738d1608e2a6418374821a327a246, type: 3}
-    type: 102
-    parameter:
-      name: NadeNade_Head_toggle
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
     subParameters: []
     labels: []
   - name: Skin

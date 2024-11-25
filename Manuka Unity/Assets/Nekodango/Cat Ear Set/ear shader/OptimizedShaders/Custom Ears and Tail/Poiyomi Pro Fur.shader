@@ -243,6 +243,42 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 		[Space(4)]
 		[KeywordEnum(TextureRamp, Multilayer Math, Wrapped, Skin, ShadeMap, Flat, Realistic, Cloth, SDF)] _LightingMode ("Lighting Type", Float) = 5
 		_LightingShadowColor ("Shadow Tint--{condition_showS:(_LightingMode!=4 && _LightingMode!=1 && _LightingMode!=5)}", Color) = (1, 1, 1)
+		[ToggleUI]_LightingMulitlayerNonLinear ("Non Linear Edge--{condition_showS:(_LightingMode==1)}", Float) = 1
+		[sRGBWarning]_MultilayerMathBlurMap ("Blur Map--{reference_properties:[_MultilayerMathBlurMapPan, _MultilayerMathBlurMapUV], condition_showS:(_LightingMode==1)}", 2D) = "white" { }
+		[HideInInspector] g_start_MultilayerMath1stLayer ("Layer 1--{draw_border:true, condition_showS:(_LightingMode==1)}", Float) = 0
+		[sRGBWarning(true)]_ShadowColorTex ("Color Tex--{reference_properties:[_ShadowColorTexPan, _ShadowColorTexUV], condition_showS:(_LightingMode==1)}", 2D) = "black" { }
+		[HideInInspector][Vector2]_ShadowColorTexPan ("Panning", Vector) = (0, 0, 0, 0)
+		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _ShadowColorTexUV ("UV", Int) = 0
+		_ShadowColor ("Color--{condition_showS:(_LightingMode==1)}", Color) = (0.7, 0.75, 0.85, 1.0)
+		[HideInInspector][Vector2]_MultilayerMathBlurMapPan ("Panning", Vector) = (0, 0, 0, 0)
+		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _MultilayerMathBlurMapUV ("UV", Int) = 0
+		_ShadowBorder ("Border--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0.5
+		_ShadowBlur ("Blur--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0.1
+		_ShadowReceive ("Receive Shadow--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0
+		[HideInInspector] g_end_MultilayerMath1stLayer ("Layer 1--{draw_border:true}", Float) = 0
+		[HideInInspector] g_start_MultilayerMath2ndLayer ("Layer 2--{draw_border:true, condition_showS:(_LightingMode==1)}", Float) = 0
+		[sRGBWarning(true)]_Shadow2ndColorTex ("Color Tex--{reference_properties:[_Shadow2ndColorTexPan, _Shadow2ndColorTexUV], condition_showS:(_LightingMode==1)}", 2D) = "black" { }
+		[HideInInspector][Vector2]_Shadow2ndColorTexPan ("Panning", Vector) = (0, 0, 0, 0)
+		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _Shadow2ndColorTexUV ("UV", Int) = 0
+		_Shadow2ndColor ("Color--{condition_showS:(_LightingMode==1)}", Color) = (0, 0, 0, 0)
+		_Shadow2ndBorder ("Border--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0.5
+		_Shadow2ndBlur ("Blur--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0.3
+		_Shadow2ndReceive ("Receive Shadow--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0
+		[HideInInspector] g_end_MultilayerMath2ndLayer ("Layer 2--{draw_border:true}", Float) = 0
+		[HideInInspector] g_start_MultilayerMath3rdLayer ("Layer 3--{draw_border:true, condition_showS:(_LightingMode==1)}", Float) = 0
+		[sRGBWarning(true)]_Shadow3rdColorTex ("Color Tex--{reference_properties:[_Shadow3rdColorTexPan, _Shadow3rdColorTexUV], condition_showS:(_LightingMode==1)}", 2D) = "black" { }
+		[HideInInspector][Vector2]_Shadow3rdColorTexPan ("Panning", Vector) = (0, 0, 0, 0)
+		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _Shadow3rdColorTexUV ("UV", Int) = 0
+		_Shadow3rdColor ("Color--{condition_showS:(_LightingMode==1)}", Color) = (0, 0, 0, 0)
+		_Shadow3rdBorder ("Border--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0.25
+		_Shadow3rdBlur ("Blur--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0.1
+		_Shadow3rdReceive ("Receive Shadow--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0
+		[HideInInspector] g_end_MultilayerMath3rdLayer ("Layer 3--{draw_border:true}", Float) = 0
+		[HideInInspector] g_start_MultilayerMathBorder ("Border--{draw_border:true, condition_showS:(_LightingMode==1)}", Float) = 0
+		_ShadowBorderColor ("Color--{condition_showS:(_LightingMode==1)}", Color) = (1, 0, 0, 1)
+		_ShadowBorderRange ("Border Range--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0
+		[HideInInspector] g_end_MultilayerMath1stBorder ("Border--{draw_border:true}", Float) = 0
+		_ShadowMainStrength ("Contrast--{condition_showS:(_LightingMode==1)}", Range(0, 1)) = 0
 		_ShadowStrength ("Shadow Strength--{condition_showS:(_LightingMode<=4 || _LightingMode==8)}", Range(0, 1)) = 1
 		_LightingIgnoreAmbientColor ("Ignore Indirect Shadow Color--{condition_showS:(_LightingMode<=3 || _LightingMode==8)}", Range(0, 1)) = 1
 		[Space(15)]
@@ -489,7 +525,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 			CGPROGRAM
  #define VIGNETTE_MASKED 
  #define _GLOSSYREFLECTIONS_OFF 
- #define _LIGHTINGMODE_FLAT 
+ #define _LIGHTINGMODE_MULTILAYER_MATH 
  #define _RIM2STYLE_POIYOMI 
  #define _RIMSTYLE_POIYOMI 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
@@ -717,6 +753,48 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 			float _ShadowStrength;
 			float _LightingIgnoreAmbientColor;
 			float3 _LightingShadowColor;
+			#ifdef _LIGHTINGMODE_MULTILAYER_MATH
+			float4 _ShadowColor;
+			float _LightingMulitlayerNonLinear;
+			#if defined(PROP_SHADOWCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _ShadowColorTex;
+			float4 _ShadowColorTex_ST;
+			float2 _ShadowColorTexPan;
+			float _ShadowColorTexUV;
+			#endif
+			#if defined(PROP_MULTILAYERMATHBLURMAP) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MultilayerMathBlurMap;
+			float4 _MultilayerMathBlurMap_ST;
+			float2 _MultilayerMathBlurMapPan;
+			float _MultilayerMathBlurMapUV;
+			#endif
+			float _ShadowBorder;
+			float _ShadowBlur;
+			float _ShadowReceive;
+			float4 _Shadow2ndColor;
+			#if defined(PROP_SHADOW2NDCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _Shadow2ndColorTex;
+			float4 _Shadow2ndColorTex_ST;
+			float2 _Shadow2ndColorTexPan;
+			float _Shadow2ndColorTexUV;
+			#endif
+			float _Shadow2ndBorder;
+			float _Shadow2ndBlur;
+			float _Shadow2ndReceive;
+			float4 _Shadow3rdColor;
+			#if defined(PROP_SHADOW3RDCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _Shadow3rdColorTex;
+			float4 _Shadow3rdColorTex_ST;
+			float2 _Shadow3rdColorTexPan;
+			float _Shadow3rdColorTexUV;
+			#endif
+			float _Shadow3rdBorder;
+			float _Shadow3rdBlur;
+			float _Shadow3rdReceive;
+			float4 _ShadowBorderColor;
+			float _ShadowBorderRange;
+			float _ShadowMainStrength;
+			#endif
 			float _LightingAdditiveType;
 			float _LightingAdditiveGradientStart;
 			float _LightingAdditiveGradientEnd;
@@ -2590,15 +2668,80 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 					return;
 				}
 				#endif
-				float shadowStrength = (1.0 /*_ShadowStrength*/) * poiLight.shadowMask;
+				float shadowStrength = (0.5 /*_ShadowStrength*/) * poiLight.shadowMask;
 				#ifdef POI_PASS_OUTLINE
 				shadowStrength = lerp(0, shadowStrength, _OutlineShadowStrength);
 				#endif
-				#ifdef _LIGHTINGMODE_FLAT
-				poiLight.finalLighting = poiLight.directColor * attenuation * shadowAttenuation;
-				poiLight.rampedLightMap = poiLight.nDotLSaturated;
+				#ifdef _LIGHTINGMODE_MULTILAYER_MATH
+				#if defined(PROP_MULTILAYERMATHBLURMAP) || !defined(OPTIMIZER_ENABLED)
+				float4 blurMap = POI2D_SAMPLER_PAN(_MultilayerMathBlurMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_MultilayerMathBlurMapUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+				#else
+				float4 blurMap = 1;
 				#endif
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				float4 lns = float4(1, 1, 1, 1);
+				float shadowAttenuationNoStrength = poiLight.attenuation;
+				#if defined(POINT) || defined(SPOT)
+				shadowAttenuationNoStrength = poiLight.additiveShadow;
+				#endif
+				float3 lightMap = poiLight.lightMapNoAttenuation.xxx;
+				lightMap.x *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_ShadowReceive*/));
+				lightMap.y *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow2ndReceive*/));
+				lightMap.z *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow3rdReceive*/));
+				if ((1.0 /*_LightingMulitlayerNonLinear*/))
+				{
+					lns.x = poiEdgeNonLinearNoSaturate(lightMap.x, (0.354 /*_ShadowBorder*/), (0.252 /*_ShadowBlur*/) * blurMap.r);
+					lns.y = poiEdgeNonLinearNoSaturate(lightMap.y, (0.15 /*_Shadow2ndBorder*/), (0.1 /*_Shadow2ndBlur*/) * blurMap.g);
+					lns.z = poiEdgeNonLinearNoSaturate(lightMap.z, (0.25 /*_Shadow3rdBorder*/), (0.1 /*_Shadow3rdBlur*/) * blurMap.b);
+					lns.w = poiEdgeNonLinearNoSaturate(lightMap.x, (0.354 /*_ShadowBorder*/), (0.252 /*_ShadowBlur*/) * blurMap.r, (0.08 /*_ShadowBorderRange*/));
+				}
+				else
+				{
+					lns.x = poiEdgeLinearNoSaturate(lightMap.x, (0.354 /*_ShadowBorder*/), (0.252 /*_ShadowBlur*/) * blurMap.r);
+					lns.y = poiEdgeLinearNoSaturate(lightMap.y, (0.15 /*_Shadow2ndBorder*/), (0.1 /*_Shadow2ndBlur*/) * blurMap.g);
+					lns.z = poiEdgeLinearNoSaturate(lightMap.z, (0.25 /*_Shadow3rdBorder*/), (0.1 /*_Shadow3rdBlur*/) * blurMap.b);
+					lns.w = poiEdgeLinearNoSaturate(lightMap.x, (0.354 /*_ShadowBorder*/), (0.252 /*_ShadowBlur*/) * blurMap.r, (0.08 /*_ShadowBorderRange*/));
+				}
+				lns = saturate(lns);
+				float3 indirectColor = 1;
+				if (float4(0.8403685,0.741563,0.8960326,1).a > 0)
+				{
+					#if defined(PROP_SHADOWCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+					float4 shadowColorTex = POI2D_SAMPLER_PAN(_ShadowColorTex, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ShadowColorTexUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+					#else
+					float4 shadowColorTex = float4(1, 1, 1, 1);
+					#endif
+					indirectColor = lerp(float3(1, 1, 1), shadowColorTex.rgb, shadowColorTex.a) * float4(0.8403685,0.741563,0.8960326,1).rgb;
+				}
+				if (float4(0.5121724,0.3857346,0.6070304,1).a > 0)
+				{
+					#if defined(PROP_SHADOW2NDCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+					float4 shadow2ndColorTex = POI2D_SAMPLER_PAN(_Shadow2ndColorTex, _MainTex, poiUV(poiMesh.uv[(0.0 /*_Shadow2ndColorTexUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+					#else
+					float4 shadow2ndColorTex = float4(1, 1, 1, 1);
+					#endif
+					shadow2ndColorTex.rgb = lerp(float3(1, 1, 1), shadow2ndColorTex.rgb, shadow2ndColorTex.a) * float4(0.5121724,0.3857346,0.6070304,1).rgb;
+					lns.y = float4(0.5121724,0.3857346,0.6070304,1).a - lns.y * float4(0.5121724,0.3857346,0.6070304,1).a;
+					indirectColor = lerp(indirectColor, shadow2ndColorTex.rgb, lns.y);
+				}
+				if (float4(0,0,0,0).a > 0)
+				{
+					#if defined(PROP_SHADOW3RDCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+					float4 shadow3rdColorTex = POI2D_SAMPLER_PAN(_Shadow3rdColorTex, _MainTex, poiUV(poiMesh.uv[(0.0 /*_Shadow3rdColorTexUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+					#else
+					float4 shadow3rdColorTex = float4(1, 1, 1, 1);
+					#endif
+					shadow3rdColorTex.rgb = lerp(float3(1, 1, 1), shadow3rdColorTex.rgb, shadow3rdColorTex.a) * float4(0,0,0,0).rgb;
+					lns.z = float4(0,0,0,0).a - lns.z * float4(0,0,0,0).a;
+					indirectColor = lerp(indirectColor, shadow3rdColorTex.rgb, lns.z);
+				}
+				indirectColor = lerp(indirectColor, indirectColor * poiFragData.baseColor, (0.0 /*_ShadowMainStrength*/));
+				poiLight.rampedLightMap = lns.x;
+				indirectColor = lerp(indirectColor, 1, lns.w * float4(1,0.01002282,0,1).rgb);
+				indirectColor = indirectColor * lerp(poiLight.indirectColor, poiLight.directColor, (1.0 /*_LightingIgnoreAmbientColor*/));
+				indirectColor = lerp(poiLight.directColor, indirectColor, shadowStrength * poiLight.shadowMask);
+				poiLight.finalLighting = lerp(indirectColor, poiLight.directColor, lns.x) * attenuation;
+				#endif
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float3 vertexLighting = float3(0, 0, 0);
@@ -2928,7 +3071,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 				{
 					lightExists = true;
 				}
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float4 toLightX = unity_4LightPosX0 - i.worldPos.x;
@@ -2960,7 +3103,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 						poiLight.vPosition[index] = float3(unity_4LightPosX0[index], unity_4LightPosY0[index], unity_4LightPosZ0[index]);
 						float3 vertexToLightSource = poiLight.vPosition[index] - poiMesh.worldPos;
 						poiLight.vDirection[index] = normalize(vertexToLightSource);
-						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? min((1.0 /*_LightingAdditiveLimit*/), unity_LightColor[index].rgb) : unity_LightColor[index].rgb;
+						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? min((2.6 /*_LightingAdditiveLimit*/), unity_LightColor[index].rgb) : unity_LightColor[index].rgb;
 						poiLight.vColor[index] = lerp(poiLight.vColor[index], dot(poiLight.vColor[index], float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
 						poiLight.vHalfDir[index] = Unity_SafeNormalize(poiLight.vDirection[index] + poiCam.viewDir);
 						poiLight.vDotNL[index] = dot(poiMesh.normals[1], poiLight.vDirection[index]);
@@ -3173,7 +3316,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 				#endif
 				poiLight.additiveShadow = UNITY_SHADOW_ATTENUATION(i, poiMesh.worldPos);
 				poiLight.attenuationStrength = (1.0 /*_LightingAdditiveCastedShadows*/);
-				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? min((1.0 /*_LightingAdditiveLimit*/), _LightColor0.rgb) : _LightColor0.rgb;
+				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? min((2.6 /*_LightingAdditiveLimit*/), _LightColor0.rgb) : _LightColor0.rgb;
 				#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 				poiLight.indirectColor = 0;
 				#else
@@ -3329,7 +3472,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 			CGPROGRAM
  #define VIGNETTE_MASKED 
  #define _GLOSSYREFLECTIONS_OFF 
- #define _LIGHTINGMODE_FLAT 
+ #define _LIGHTINGMODE_MULTILAYER_MATH 
  #define _RIM2STYLE_POIYOMI 
  #define _RIMSTYLE_POIYOMI 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
@@ -3556,6 +3699,48 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 			float _ShadowStrength;
 			float _LightingIgnoreAmbientColor;
 			float3 _LightingShadowColor;
+			#ifdef _LIGHTINGMODE_MULTILAYER_MATH
+			float4 _ShadowColor;
+			float _LightingMulitlayerNonLinear;
+			#if defined(PROP_SHADOWCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _ShadowColorTex;
+			float4 _ShadowColorTex_ST;
+			float2 _ShadowColorTexPan;
+			float _ShadowColorTexUV;
+			#endif
+			#if defined(PROP_MULTILAYERMATHBLURMAP) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _MultilayerMathBlurMap;
+			float4 _MultilayerMathBlurMap_ST;
+			float2 _MultilayerMathBlurMapPan;
+			float _MultilayerMathBlurMapUV;
+			#endif
+			float _ShadowBorder;
+			float _ShadowBlur;
+			float _ShadowReceive;
+			float4 _Shadow2ndColor;
+			#if defined(PROP_SHADOW2NDCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _Shadow2ndColorTex;
+			float4 _Shadow2ndColorTex_ST;
+			float2 _Shadow2ndColorTexPan;
+			float _Shadow2ndColorTexUV;
+			#endif
+			float _Shadow2ndBorder;
+			float _Shadow2ndBlur;
+			float _Shadow2ndReceive;
+			float4 _Shadow3rdColor;
+			#if defined(PROP_SHADOW3RDCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+			Texture2D _Shadow3rdColorTex;
+			float4 _Shadow3rdColorTex_ST;
+			float2 _Shadow3rdColorTexPan;
+			float _Shadow3rdColorTexUV;
+			#endif
+			float _Shadow3rdBorder;
+			float _Shadow3rdBlur;
+			float _Shadow3rdReceive;
+			float4 _ShadowBorderColor;
+			float _ShadowBorderRange;
+			float _ShadowMainStrength;
+			#endif
 			float _LightingAdditiveType;
 			float _LightingAdditiveGradientStart;
 			float _LightingAdditiveGradientEnd;
@@ -5425,15 +5610,80 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 					return;
 				}
 				#endif
-				float shadowStrength = (1.0 /*_ShadowStrength*/) * poiLight.shadowMask;
+				float shadowStrength = (0.5 /*_ShadowStrength*/) * poiLight.shadowMask;
 				#ifdef POI_PASS_OUTLINE
 				shadowStrength = lerp(0, shadowStrength, _OutlineShadowStrength);
 				#endif
-				#ifdef _LIGHTINGMODE_FLAT
-				poiLight.finalLighting = poiLight.directColor * attenuation * shadowAttenuation;
-				poiLight.rampedLightMap = poiLight.nDotLSaturated;
+				#ifdef _LIGHTINGMODE_MULTILAYER_MATH
+				#if defined(PROP_MULTILAYERMATHBLURMAP) || !defined(OPTIMIZER_ENABLED)
+				float4 blurMap = POI2D_SAMPLER_PAN(_MultilayerMathBlurMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_MultilayerMathBlurMapUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+				#else
+				float4 blurMap = 1;
 				#endif
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				float4 lns = float4(1, 1, 1, 1);
+				float shadowAttenuationNoStrength = poiLight.attenuation;
+				#if defined(POINT) || defined(SPOT)
+				shadowAttenuationNoStrength = poiLight.additiveShadow;
+				#endif
+				float3 lightMap = poiLight.lightMapNoAttenuation.xxx;
+				lightMap.x *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_ShadowReceive*/));
+				lightMap.y *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow2ndReceive*/));
+				lightMap.z *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow3rdReceive*/));
+				if ((1.0 /*_LightingMulitlayerNonLinear*/))
+				{
+					lns.x = poiEdgeNonLinearNoSaturate(lightMap.x, (0.354 /*_ShadowBorder*/), (0.252 /*_ShadowBlur*/) * blurMap.r);
+					lns.y = poiEdgeNonLinearNoSaturate(lightMap.y, (0.15 /*_Shadow2ndBorder*/), (0.1 /*_Shadow2ndBlur*/) * blurMap.g);
+					lns.z = poiEdgeNonLinearNoSaturate(lightMap.z, (0.25 /*_Shadow3rdBorder*/), (0.1 /*_Shadow3rdBlur*/) * blurMap.b);
+					lns.w = poiEdgeNonLinearNoSaturate(lightMap.x, (0.354 /*_ShadowBorder*/), (0.252 /*_ShadowBlur*/) * blurMap.r, (0.08 /*_ShadowBorderRange*/));
+				}
+				else
+				{
+					lns.x = poiEdgeLinearNoSaturate(lightMap.x, (0.354 /*_ShadowBorder*/), (0.252 /*_ShadowBlur*/) * blurMap.r);
+					lns.y = poiEdgeLinearNoSaturate(lightMap.y, (0.15 /*_Shadow2ndBorder*/), (0.1 /*_Shadow2ndBlur*/) * blurMap.g);
+					lns.z = poiEdgeLinearNoSaturate(lightMap.z, (0.25 /*_Shadow3rdBorder*/), (0.1 /*_Shadow3rdBlur*/) * blurMap.b);
+					lns.w = poiEdgeLinearNoSaturate(lightMap.x, (0.354 /*_ShadowBorder*/), (0.252 /*_ShadowBlur*/) * blurMap.r, (0.08 /*_ShadowBorderRange*/));
+				}
+				lns = saturate(lns);
+				float3 indirectColor = 1;
+				if (float4(0.8403685,0.741563,0.8960326,1).a > 0)
+				{
+					#if defined(PROP_SHADOWCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+					float4 shadowColorTex = POI2D_SAMPLER_PAN(_ShadowColorTex, _MainTex, poiUV(poiMesh.uv[(0.0 /*_ShadowColorTexUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+					#else
+					float4 shadowColorTex = float4(1, 1, 1, 1);
+					#endif
+					indirectColor = lerp(float3(1, 1, 1), shadowColorTex.rgb, shadowColorTex.a) * float4(0.8403685,0.741563,0.8960326,1).rgb;
+				}
+				if (float4(0.5121724,0.3857346,0.6070304,1).a > 0)
+				{
+					#if defined(PROP_SHADOW2NDCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+					float4 shadow2ndColorTex = POI2D_SAMPLER_PAN(_Shadow2ndColorTex, _MainTex, poiUV(poiMesh.uv[(0.0 /*_Shadow2ndColorTexUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+					#else
+					float4 shadow2ndColorTex = float4(1, 1, 1, 1);
+					#endif
+					shadow2ndColorTex.rgb = lerp(float3(1, 1, 1), shadow2ndColorTex.rgb, shadow2ndColorTex.a) * float4(0.5121724,0.3857346,0.6070304,1).rgb;
+					lns.y = float4(0.5121724,0.3857346,0.6070304,1).a - lns.y * float4(0.5121724,0.3857346,0.6070304,1).a;
+					indirectColor = lerp(indirectColor, shadow2ndColorTex.rgb, lns.y);
+				}
+				if (float4(0,0,0,0).a > 0)
+				{
+					#if defined(PROP_SHADOW3RDCOLORTEX) || !defined(OPTIMIZER_ENABLED)
+					float4 shadow3rdColorTex = POI2D_SAMPLER_PAN(_Shadow3rdColorTex, _MainTex, poiUV(poiMesh.uv[(0.0 /*_Shadow3rdColorTexUV*/)], float4(1,1,0,0)), float4(0,0,0,0));
+					#else
+					float4 shadow3rdColorTex = float4(1, 1, 1, 1);
+					#endif
+					shadow3rdColorTex.rgb = lerp(float3(1, 1, 1), shadow3rdColorTex.rgb, shadow3rdColorTex.a) * float4(0,0,0,0).rgb;
+					lns.z = float4(0,0,0,0).a - lns.z * float4(0,0,0,0).a;
+					indirectColor = lerp(indirectColor, shadow3rdColorTex.rgb, lns.z);
+				}
+				indirectColor = lerp(indirectColor, indirectColor * poiFragData.baseColor, (0.0 /*_ShadowMainStrength*/));
+				poiLight.rampedLightMap = lns.x;
+				indirectColor = lerp(indirectColor, 1, lns.w * float4(1,0.01002282,0,1).rgb);
+				indirectColor = indirectColor * lerp(poiLight.indirectColor, poiLight.directColor, (1.0 /*_LightingIgnoreAmbientColor*/));
+				indirectColor = lerp(poiLight.directColor, indirectColor, shadowStrength * poiLight.shadowMask);
+				poiLight.finalLighting = lerp(indirectColor, poiLight.directColor, lns.x) * attenuation;
+				#endif
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float3 vertexLighting = float3(0, 0, 0);
@@ -5763,7 +6013,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 				{
 					lightExists = true;
 				}
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float4 toLightX = unity_4LightPosX0 - i.worldPos.x;
@@ -5795,7 +6045,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 						poiLight.vPosition[index] = float3(unity_4LightPosX0[index], unity_4LightPosY0[index], unity_4LightPosZ0[index]);
 						float3 vertexToLightSource = poiLight.vPosition[index] - poiMesh.worldPos;
 						poiLight.vDirection[index] = normalize(vertexToLightSource);
-						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? min((1.0 /*_LightingAdditiveLimit*/), unity_LightColor[index].rgb) : unity_LightColor[index].rgb;
+						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? min((2.6 /*_LightingAdditiveLimit*/), unity_LightColor[index].rgb) : unity_LightColor[index].rgb;
 						poiLight.vColor[index] = lerp(poiLight.vColor[index], dot(poiLight.vColor[index], float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
 						poiLight.vHalfDir[index] = Unity_SafeNormalize(poiLight.vDirection[index] + poiCam.viewDir);
 						poiLight.vDotNL[index] = dot(poiMesh.normals[1], poiLight.vDirection[index]);
@@ -6008,7 +6258,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 				#endif
 				poiLight.additiveShadow = UNITY_SHADOW_ATTENUATION(i, poiMesh.worldPos);
 				poiLight.attenuationStrength = (1.0 /*_LightingAdditiveCastedShadows*/);
-				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? min((1.0 /*_LightingAdditiveLimit*/), _LightColor0.rgb) : _LightColor0.rgb;
+				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? min((2.6 /*_LightingAdditiveLimit*/), _LightColor0.rgb) : _LightColor0.rgb;
 				#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 				poiLight.indirectColor = 0;
 				#else
@@ -6167,7 +6417,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/1b4d93fb4f128f049ba89
 			CGPROGRAM
  #define VIGNETTE_MASKED 
  #define _GLOSSYREFLECTIONS_OFF 
- #define _LIGHTINGMODE_FLAT 
+ #define _LIGHTINGMODE_MULTILAYER_MATH 
  #define _RIM2STYLE_POIYOMI 
  #define _RIMSTYLE_POIYOMI 
  #define _STOCHASTICMODE_DELIOT_HEITZ 

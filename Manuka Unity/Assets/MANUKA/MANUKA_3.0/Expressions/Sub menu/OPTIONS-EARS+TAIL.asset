@@ -12,68 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: OPTIONS-EARS+TAIL
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
-  - name: Ears/Tail [Set]
-    icon: {fileID: 2800000, guid: 1e1cde5d2a8e00d4d8074cced6cbfa43, type: 3}
-    type: 102
-    parameter:
-      name: Kemono
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Ear Size
-    icon: {fileID: 2800000, guid: 45aabecfd62e89145a13a7eddf3c3a15, type: 3}
-    type: 203
-    parameter:
-      name: 
-    value: 0.5
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Ears/Size
-    labels: []
-  - name: Cat Ears 1
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Ears/Cat_01
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Cat Ears 2
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Ears/Cat_02
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Fox Ears 1
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Ears/Fox_01
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Fox Ears 2
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Ears/Fox_02
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
   - name: Fuffy Cat Set
     icon: {fileID: 0}
     type: 102

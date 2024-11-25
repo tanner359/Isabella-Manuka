@@ -12,22 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: HAIR
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
-  - name: Default
-    icon: {fileID: 0}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 11400000, guid: c947b014a316765499b405f0bcedfa78, type: 2}
-    subParameters: []
-    labels: []
   - name: Lavender
     icon: {fileID: 0}
-    type: 103
+    type: 102
     parameter:
-      name: 
+      name: Hair/Lavender
     value: 1
     style: 0
     subMenu: {fileID: 11400000, guid: d820f1758d787ec43b22a0d19b03d572, type: 2}

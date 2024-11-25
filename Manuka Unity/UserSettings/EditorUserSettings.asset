@@ -20,11 +20,14 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-4:
       value: 5500555754515e5a55080e2116210f4417151c7d2d7e72607b2b4a67b7b83561
       flags: 0
+    dev.kurotu.VRCQuestTools.LastVersionCheckDate:
+      value: 5206065e5d0251095558
+      flags: 0
     dev.kurotu.VRCQuestTools.ShowSettingsOnLoad:
       value: 2570783520
       flags: 0
     dev.kurotu.VRCQuestTools.SkippedVersion:
-      value: 511f014855
+      value: 511f014850
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

@@ -16,6 +16,7 @@ Material:
   - COLOR_GRADING_HDR_3D
   - FINALPASS
   - GEOM_TYPE_BRANCH
+  - GEOM_TYPE_BRANCH_DETAIL
   - POI_STYLIZED_StylizedSpecular
   - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
@@ -30,9 +31,9 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     AllLockedGUIDS: b99a02fd5fb2f7b4eb01ce4f205283ef
-    OriginalKeywords: COLOR_GRADING_HDR_3D FINALPASS GEOM_TYPE_BRANCH POI_STYLIZED_StylizedSpecular
-      VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI
-      _RIMSTYLE_LILTOON _STOCHASTICMODE_DELIOT_HEITZ _TPS_ANIMATEDTOGGLE_ON
+    OriginalKeywords: COLOR_GRADING_HDR_3D FINALPASS GEOM_TYPE_BRANCH GEOM_TYPE_BRANCH_DETAIL
+      POI_STYLIZED_StylizedSpecular VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH
+      _RIM2STYLE_POIYOMI _RIMSTYLE_LILTOON _STOCHASTICMODE_DELIOT_HEITZ _TPS_ANIMATEDTOGGLE_ON
     OriginalShader: .poiyomi/Poiyomi 8.2/Poiyomi Pro Outline
     RenderType: Opaque
     VRCFallback: Unlit
@@ -164,7 +165,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture1:
-        m_Texture: {fileID: 2800000, guid: 3f6527cbd2a7c3444a84086a241da72b, type: 3}
+        m_Texture: {fileID: 2800000, guid: a583c963313753144b22c2507792ce9f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture2:
@@ -1225,9 +1226,9 @@ Material:
     - _Decal0TPSMaskStrength: 1
     - _Decal1ApplyGlobalMaskBlendType: 0
     - _Decal1ApplyGlobalMaskIndex: 0
-    - _Decal1ChannelSeparation: 0
+    - _Decal1ChannelSeparation: 0.01
     - _Decal1ChannelSeparationAngleStrength: 0
-    - _Decal1ChannelSeparationEnable: 0
+    - _Decal1ChannelSeparationEnable: 1
     - _Decal1ChannelSeparationHue: 0
     - _Decal1ChannelSeparationPremultiply: 0
     - _Decal1ChannelSeparationVertical: 0
@@ -1279,23 +1280,23 @@ Material:
     - _DecalColor3ThemeIndex: 0
     - _DecalColorThemeIndex: 0
     - _DecalEmissionStrength: 1
-    - _DecalEmissionStrength1: 0
+    - _DecalEmissionStrength1: 1
     - _DecalEmissionStrength2: 0
     - _DecalEmissionStrength3: 0
     - _DecalEnabled: 1
-    - _DecalEnabled1: 0
+    - _DecalEnabled1: 1
     - _DecalEnabled2: 0
     - _DecalEnabled3: 0
     - _DecalHueShift: 0
-    - _DecalHueShift1: 0
+    - _DecalHueShift1: 1
     - _DecalHueShift2: 0
     - _DecalHueShift3: 0
     - _DecalHueShiftEnabled: 0
-    - _DecalHueShiftEnabled1: 0
+    - _DecalHueShiftEnabled1: 1
     - _DecalHueShiftEnabled2: 0
     - _DecalHueShiftEnabled3: 0
     - _DecalHueShiftSpeed: 0
-    - _DecalHueShiftSpeed1: 0
+    - _DecalHueShiftSpeed1: 10
     - _DecalHueShiftSpeed2: 0
     - _DecalHueShiftSpeed3: 0
     - _DecalMaskUV: 0
@@ -1304,7 +1305,7 @@ Material:
     - _DecalOverrideAlpha2: 0
     - _DecalOverrideAlpha3: 0
     - _DecalRotation: 0
-    - _DecalRotation1: 0
+    - _DecalRotation1: 238
     - _DecalRotation2: 0
     - _DecalRotation3: 0
     - _DecalRotationCTALBand0: 0
@@ -2122,7 +2123,7 @@ Material:
     - _LightingShadowMaskStrengthG: 0
     - _LightingShadowMaskStrengthR: 1
     - _LightingShadowMasksUV: 0
-    - _LightingVertexLightingEnabled: 1
+    - _LightingVertexLightingEnabled: 0
     - _LightingViewDirOffsetPitch: 0
     - _LightingViewDirOffsetYaw: 0
     - _LightingWrappedNormalization: 0
@@ -2606,7 +2607,7 @@ Material:
     - _RGBNormalBlend: 0
     - _RGBUseVertexColors: 0
     - _RalivAdvancedHelp: 0
-    - _RalivDPSDisableShadowCaster: 1
+    - _RalivDPSDisableShadowCaster: 0
     - _RalivDPSDisableShadowCasterHelp: 0
     - _RalivHelp: 0
     - _ReCurvature: 0
@@ -3407,11 +3408,11 @@ Material:
     - m_mainCategory: 1
     - m_modifierCategory: 1
     - m_postprocessing: 0
-    - m_renderingCategory: 0
-    - m_specialFXCategory: 0
+    - m_renderingCategory: 1
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
-    - m_start_Alpha: 0
+    - m_start_Alpha: 1
     - m_start_AlphaGlobalMask: 0
     - m_start_Aniso: 0
     - m_start_BlackLightMasking: 0
@@ -3478,8 +3479,8 @@ Material:
     - m_start_OutlineStencilPassBackOptions: 0
     - m_start_OutlineStencilPassFrontOptions: 0
     - m_start_PathAudioLink: 0
-    - m_start_PoiLightData: 0
-    - m_start_PoiShading: 0
+    - m_start_PoiLightData: 1
+    - m_start_PoiShading: 1
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
@@ -3526,16 +3527,16 @@ Material:
     - m_start_internalparallax: 0
     - m_start_matcap: 0
     - m_start_mirrorOptions: 0
-    - m_start_normalCorrect: 1
+    - m_start_normalCorrect: 0
     - m_start_outlineAdvanced: 0
     - m_start_outlineBlending: 0
     - m_start_parallax: 0
     - m_start_pathing: 0
     - m_start_pen_autoConfig: 0
     - m_start_pointToPoint: 0
-    - m_start_postprocess: 1
-    - m_start_raliv: 1
-    - m_start_ralivAdvanced: 0
+    - m_start_postprocess: 0
+    - m_start_raliv: 0
+    - m_start_ralivAdvanced: 1
     - m_start_ralivOriface: 1
     - m_start_ralivPenetrator: 0
     - m_start_reflectionRim: 0
@@ -3543,7 +3544,7 @@ Material:
     - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 0
     - m_start_rimLightOptions: 0
-    - m_start_stylizedSpec: 0
+    - m_start_stylizedSpec: 1
     - m_start_subsurfaceScattering: 0
     - m_start_tps_penetrator: 0
     - m_start_truchet: 0
@@ -3675,7 +3676,7 @@ Material:
     - _ClearCoatSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClippingMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.8285967, b: 0.7311321, a: 1}
     - _Color2nd: {r: 1, g: 1, b: 1, a: 1}
     - _Color3rd: {r: 1, g: 1, b: 1, a: 1}
     - _ColorShift: {r: 0, g: 0, b: 0, a: 1}
@@ -3684,20 +3685,20 @@ Material:
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotationPan: {r: 0, g: 0, b: 0, a: 0}
     - _DecalColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DecalColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalColor1: {r: 1, g: 0, b: 0, a: 1}
     - _DecalColor2: {r: 1, g: 1, b: 1, a: 1}
     - _DecalColor3: {r: 1, g: 1, b: 1, a: 1}
     - _DecalMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _DecalPosition: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _DecalPosition1: {r: 0.5, g: 0.43, b: 0, a: 0}
+    - _DecalPosition1: {r: 0.5097185, g: 0.69139665, b: 0, a: 0}
     - _DecalPosition2: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _DecalPosition3: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _DecalScale: {r: 0, g: 0, b: 0, a: 0}
-    - _DecalScale1: {r: 1, g: 1, b: 0, a: 0}
+    - _DecalScale1: {r: 0.5100671, g: 0.5100671, b: 0, a: 0}
     - _DecalScale2: {r: 1, g: 1, b: 0, a: 0}
     - _DecalScale3: {r: 1, g: 1, b: 0, a: 0}
     - _DecalSideOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _DecalSideOffset1: {r: 0, g: 0, b: 0, a: 0}
+    - _DecalSideOffset1: {r: 0.014937376, g: -0.5, b: -0.4765326, a: 0}
     - _DecalSideOffset2: {r: 0, g: 0, b: 0, a: 0}
     - _DecalSideOffset3: {r: 0, g: 0, b: 0, a: 0}
     - _DecalTexture1Pan: {r: 0, g: 0, b: 0, a: 0}

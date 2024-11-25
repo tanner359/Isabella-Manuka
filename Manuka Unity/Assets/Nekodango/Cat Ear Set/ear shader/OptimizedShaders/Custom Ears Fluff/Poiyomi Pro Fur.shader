@@ -2627,7 +2627,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 					return;
 				}
 				#endif
-				float shadowStrength = (1.0 /*_ShadowStrength*/) * poiLight.shadowMask;
+				float shadowStrength = (0.5 /*_ShadowStrength*/) * poiLight.shadowMask;
 				#ifdef POI_PASS_OUTLINE
 				shadowStrength = lerp(0, shadowStrength, _OutlineShadowStrength);
 				#endif
@@ -2700,7 +2700,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 				indirectColor = lerp(poiLight.directColor, indirectColor, shadowStrength * poiLight.shadowMask);
 				poiLight.finalLighting = lerp(indirectColor, poiLight.directColor, lns.x) * attenuation;
 				#endif
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float3 vertexLighting = float3(0, 0, 0);
@@ -3004,7 +3004,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 				{
 					lightExists = true;
 				}
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float4 toLightX = unity_4LightPosX0 - i.worldPos.x;
@@ -3036,7 +3036,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 						poiLight.vPosition[index] = float3(unity_4LightPosX0[index], unity_4LightPosY0[index], unity_4LightPosZ0[index]);
 						float3 vertexToLightSource = poiLight.vPosition[index] - poiMesh.worldPos;
 						poiLight.vDirection[index] = normalize(vertexToLightSource);
-						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? min((1.0 /*_LightingAdditiveLimit*/), unity_LightColor[index].rgb) : unity_LightColor[index].rgb;
+						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? min((2.6 /*_LightingAdditiveLimit*/), unity_LightColor[index].rgb) : unity_LightColor[index].rgb;
 						poiLight.vColor[index] = lerp(poiLight.vColor[index], dot(poiLight.vColor[index], float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
 						poiLight.vHalfDir[index] = Unity_SafeNormalize(poiLight.vDirection[index] + poiCam.viewDir);
 						poiLight.vDotNL[index] = dot(poiMesh.normals[1], poiLight.vDirection[index]);
@@ -3197,12 +3197,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if ((3.0 /*_LightingColorMode*/) == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, (0.15 /*_LightingMinLightBrightness*/));
+					poiLight.directColor = max(poiLight.directColor, (0.2 /*_LightingMinLightBrightness*/));
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.15 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.15 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.2 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.2 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
@@ -3249,7 +3249,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 				#endif
 				poiLight.additiveShadow = UNITY_SHADOW_ATTENUATION(i, poiMesh.worldPos);
 				poiLight.attenuationStrength = (1.0 /*_LightingAdditiveCastedShadows*/);
-				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? min((1.0 /*_LightingAdditiveLimit*/), _LightColor0.rgb) : _LightColor0.rgb;
+				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? min((2.6 /*_LightingAdditiveLimit*/), _LightColor0.rgb) : _LightColor0.rgb;
 				#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 				poiLight.indirectColor = 0;
 				#else
@@ -5504,7 +5504,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 					return;
 				}
 				#endif
-				float shadowStrength = (1.0 /*_ShadowStrength*/) * poiLight.shadowMask;
+				float shadowStrength = (0.5 /*_ShadowStrength*/) * poiLight.shadowMask;
 				#ifdef POI_PASS_OUTLINE
 				shadowStrength = lerp(0, shadowStrength, _OutlineShadowStrength);
 				#endif
@@ -5577,7 +5577,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 				indirectColor = lerp(poiLight.directColor, indirectColor, shadowStrength * poiLight.shadowMask);
 				poiLight.finalLighting = lerp(indirectColor, poiLight.directColor, lns.x) * attenuation;
 				#endif
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float3 vertexLighting = float3(0, 0, 0);
@@ -5881,7 +5881,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 				{
 					lightExists = true;
 				}
-				if ((1.0 /*_LightingVertexLightingEnabled*/))
+				if ((0.0 /*_LightingVertexLightingEnabled*/))
 				{
 					#if defined(VERTEXLIGHT_ON)
 					float4 toLightX = unity_4LightPosX0 - i.worldPos.x;
@@ -5913,7 +5913,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 						poiLight.vPosition[index] = float3(unity_4LightPosX0[index], unity_4LightPosY0[index], unity_4LightPosZ0[index]);
 						float3 vertexToLightSource = poiLight.vPosition[index] - poiMesh.worldPos;
 						poiLight.vDirection[index] = normalize(vertexToLightSource);
-						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? min((1.0 /*_LightingAdditiveLimit*/), unity_LightColor[index].rgb) : unity_LightColor[index].rgb;
+						poiLight.vColor[index] = (1.0 /*_LightingAdditiveLimited*/) ? min((2.6 /*_LightingAdditiveLimit*/), unity_LightColor[index].rgb) : unity_LightColor[index].rgb;
 						poiLight.vColor[index] = lerp(poiLight.vColor[index], dot(poiLight.vColor[index], float3(0.299, 0.587, 0.114)), (0.0 /*_LightingAdditiveMonochromatic*/));
 						poiLight.vHalfDir[index] = Unity_SafeNormalize(poiLight.vDirection[index] + poiCam.viewDir);
 						poiLight.vDotNL[index] = dot(poiMesh.normals[1], poiLight.vDirection[index]);
@@ -6074,12 +6074,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if ((3.0 /*_LightingColorMode*/) == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, (0.15 /*_LightingMinLightBrightness*/));
+					poiLight.directColor = max(poiLight.directColor, (0.2 /*_LightingMinLightBrightness*/));
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.15 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.15 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, ((0.2 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, ((0.2 /*_LightingMinLightBrightness*/) * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), (0.0 /*_LightingMonochromatic*/));
@@ -6126,7 +6126,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Fur/8b57133b872dbb74f9f65
 				#endif
 				poiLight.additiveShadow = UNITY_SHADOW_ATTENUATION(i, poiMesh.worldPos);
 				poiLight.attenuationStrength = (1.0 /*_LightingAdditiveCastedShadows*/);
-				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? min((1.0 /*_LightingAdditiveLimit*/), _LightColor0.rgb) : _LightColor0.rgb;
+				poiLight.directColor = (1.0 /*_LightingAdditiveLimited*/) ? min((2.6 /*_LightingAdditiveLimit*/), _LightColor0.rgb) : _LightColor0.rgb;
 				#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 				poiLight.indirectColor = 0;
 				#else

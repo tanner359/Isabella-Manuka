@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: MANUKA_ExpressionParameters
   m_EditorClassIdentifier: 
+  isEmpty: 0
   parameters:
   - name: MANUKA_costume
     valueType: 0
@@ -22,61 +23,6 @@ MonoBehaviour:
     valueType: 1
     saved: 1
     defaultValue: 0
-    networkSynced: 1
-  - name: Stocking
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Shoes
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Tie
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Bracelet
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Hairpin
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Hair ribbon
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Kemono
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Hair_Side 1
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Hair_Side 2
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Hair_Bun
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: Hair_Twin
-    valueType: 2
-    saved: 1
-    defaultValue: 1
     networkSynced: 1
   - name: Face_Cheek
     valueType: 2
@@ -112,11 +58,6 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 0
-    networkSynced: 1
-  - name: NadeNade_Head_toggle
-    valueType: 2
-    saved: 1
-    defaultValue: 1
     networkSynced: 1
   - name: VRCEmote
     valueType: 0
@@ -288,53 +229,8 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: Hair/Manuka
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Hair/Lavender
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
   - name: Hair/Color
     valueType: 1
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Hair/Lavender/Braids
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Hair/Lavender/Ribbon
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Ears/Size
-    valueType: 1
-    saved: 1
-    defaultValue: 0.5
-    networkSynced: 1
-  - name: Ears/Cat_01
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Ears/Cat_02
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Ears/Fox_01
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Ears/Fox_02
-    valueType: 2
     saved: 1
     defaultValue: 0
     networkSynced: 1
@@ -356,7 +252,7 @@ MonoBehaviour:
   - name: Hair/Anka
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Succubus/Particles
     valueType: 2
@@ -364,11 +260,6 @@ MonoBehaviour:
     defaultValue: 0
     networkSynced: 1
   - name: Kame
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: DBZ/Aura
     valueType: 2
     saved: 1
     defaultValue: 0
@@ -546,12 +437,12 @@ MonoBehaviour:
   - name: Sailor/Earings
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Underwear
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Fuck Me
     valueType: 2
@@ -561,17 +452,17 @@ MonoBehaviour:
   - name: Sailor/Chest Cover
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Harness
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Thigh Highs
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Bandage
     valueType: 2
@@ -596,27 +487,27 @@ MonoBehaviour:
   - name: Sailor/Shackles
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Shoes
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Ribbon
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Tops
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Skirt
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Lead B
     valueType: 2
@@ -626,25 +517,75 @@ MonoBehaviour:
   - name: Sailor/Lead F
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Sailor/Colors
     valueType: 1
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: Sailor/All
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
   - name: Ears/Fluffy
     valueType: 2
     saved: 1
-    defaultValue: 0
+    defaultValue: 1
     networkSynced: 1
   - name: Colors/Eyes
     valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: BLORP_SMOOCH
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: BLORP_POKE
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Voice
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: Pumpkin_Baby
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Topgimmicktogg
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Candy Bucket
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Top up_Stretch
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Naked
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Hair/Lavender
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Succubus/HornsTail
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Creampie
+    valueType: 2
     saved: 1
     defaultValue: 0
     networkSynced: 1

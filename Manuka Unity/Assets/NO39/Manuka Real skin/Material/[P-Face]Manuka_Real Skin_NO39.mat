@@ -121,7 +121,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionBlendMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e3a4d2c9f163de447bd3376743742867, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionGradTex:
@@ -129,7 +129,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 51a93a3717cd378468e6c5ce3dfd5261, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef3a33a2dd0cde04aa97f342a2c639c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emissive_Tex:
@@ -181,7 +181,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainColorAdjustMask:
-        m_Texture: {fileID: 2800000, guid: a6a5c93cab983e843aeabc27072032a7, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef3a33a2dd0cde04aa97f342a2c639c6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainGradationTex:
@@ -833,9 +833,9 @@ Material:
     - _Emission2ndBlink: {r: 0, g: 0, b: 3.1415932, a: 0}
     - _Emission2ndColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission2ndMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionBlendMask_ScrollRotate: {r: 0, g: -0.05, b: 0, a: 0}
     - _EmissionBlink: {r: 0, g: 0, b: 3.1415932, a: 0}
-    - _EmissionColor: {r: 0, g: 1, b: 0.06273794, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _Emissive_Color: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
     - _GlitterAtras: {r: 1, g: 1, b: 0, a: 0}
@@ -861,7 +861,7 @@ Material:
     - _Main3rdTexDecalAnimation: {r: 1, g: 1, b: 1, a: 30}
     - _Main3rdTexDecalSubParam: {r: 1, g: 1, b: 0, a: 1}
     - _Main3rdTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _MainTexHSVG: {r: -0.04, g: 1, b: 1.6, a: 0.9}
+    - _MainTexHSVG: {r: 0, g: 1.2, b: 1, a: 1.72}
     - _MainTex_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndColor: {r: 1, g: 1, b: 1, a: 1}
