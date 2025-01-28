@@ -524,7 +524,7 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: Ears/Fluffy
+  - name: Ears_n_Tail/Toggle
     valueType: 2
     saved: 1
     defaultValue: 1

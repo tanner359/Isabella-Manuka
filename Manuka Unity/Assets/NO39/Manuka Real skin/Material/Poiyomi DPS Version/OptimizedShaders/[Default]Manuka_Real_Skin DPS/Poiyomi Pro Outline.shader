@@ -75,30 +75,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6 , Replace, 0)] _AlphaGlobalMaskBlendType ("Blending", Int) = 2
 		[HideInInspector] m_end_AlphaGlobalMask ("Global Mask", Float) = 0
 		[HideInInspector] m_end_Alpha ("Alpha Options", Float) = 0
-		[HideInInspector] m_start_DetailOptions ("Details--{reference_property:_DetailEnabled,button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/color-and-normals/details},hover:Documentation}}", Float) = 0
-		[HideInInspector][ThryToggle(FINALPASS)]_DetailEnabled ("Enable", Float) = 0
-		[sRGBWarning][ThryRGBAPacker(R Texture Mask, G Normal Mask, B Nothing, A Nothing)]_DetailMask ("Detail Mask (Expand)--{reference_properties:[_DetailMaskPan, _DetailMaskUV, _DetailMaskStochastic]}", 2D) = "white" { }
-		[HideInInspector][Vector2]_DetailMaskPan ("Panning", Vector) = (0, 0, 0, 0)
-		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _DetailMaskUV ("UV", Int) = 0
-		_DetailTint ("Detail Texture Tint--{reference_property:_DetailTintThemeIndex}", Color) = (1, 1, 1)
-		[HideInInspector][ThryWideEnum(Off, 0, Theme Color 0, 1, Theme Color 1, 2, Theme Color 2, 3, Theme Color 3, 4, ColorChord 0, 5, ColorChord 1, 6, ColorChord 2, 7, ColorChord 3, 8, AL Theme 0, 9, AL Theme 1, 10, AL Theme 2, 11, AL Theme 3, 12)] _DetailTintThemeIndex ("", Int) = 0
-		[HideInInspector][ToggleUI]_DetailMaskStochastic ("Stochastic Sampling", Float) = 0
-		[sRGBWarning(true)]_DetailTex ("Detail Texture--{reference_properties:[_DetailTexPan, _DetailTexUV, _DetailTexStochastic]}", 2D) = "gray" { }
-		[HideInInspector][Vector2]_DetailTexPan ("Panning", Vector) = (0, 0, 0, 0)
-		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _DetailTexUV ("UV", Int) = 0
-		[HideInInspector][ToggleUI]_DetailTexStochastic ("Stochastic Sampling", Float) = 0
-		_DetailTexIntensity ("Detail Tex Intensity", Range(0, 10)) = 1
-		_DetailBrightness ("Detail Brightness:", Range(0, 2)) = 1
-		[Normal]_DetailNormalMap ("Detail Normal--{reference_properties:[_DetailNormalMapPan, _DetailNormalMapUV, _DetailNormalMapScale, _DetailNormalMapStochastic]}", 2D) = "bump" { }
-		[HideInInspector]_DetailNormalMapScale ("Detail Normal Intensity", Range(0, 10)) = 1
-		[HideInInspector][Vector2]_DetailNormalMapPan ("Panning", Vector) = (0, 0, 0, 0)
-		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _DetailNormalMapUV ("UV", Int) = 0
-		[HideInInspector][ToggleUI]_DetailNormalMapStochastic ("Stochastic Sampling", Float) = 0
-		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _DetailTexGlobalMask ("Detail Texture Global Mask--{reference_property:_DetailTexGlobalMaskBlendType}", Int) = 0
-		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6 , Replace, 0)]_DetailTexGlobalMaskBlendType ("Blending", Range(0, 1)) = 2
-		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _DetailNormalGlobalMask ("Detail Normal Global Mask--{reference_property:_DetailNormalGlobalMaskBlendType}", Int) = 0
-		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6 , Replace, 0)]_DetailNormalGlobalMaskBlendType ("Blending", Range(0, 1)) = 2
-		[HideInInspector] m_end_DetailOptions ("Details", Float) = 0
 		[HideInInspector] m_start_DecalSection ("Decals--{button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/color-and-normals/decals},hover:YouTube}}", Float) = 0
 		[sRGBWarning][ThryRGBAPacker(Decal 0 Mask, Decal 1 Mask, Decal 2 Mask, Decal 3 Mask)]_DecalMask ("Decal RGBA Mask--{reference_properties:[_DecalMaskPan, _DecalMaskUV]}", 2D) = "white" { }
 		[HideInInspector][Vector2]_DecalMaskPan ("Panning", Vector) = (0, 0, 0, 0)
@@ -174,70 +150,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 		[VectorLabel(Min, Max)]_AudioLinkDecal0ChannelSeparation ("Channel Separation--{condition_showS:(_Decal0ChannelSeparationEnable==1)}", Vector) = (0, 0, 0, 0)
 		[HideInInspector] m_end_Decal0AudioLink ("Audio Link", Float) = 0
 		[HideInInspector] m_end_Decal0 ("Decal 0", Float) = 0
-		[HideInInspector] m_start_Decal1 ("Decal 1--{reference_property:_DecalEnabled1}", Float) = 0
-		[HideInInspector][ThryToggle(GEOM_TYPE_BRANCH_DETAIL)]_DecalEnabled1 ("Enable", Float) = 0
-		[HideInInspector] g_start_decal1_position ("Positioning--{draw_border:true}", Float) = 0
-		[ThryDecalPositioning(_DecalTexture1, _DecalTexture1UV, _DecalPosition1, _DecalRotation1, _DecalScale1, _DecalSideOffset1)]
-		[Vector2]_DecalPosition1 ("Position", Vector) = (.5, .5, 0, 0)
-		_DecalRotation1 ("Rotation", Range(0, 360)) = 0
-		_DecalRotationSpeed1 ("Rotation Speed", Float) = 0
-		[Vector2]_DecalScale1 ("Scale", Vector) = (1, 1, 0, 0)
-		[VectorLabel(L, R, D, U)]_DecalSideOffset1 ("Side Offset", Vector) = (0, 0, 0, 0)
-		[HideInInspector] g_end_decal1_position ("Positioning--{draw_border:true}", Float) = 0
-		[Enum(R, 0, G, 1, B, 2, A, 3)] _Decal1MaskChannel ("Mask Channel", Int) = 1
-		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _Decal1GlobalMask ("Global Mask--{reference_property:_Decal1GlobalMaskBlendType}", Int) = 0
-		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6 , Replace, 0)]_Decal1GlobalMaskBlendType ("Blending", Range(0, 1)) = 2
-		_DecalColor1 ("Color--{reference_property:_DecalColor1ThemeIndex}", Color) = (1, 1, 1, 1)
-		[HideInInspector][ThryWideEnum(Off, 0, Theme Color 0, 1, Theme Color 1, 2, Theme Color 2, 3, Theme Color 3, 4, ColorChord 0, 5, ColorChord 1, 6, ColorChord 2, 7, ColorChord 3, 8, AL Theme 0, 9, AL Theme 1, 10, AL Theme 2, 11, AL Theme 3, 12)] _DecalColor1ThemeIndex ("", Int) = 0
-		_DecalEmissionStrength1 ("Emission Strength", Range(0, 20)) = 0
-		[sRGBWarning(true)]_DecalTexture1 ("Decal--{reference_properties:[_DecalTexture1Pan, _DecalTexture1UV]}", 2D) = "white" { }
-		[HideInInspector][Vector2]_DecalTexture1Pan ("Panning", Vector) = (0, 0, 0, 0)
-		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _DecalTexture1UV ("UV", Int) = 0
-		[ToggleUI]_DecalTiled1 ("Tiled", Float) = 0
-		_Decal1Depth ("Depth", Float) = 0
-		[ThryWideEnum(Replace, 0, Multiply, 2, Screen, 6, Linear Dodge(Add), 8, Overlay, 9, Mixed, 20)]_DecalBlendType1 ("Blending", Range(0, 1)) = 0
-		_DecalBlendAlpha1 ("Alpha", Range(0, 1)) = 1
-		[ToggleUI]_DecalOverrideAlpha1 ("Override Alpha", Float) = 0
-		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _Decal1ApplyGlobalMaskIndex ("Apply to Global Mask--{reference_property:_Decal1ApplyGlobalMaskBlendType}", Int) = 0
-		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6 , Replace, 0)] _Decal1ApplyGlobalMaskBlendType ("Blending", Int) = 0
-		[ThryToggleUI(true)]_DecalHueShiftEnabled1 ("<size=13><b>Hue Shift</b></size>", Float) = 0
-		_DecalHueShiftSpeed1 ("Shift Speed--{condition_showS:(_DecalHueShiftEnabled1==1)}", Float) = 0
-		_DecalHueShift1 ("Hue Shift--{condition_showS:(_DecalHueShiftEnabled1==1)}", Range(0, 1)) = 0
-		_Decal1HueAngleStrength ("Hue Angle Power--{condition_showS:(_DecalHueShiftEnabled1==1)}", Float) = 0
-		[NoAnimate][ThryToggle(true)]_Decal1ChannelSeparationEnable ("<size=13><b>  Channel Separation</b></size>", Float) = 0
-		[HideInInspector] g_start_Decal1ChannelSeparation ("--{condition_showS:_Decal1ChannelSeparationEnable==1}", Int) = 0
-		_Decal1ChannelSeparation ("Intensity", Float) = 0
-		_Decal1ChannelSeparationAngleStrength ("Surface Angle Intensity", Float) = 0
-		_Decal1ChannelSeparationHue ("Hue", Range(-1, 1)) = 0
-		_Decal1ChannelSeparationVertical ("Direction", Range(-3.142, 3.142)) = 0
-		[ToggleUI]_Decal1ChannelSeparationPremultiply ("Premultiply Alpha--{tooltip:''Fixes channel separation issues on some decal textures''}", Float) = 0
-		[HideInInspector] g_end_Decal1ChannelSeparation ("", Int) = 0
-		[HideInInspector] m_start_Decal1AudioLink ("Audio Link ♫--{ condition_showS:_EnableAudioLink==1}", Float) = 0
-		[Enum(Bass, 0, Low Mid, 1, High Mid, 2, Treble, 3)] _AudioLinkDecal1ScaleBand ("Scale Band", Int) = 0
-		[VectorLabel(Xmin, Ymin, Xmax, Ymax)]_AudioLinkDecal1Scale ("Scale Mod", Vector) = (0, 0, 0, 0)
-		[Space(7)]
-		[Enum(Bass, 0, Low Mid, 1, High Mid, 2, Treble, 3)] _AudioLinkDecal1SideBand ("Side Band", Int) = 0
-		[VectorLabel(L, R, D, U)]_AudioLinkDecal1SideMin ("Side Mod Min", Vector) = (0, 0, 0, 0)
-		[VectorLabel(L, R, D, U)]_AudioLinkDecal1SideMax ("Side Mod Max", Vector) = (0, 0, 0, 0)
-		[Space(7)]
-		[Enum(Bass, 0, Low Mid, 1, High Mid, 2, Treble, 3)] _AudioLinkDecal1RotationBand ("Rotation Band", Int) = 0
-		[VectorLabel(Min, Max)]_AudioLinkDecal1Rotation ("Rotation Mod", Vector) = (0, 0, 0, 0)
-		[Space(7)]
-		[Enum(Bass, 0, Low Mid, 1, High Mid, 2, Treble, 3)] _AudioLinkDecal1AlphaBand ("Alpha Band", Int) = 0
-		[VectorLabel(Min, Max)]_AudioLinkDecal1Alpha ("Alpha Mod", Vector) = (0, 0, 0, 0)
-		[Space(7)]
-		[Enum(Bass, 0, Low Mid, 1, High Mid, 2, Treble, 3)] _AudioLinkDecal1EmissionBand ("Emission Band", Int) = 0
-		[VectorLabel(Min, Max)]_AudioLinkDecal1Emission ("Emission Mod", Vector) = (0, 0, 0, 0)
-		[ToggleUI]_AudioLinkDecalCC1 ("CC Strip", Float) = 0
-		[Space(7)]
-		[Enum(Bass, 0, Low Mid, 1, High Mid, 2, Treble, 3)] _DecalRotationCTALBand1 ("Chrono Rotation Band", Int) = 0
-		[ThryWideEnum(Motion increases as intensity of band increases, 0, Above but Smooth, 1, Motion moves back and forth as a function of intensity, 2, Above but Smoooth, 3, Fixed speed increase when the band is dark Stationary when light, 4, Above but Smooooth, 5, Fixed speed increase when the band is dark Fixed speed decrease when light, 6, Above but Smoooooth, 7)]_DecalRotationCTALType1 ("Chrono Motion Type", Int) = 0
-		_DecalRotationCTALSpeed1 ("Chrono Rotation Speed", Float) = 0
-		[Space(7)]
-		[Enum(Bass, 0, Low Mid, 1, High Mid, 2, Treble, 3)] _AudioLinkDecal1ChannelSeparationBand ("Channel Separation Band--{condition_showS:(_Decal1ChannelSeparationEnable==1)}", Int) = 0
-		[VectorLabel(Min, Max)]_AudioLinkDecal1ChannelSeparation ("Channel Separation--{condition_showS:(_Decal1ChannelSeparationEnable==1)}", Vector) = (0, 0, 0, 0)
-		[HideInInspector] m_end_Decal1AudioLink ("Audio Link", Float) = 0
-		[HideInInspector] m_end_Decal1 ("Decal 0", Float) = 0
 		[HideInInspector] m_end_DecalSection ("Decal", Float) = 0
 		[HideInInspector] m_start_tps_penetrator("Penetrator--{reference_property:_TPSPenetratorEnabled,tooltip:Enable TPS Penetrator: Requires the TPS Setup Wizard to be run (under Poi/TPS)}", Float) = 0
 		[HideInInspector] m_start_pen_autoConfig("Configured By Tool", Float) = 0
@@ -842,9 +754,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			Blend [_SrcBlend] [_DstBlend], [_SrcBlendAlpha] [_DstBlendAlpha]
 			CGPROGRAM
  #define COLOR_GRADING_HDR_3D 
- #define FINALPASS 
  #define GEOM_TYPE_BRANCH 
- #define GEOM_TYPE_BRANCH_DETAIL 
  #define POI_STYLIZED_StylizedSpecular 
  #define VIGNETTE_MASKED 
  #define _GLOSSYREFLECTIONS_OFF 
@@ -853,9 +763,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
- #define PROP_DETAILNORMALMAP 
  #define PROP_DECALTEXTURE 
- #define PROP_DECALTEXTURE1 
  #define PROP_MATCAP 
  #define PROP_MATCAP2 
  #define PROP_MATCAP2MASK 
@@ -1051,38 +959,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			float _UVModWorldPos1;
 			float _UVModLocalPos0;
 			float _UVModLocalPos1;
-			#ifdef FINALPASS
-			#if defined(PROP_DETAILMASK) || !defined(OPTIMIZER_ENABLED)
-			Texture2D _DetailMask;
-			#endif
-			float4 _DetailMask_ST;
-			float2 _DetailMaskPan;
-			float _DetailMaskUV;
-			float _DetailMaskStochastic;
-			#if defined(PROP_DETAILNORMALMAP) || !defined(OPTIMIZER_ENABLED)
-			Texture2D _DetailNormalMap;
-			#endif
-			float4 _DetailNormalMap_ST;
-			float2 _DetailNormalMapPan;
-			float _DetailNormalMapUV;
-			float _DetailNormalMapScale;
-			float _DetailNormalMapStochastic;
-			float _DetailNormalGlobalMask;
-			float _DetailNormalGlobalMaskBlendType;
-			#if defined(PROP_DETAILTEX) || !defined(OPTIMIZER_ENABLED)
-			Texture2D _DetailTex;
-			#endif
-			float4 _DetailTex_ST;
-			float2 _DetailTexPan;
-			float _DetailTexUV;
-			float _DetailTexStochastic;
-			float3 _DetailTint;
-			float _DetailTintThemeIndex;
-			float _DetailTexIntensity;
-			float _DetailBrightness;
-			float _DetailTexGlobalMask;
-			float _DetailTexGlobalMaskBlendType;
-			#endif
 			#if defined(PROP_DECALMASK) || !defined(OPTIMIZER_ENABLED)
 			Texture2D _DecalMask;
 			float4 _DecalMask_ST;
@@ -1114,25 +990,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			float2 _AudioLinkDecal0ChannelSeparation;
 			float _AudioLinkDecal0ChannelSeparationBand;
 			#endif //GEOM_TYPE_BRANCH
-			#ifdef GEOM_TYPE_BRANCH_DETAIL
-			half _AudioLinkDecal1ScaleBand;
-			float4 _AudioLinkDecal1Scale;
-			half _AudioLinkDecal1RotationBand;
-			float2 _AudioLinkDecal1Rotation;
-			half _AudioLinkDecal1AlphaBand;
-			float2 _AudioLinkDecal1Alpha;
-			half _AudioLinkDecal1EmissionBand;
-			float2 _AudioLinkDecal1Emission;
-			float _DecalRotationCTALBand1;
-			float _DecalRotationCTALSpeed1;
-			float _DecalRotationCTALType1;
-			float _AudioLinkDecalCC1;
-			float _AudioLinkDecal1SideBand;
-			float4 _AudioLinkDecal1SideMin;
-			float4 _AudioLinkDecal1SideMax;
-			float2 _AudioLinkDecal1ChannelSeparation;
-			float _AudioLinkDecal1ChannelSeparationBand;
-			#endif //GEOM_TYPE_BRANCH_DETAIL
 			#endif
 			#ifdef GEOM_TYPE_BRANCH
 			sampler2D _DecalTexture;
@@ -1167,40 +1024,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			float _Decal0ChannelSeparationHue;
 			float _Decal0ChannelSeparationVertical;
 			float _Decal0ChannelSeparationAngleStrength;
-			#endif
-			#ifdef GEOM_TYPE_BRANCH_DETAIL
-			sampler2D _DecalTexture1;
-			float _Decal1MaskChannel;
-			float _Decal1GlobalMask;
-			float _Decal1GlobalMaskBlendType;
-			float _Decal1ApplyGlobalMaskIndex;
-			float _Decal1ApplyGlobalMaskBlendType;
-			float4 _DecalTexture1_ST;
-			float2 _DecalTexture1Pan;
-			float _DecalTexture1UV;
-			float4 _DecalColor1;
-			float _DecalColor1ThemeIndex;
-			fixed _DecalTiled1;
-			float _DecalBlendType1;
-			half _DecalRotation1;
-			half2 _DecalScale1;
-			float4 _DecalSideOffset1;
-			half2 _DecalPosition1;
-			half _DecalRotationSpeed1;
-			float _DecalEmissionStrength1;
-			float _DecalBlendAlpha1;
-			float _DecalOverrideAlpha1;
-			float _DecalHueShiftEnabled1;
-			float _DecalHueShift1;
-			float _DecalHueShiftSpeed1;
-			float _Decal1Depth;
-			float _Decal1HueAngleStrength;
-			float _Decal1ChannelSeparationEnable;
-			float _Decal1ChannelSeparation;
-			float _Decal1ChannelSeparationPremultiply;
-			float _Decal1ChannelSeparationHue;
-			float _Decal1ChannelSeparationVertical;
-			float _Decal1ChannelSeparationAngleStrength;
 			#endif
 			float _ShadowStrength;
 			float _LightingIgnoreAmbientColor;
@@ -2954,43 +2777,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				float3 viewDirection = normalize(lerp(getCameraPosition().xyz, _WorldSpaceCameraPos.xyz, (1.0 /*_PanoUseBothEyes*/)) - poiMesh.worldPos.xyz) * - 1;
 				return lerp(MonoPanoProjection(viewDirection), StereoPanoProjection(viewDirection), (0.0 /*_StereoEnabled*/));
 			}
-			#ifdef FINALPASS
-			void ApplyDetailColor(inout PoiFragData poiFragData, in PoiMesh poiMesh, in PoiMods poiMods)
-			{
-				#if defined(PROP_DETAILTEX) || !defined(OPTIMIZER_ENABLED)
-				half3 detailTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_DetailTex, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailTexUV*/)], float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_DetailTexStochastic*/)).rgb * poiThemeColor(poiMods, float4(1,1,1,1), (0.0 /*_DetailTintThemeIndex*/));
-				#else
-				half3 detailTexture = 0.21763764082 * poiThemeColor(poiMods, float4(1,1,1,1), (0.0 /*_DetailTintThemeIndex*/));
-				#endif
-				poiFragData.baseColor.rgb *= LerpWhiteTo(detailTexture * (1.0 /*_DetailBrightness*/) * unity_ColorSpaceDouble.rgb, poiMods.detailMask.r * (1.0 /*_DetailTexIntensity*/));
-			}
-			void ApplyDetailNormal(inout PoiMods poiMods, inout PoiMesh poiMesh)
-			{
-				#if defined(PROP_DETAILMASK) || !defined(OPTIMIZER_ENABLED)
-				poiMods.detailMask = POI2D_SAMPLER_PAN_STOCHASTIC(_DetailMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_DetailMaskStochastic*/)).rg;
-				#else
-				poiMods.detailMask = 1;
-				#endif
-				#ifdef POI_BACKFACE
-				if (!poiMesh.isFrontFace)
-				{
-					poiMods.detailMask.rg *= (1.0 /*_BackFaceDetailIntensity*/);
-				}
-				#endif
-				if ((0.0 /*_DetailTexGlobalMask*/) > 0)
-				{
-					poiMods.detailMask.r = maskBlend(poiMods.detailMask.r, poiMods.globalMask[(0.0 /*_DetailTexGlobalMask*/)-1], (2.0 /*_DetailTexGlobalMaskBlendType*/));
-				}
-				if ((0.0 /*_DetailNormalGlobalMask*/) > 0)
-				{
-					poiMods.detailMask.g = maskBlend(poiMods.detailMask.g, poiMods.globalMask[(0.0 /*_DetailNormalGlobalMask*/)-1], (2.0 /*_DetailNormalGlobalMaskBlendType*/));
-				}
-				#if defined(PROP_DETAILNORMALMAP) || !defined(OPTIMIZER_ENABLED)
-				half3 detailNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_DetailNormalMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailNormalMapUV*/)], float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_DetailNormalMapStochastic*/)), (2.0 /*_DetailNormalMapScale*/) * poiMods.detailMask.g);
-				poiMesh.tangentSpaceNormal = BlendNormals(detailNormal, poiMesh.tangentSpaceNormal);
-				#endif
-			}
-			#endif
 			#if defined(GEOM_TYPE_BRANCH) || defined(GEOM_TYPE_BRANCH_DETAIL) || defined(GEOM_TYPE_FROND) || defined(DEPTH_OF_FIELD_COC_VIEW)
 			float2 decalUV(float uvNumber, float2 position, half rotation, half rotationSpeed, half2 scale, float4 scaleOffset, float depth, in PoiMesh poiMesh, in PoiCam poiCam)
 			{
@@ -3256,71 +3042,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				#endif
 				Decal0.Apply(alphaOverride, decalAlpha, poiFragData, poiMesh, poiCam, poiMods, poiLight);
 				#endif
-				#ifdef GEOM_TYPE_BRANCH_DETAIL
-				PoiDecal Decal1;
-				PoiInitStruct(PoiDecal, Decal1)
-				Decal1.m_DecalMaskChannel = (1.0 /*_Decal1MaskChannel*/);
-				Decal1.m_DecalGlobalMask = (0.0 /*_Decal1GlobalMask*/);
-				Decal1.m_DecalGlobalMaskBlendType = (2.0 /*_Decal1GlobalMaskBlendType*/);
-				Decal1.m_DecalApplyGlobalMaskIndex = (0.0 /*_Decal1ApplyGlobalMaskIndex*/);
-				Decal1.m_DecalApplyGlobalMaskBlendType = (0.0 /*_Decal1ApplyGlobalMaskBlendType*/);
-				Decal1.m_DecalTexture_ST = float4(1,1,0,0);
-				Decal1.m_DecalTexturePan = float4(0,0,0,0);
-				Decal1.m_DecalTextureUV = (0.0 /*_DecalTexture1UV*/);
-				Decal1.m_DecalColor = float4(1,0,0,1);
-				Decal1.m_DecalColorThemeIndex = (0.0 /*_DecalColor1ThemeIndex*/);
-				Decal1.m_DecalTiled = (0.0 /*_DecalTiled1*/);
-				Decal1.m_DecalBlendType = (0.0 /*_DecalBlendType1*/);
-				Decal1.m_DecalRotation = (238.0 /*_DecalRotation1*/);
-				Decal1.m_DecalScale = float4(0.5100671,0.5100671,0,0);
-				Decal1.m_DecalSideOffset = float4(0.01493738,-0.5,-0.4765326,0);
-				Decal1.m_DecalPosition = float4(0.5097185,0.6913967,0,0);
-				Decal1.m_DecalRotationSpeed = (0.0 /*_DecalRotationSpeed1*/);
-				Decal1.m_DecalEmissionStrength = (1.0 /*_DecalEmissionStrength1*/);
-				Decal1.m_DecalBlendAlpha = (1.0 /*_DecalBlendAlpha1*/);
-				Decal1.m_DecalOverrideAlpha = (0.0 /*_DecalOverrideAlpha1*/);
-				Decal1.m_DecalHueShiftEnabled = (1.0 /*_DecalHueShiftEnabled1*/);
-				Decal1.m_DecalHueShift = (1.0 /*_DecalHueShift1*/);
-				Decal1.m_DecalHueShiftSpeed = (10.0 /*_DecalHueShiftSpeed1*/);
-				Decal1.m_DecalDepth = (0.0 /*_Decal1Depth*/);
-				Decal1.m_DecalHueAngleStrength = (0.0 /*_Decal1HueAngleStrength*/);
-				Decal1.m_DecalChannelSeparationEnable = (1.0 /*_Decal1ChannelSeparationEnable*/);
-				Decal1.m_DecalChannelSeparation = (0.01 /*_Decal1ChannelSeparation*/);
-				Decal1.m_DecalChannelSeparationPremultiply = (0.0 /*_Decal1ChannelSeparationPremultiply*/);
-				Decal1.m_DecalChannelSeparationHue = (0.0 /*_Decal1ChannelSeparationHue*/);
-				Decal1.m_DecalChannelSeparationVertical = (0.0 /*_Decal1ChannelSeparationVertical*/);
-				Decal1.m_DecalChannelSeparationAngleStrength = (0.0 /*_Decal1ChannelSeparationAngleStrength*/);
-				Decal1.Init(decalMask);
-				#if defined(POI_AUDIOLINK)
-				Decal1.m_AudioLinkDecalScaleBand = (0.0 /*_AudioLinkDecal1ScaleBand*/);
-				Decal1.m_AudioLinkDecalScale = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalRotationBand = (0.0 /*_AudioLinkDecal1RotationBand*/);
-				Decal1.m_AudioLinkDecalRotation = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalAlphaBand = (0.0 /*_AudioLinkDecal1AlphaBand*/);
-				Decal1.m_AudioLinkDecalAlpha = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalEmissionBand = (0.0 /*_AudioLinkDecal1EmissionBand*/);
-				Decal1.m_AudioLinkDecalEmission = float4(0,0,0,0);
-				Decal1.m_DecalRotationCTALBand = (0.0 /*_DecalRotationCTALBand1*/);
-				Decal1.m_DecalRotationCTALSpeed = (0.0 /*_DecalRotationCTALSpeed1*/);
-				Decal1.m_DecalRotationCTALType = (0.0 /*_DecalRotationCTALType1*/);
-				Decal1.m_AudioLinkDecalColorChord = (0.0 /*_AudioLinkDecalCC1*/);
-				Decal1.m_AudioLinkDecalSideBand = (0.0 /*_AudioLinkDecal1SideBand*/);
-				Decal1.m_AudioLinkDecalSideMin = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalSideMax = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalChannelSeparation = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalChannelSeparationBand = (0.0 /*_AudioLinkDecal1ChannelSeparationBand*/);
-				Decal1.InitAudiolink(poiMods);
-				#endif
-				#if defined(PROP_DECALTEXTURE1) || !defined(OPTIMIZER_ENABLED)
-				if ((1.0 /*_Decal1ChannelSeparationEnable*/))
-				{
-					Decal1.SampleDecalChannelSeparation(_DecalTexture1, poiMods, poiLight, poiMesh, poiCam);
-				}
-				#else
-				Decal1.SampleDecalNoTexture(poiMods, poiLight, poiMesh, poiCam);
-				#endif
-				Decal1.Apply(alphaOverride, decalAlpha, poiFragData, poiMesh, poiCam, poiMods, poiLight);
-				#endif
 				if (alphaOverride)
 				{
 					poiFragData.alpha *= decalAlpha;
@@ -3380,7 +3101,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				lightMap.x *= lerp(1.0, shadowAttenuationNoStrength, (1.0 /*_ShadowReceive*/));
 				lightMap.y *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow2ndReceive*/));
 				lightMap.z *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow3rdReceive*/));
-				if ((1.0 /*_LightingMulitlayerNonLinear*/))
+				if ((0.0 /*_LightingMulitlayerNonLinear*/))
 				{
 					lns.x = poiEdgeNonLinearNoSaturate(lightMap.x, (0.117 /*_ShadowBorder*/), (0.189 /*_ShadowBlur*/) * blurMap.r);
 					lns.y = poiEdgeNonLinearNoSaturate(lightMap.y, (0.214 /*_Shadow2ndBorder*/), (0.073 /*_Shadow2ndBlur*/) * blurMap.g);
@@ -3925,9 +3646,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
-				#if defined(FINALPASS) && !defined(UNITY_PASS_SHADOWCASTER) && !defined(POI_PASS_OUTLINE)
-				ApplyDetailNormal(poiMods, poiMesh);
-				#endif
 				poiMesh.normals[1] = normalize(
 				poiMesh.tangentSpaceNormal.x * poiMesh.tangent[0] +
 				poiMesh.tangentSpaceNormal.y * poiMesh.binormal[0] +
@@ -4267,9 +3985,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				poiFragData.alpha *= alphaMask;
 				#endif
 				applyAlphaOptions(poiFragData, poiMesh, poiCam, poiMods);
-				#ifdef FINALPASS
-				ApplyDetailColor(poiFragData, poiMesh, poiMods);
-				#endif
 				#if defined(GEOM_TYPE_BRANCH) || defined(GEOM_TYPE_BRANCH_DETAIL) || defined(GEOM_TYPE_FROND) || defined(DEPTH_OF_FIELD_COC_VIEW)
 				applyDecals(poiFragData, poiMesh, poiCam, poiMods, poiLight);
 				#endif
@@ -4360,9 +4075,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			Blend [_OutlineSrcBlend] [_OutlineDstBlend], [_OutlineSrcBlendAlpha] [_OutlineDstBlendAlpha]
 			CGPROGRAM
  #define COLOR_GRADING_HDR_3D 
- #define FINALPASS 
  #define GEOM_TYPE_BRANCH 
- #define GEOM_TYPE_BRANCH_DETAIL 
  #define POI_STYLIZED_StylizedSpecular 
  #define VIGNETTE_MASKED 
  #define _GLOSSYREFLECTIONS_OFF 
@@ -4371,9 +4084,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
- #define PROP_DETAILNORMALMAP 
  #define PROP_DECALTEXTURE 
- #define PROP_DECALTEXTURE1 
  #define PROP_MATCAP 
  #define PROP_MATCAP2 
  #define PROP_MATCAP2MASK 
@@ -6371,7 +6082,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				lightMap.x *= lerp(1.0, shadowAttenuationNoStrength, (1.0 /*_ShadowReceive*/));
 				lightMap.y *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow2ndReceive*/));
 				lightMap.z *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow3rdReceive*/));
-				if ((1.0 /*_LightingMulitlayerNonLinear*/))
+				if ((0.0 /*_LightingMulitlayerNonLinear*/))
 				{
 					lns.x = poiEdgeNonLinearNoSaturate(lightMap.x, (0.117 /*_ShadowBorder*/), (0.189 /*_ShadowBlur*/) * blurMap.r);
 					lns.y = poiEdgeNonLinearNoSaturate(lightMap.y, (0.214 /*_Shadow2ndBorder*/), (0.073 /*_Shadow2ndBlur*/) * blurMap.g);
@@ -6537,9 +6248,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,10,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (0.2 /*_BumpScale*/));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
-				#endif
-				#if defined(FINALPASS) && !defined(UNITY_PASS_SHADOWCASTER) && !defined(POI_PASS_OUTLINE)
-				ApplyDetailNormal(poiMods, poiMesh);
 				#endif
 				poiMesh.normals[1] = normalize(
 				poiMesh.tangentSpaceNormal.x * poiMesh.tangent[0] +
@@ -6948,9 +6656,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			Blend [_AddSrcBlend] [_AddDstBlend], [_AddSrcBlendAlpha] [_AddDstBlendAlpha]
 			CGPROGRAM
  #define COLOR_GRADING_HDR_3D 
- #define FINALPASS 
  #define GEOM_TYPE_BRANCH 
- #define GEOM_TYPE_BRANCH_DETAIL 
  #define POI_STYLIZED_StylizedSpecular 
  #define VIGNETTE_MASKED 
  #define _GLOSSYREFLECTIONS_OFF 
@@ -6959,9 +6665,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
- #define PROP_DETAILNORMALMAP 
  #define PROP_DECALTEXTURE 
- #define PROP_DECALTEXTURE1 
  #define PROP_MATCAP 
  #define PROP_MATCAP2 
  #define PROP_MATCAP2MASK 
@@ -7156,38 +6860,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			float _UVModWorldPos1;
 			float _UVModLocalPos0;
 			float _UVModLocalPos1;
-			#ifdef FINALPASS
-			#if defined(PROP_DETAILMASK) || !defined(OPTIMIZER_ENABLED)
-			Texture2D _DetailMask;
-			#endif
-			float4 _DetailMask_ST;
-			float2 _DetailMaskPan;
-			float _DetailMaskUV;
-			float _DetailMaskStochastic;
-			#if defined(PROP_DETAILNORMALMAP) || !defined(OPTIMIZER_ENABLED)
-			Texture2D _DetailNormalMap;
-			#endif
-			float4 _DetailNormalMap_ST;
-			float2 _DetailNormalMapPan;
-			float _DetailNormalMapUV;
-			float _DetailNormalMapScale;
-			float _DetailNormalMapStochastic;
-			float _DetailNormalGlobalMask;
-			float _DetailNormalGlobalMaskBlendType;
-			#if defined(PROP_DETAILTEX) || !defined(OPTIMIZER_ENABLED)
-			Texture2D _DetailTex;
-			#endif
-			float4 _DetailTex_ST;
-			float2 _DetailTexPan;
-			float _DetailTexUV;
-			float _DetailTexStochastic;
-			float3 _DetailTint;
-			float _DetailTintThemeIndex;
-			float _DetailTexIntensity;
-			float _DetailBrightness;
-			float _DetailTexGlobalMask;
-			float _DetailTexGlobalMaskBlendType;
-			#endif
 			#if defined(PROP_DECALMASK) || !defined(OPTIMIZER_ENABLED)
 			Texture2D _DecalMask;
 			float4 _DecalMask_ST;
@@ -7219,25 +6891,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			float2 _AudioLinkDecal0ChannelSeparation;
 			float _AudioLinkDecal0ChannelSeparationBand;
 			#endif //GEOM_TYPE_BRANCH
-			#ifdef GEOM_TYPE_BRANCH_DETAIL
-			half _AudioLinkDecal1ScaleBand;
-			float4 _AudioLinkDecal1Scale;
-			half _AudioLinkDecal1RotationBand;
-			float2 _AudioLinkDecal1Rotation;
-			half _AudioLinkDecal1AlphaBand;
-			float2 _AudioLinkDecal1Alpha;
-			half _AudioLinkDecal1EmissionBand;
-			float2 _AudioLinkDecal1Emission;
-			float _DecalRotationCTALBand1;
-			float _DecalRotationCTALSpeed1;
-			float _DecalRotationCTALType1;
-			float _AudioLinkDecalCC1;
-			float _AudioLinkDecal1SideBand;
-			float4 _AudioLinkDecal1SideMin;
-			float4 _AudioLinkDecal1SideMax;
-			float2 _AudioLinkDecal1ChannelSeparation;
-			float _AudioLinkDecal1ChannelSeparationBand;
-			#endif //GEOM_TYPE_BRANCH_DETAIL
 			#endif
 			#ifdef GEOM_TYPE_BRANCH
 			sampler2D _DecalTexture;
@@ -7272,40 +6925,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			float _Decal0ChannelSeparationHue;
 			float _Decal0ChannelSeparationVertical;
 			float _Decal0ChannelSeparationAngleStrength;
-			#endif
-			#ifdef GEOM_TYPE_BRANCH_DETAIL
-			sampler2D _DecalTexture1;
-			float _Decal1MaskChannel;
-			float _Decal1GlobalMask;
-			float _Decal1GlobalMaskBlendType;
-			float _Decal1ApplyGlobalMaskIndex;
-			float _Decal1ApplyGlobalMaskBlendType;
-			float4 _DecalTexture1_ST;
-			float2 _DecalTexture1Pan;
-			float _DecalTexture1UV;
-			float4 _DecalColor1;
-			float _DecalColor1ThemeIndex;
-			fixed _DecalTiled1;
-			float _DecalBlendType1;
-			half _DecalRotation1;
-			half2 _DecalScale1;
-			float4 _DecalSideOffset1;
-			half2 _DecalPosition1;
-			half _DecalRotationSpeed1;
-			float _DecalEmissionStrength1;
-			float _DecalBlendAlpha1;
-			float _DecalOverrideAlpha1;
-			float _DecalHueShiftEnabled1;
-			float _DecalHueShift1;
-			float _DecalHueShiftSpeed1;
-			float _Decal1Depth;
-			float _Decal1HueAngleStrength;
-			float _Decal1ChannelSeparationEnable;
-			float _Decal1ChannelSeparation;
-			float _Decal1ChannelSeparationPremultiply;
-			float _Decal1ChannelSeparationHue;
-			float _Decal1ChannelSeparationVertical;
-			float _Decal1ChannelSeparationAngleStrength;
 			#endif
 			float _ShadowStrength;
 			float _LightingIgnoreAmbientColor;
@@ -9055,43 +8674,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				float3 viewDirection = normalize(lerp(getCameraPosition().xyz, _WorldSpaceCameraPos.xyz, (1.0 /*_PanoUseBothEyes*/)) - poiMesh.worldPos.xyz) * - 1;
 				return lerp(MonoPanoProjection(viewDirection), StereoPanoProjection(viewDirection), (0.0 /*_StereoEnabled*/));
 			}
-			#ifdef FINALPASS
-			void ApplyDetailColor(inout PoiFragData poiFragData, in PoiMesh poiMesh, in PoiMods poiMods)
-			{
-				#if defined(PROP_DETAILTEX) || !defined(OPTIMIZER_ENABLED)
-				half3 detailTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_DetailTex, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailTexUV*/)], float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_DetailTexStochastic*/)).rgb * poiThemeColor(poiMods, float4(1,1,1,1), (0.0 /*_DetailTintThemeIndex*/));
-				#else
-				half3 detailTexture = 0.21763764082 * poiThemeColor(poiMods, float4(1,1,1,1), (0.0 /*_DetailTintThemeIndex*/));
-				#endif
-				poiFragData.baseColor.rgb *= LerpWhiteTo(detailTexture * (1.0 /*_DetailBrightness*/) * unity_ColorSpaceDouble.rgb, poiMods.detailMask.r * (1.0 /*_DetailTexIntensity*/));
-			}
-			void ApplyDetailNormal(inout PoiMods poiMods, inout PoiMesh poiMesh)
-			{
-				#if defined(PROP_DETAILMASK) || !defined(OPTIMIZER_ENABLED)
-				poiMods.detailMask = POI2D_SAMPLER_PAN_STOCHASTIC(_DetailMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_DetailMaskStochastic*/)).rg;
-				#else
-				poiMods.detailMask = 1;
-				#endif
-				#ifdef POI_BACKFACE
-				if (!poiMesh.isFrontFace)
-				{
-					poiMods.detailMask.rg *= (1.0 /*_BackFaceDetailIntensity*/);
-				}
-				#endif
-				if ((0.0 /*_DetailTexGlobalMask*/) > 0)
-				{
-					poiMods.detailMask.r = maskBlend(poiMods.detailMask.r, poiMods.globalMask[(0.0 /*_DetailTexGlobalMask*/)-1], (2.0 /*_DetailTexGlobalMaskBlendType*/));
-				}
-				if ((0.0 /*_DetailNormalGlobalMask*/) > 0)
-				{
-					poiMods.detailMask.g = maskBlend(poiMods.detailMask.g, poiMods.globalMask[(0.0 /*_DetailNormalGlobalMask*/)-1], (2.0 /*_DetailNormalGlobalMaskBlendType*/));
-				}
-				#if defined(PROP_DETAILNORMALMAP) || !defined(OPTIMIZER_ENABLED)
-				half3 detailNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_DetailNormalMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_DetailNormalMapUV*/)], float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_DetailNormalMapStochastic*/)), (2.0 /*_DetailNormalMapScale*/) * poiMods.detailMask.g);
-				poiMesh.tangentSpaceNormal = BlendNormals(detailNormal, poiMesh.tangentSpaceNormal);
-				#endif
-			}
-			#endif
 			#if defined(GEOM_TYPE_BRANCH) || defined(GEOM_TYPE_BRANCH_DETAIL) || defined(GEOM_TYPE_FROND) || defined(DEPTH_OF_FIELD_COC_VIEW)
 			float2 decalUV(float uvNumber, float2 position, half rotation, half rotationSpeed, half2 scale, float4 scaleOffset, float depth, in PoiMesh poiMesh, in PoiCam poiCam)
 			{
@@ -9357,71 +8939,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				#endif
 				Decal0.Apply(alphaOverride, decalAlpha, poiFragData, poiMesh, poiCam, poiMods, poiLight);
 				#endif
-				#ifdef GEOM_TYPE_BRANCH_DETAIL
-				PoiDecal Decal1;
-				PoiInitStruct(PoiDecal, Decal1)
-				Decal1.m_DecalMaskChannel = (1.0 /*_Decal1MaskChannel*/);
-				Decal1.m_DecalGlobalMask = (0.0 /*_Decal1GlobalMask*/);
-				Decal1.m_DecalGlobalMaskBlendType = (2.0 /*_Decal1GlobalMaskBlendType*/);
-				Decal1.m_DecalApplyGlobalMaskIndex = (0.0 /*_Decal1ApplyGlobalMaskIndex*/);
-				Decal1.m_DecalApplyGlobalMaskBlendType = (0.0 /*_Decal1ApplyGlobalMaskBlendType*/);
-				Decal1.m_DecalTexture_ST = float4(1,1,0,0);
-				Decal1.m_DecalTexturePan = float4(0,0,0,0);
-				Decal1.m_DecalTextureUV = (0.0 /*_DecalTexture1UV*/);
-				Decal1.m_DecalColor = float4(1,0,0,1);
-				Decal1.m_DecalColorThemeIndex = (0.0 /*_DecalColor1ThemeIndex*/);
-				Decal1.m_DecalTiled = (0.0 /*_DecalTiled1*/);
-				Decal1.m_DecalBlendType = (0.0 /*_DecalBlendType1*/);
-				Decal1.m_DecalRotation = (238.0 /*_DecalRotation1*/);
-				Decal1.m_DecalScale = float4(0.5100671,0.5100671,0,0);
-				Decal1.m_DecalSideOffset = float4(0.01493738,-0.5,-0.4765326,0);
-				Decal1.m_DecalPosition = float4(0.5097185,0.6913967,0,0);
-				Decal1.m_DecalRotationSpeed = (0.0 /*_DecalRotationSpeed1*/);
-				Decal1.m_DecalEmissionStrength = (1.0 /*_DecalEmissionStrength1*/);
-				Decal1.m_DecalBlendAlpha = (1.0 /*_DecalBlendAlpha1*/);
-				Decal1.m_DecalOverrideAlpha = (0.0 /*_DecalOverrideAlpha1*/);
-				Decal1.m_DecalHueShiftEnabled = (1.0 /*_DecalHueShiftEnabled1*/);
-				Decal1.m_DecalHueShift = (1.0 /*_DecalHueShift1*/);
-				Decal1.m_DecalHueShiftSpeed = (10.0 /*_DecalHueShiftSpeed1*/);
-				Decal1.m_DecalDepth = (0.0 /*_Decal1Depth*/);
-				Decal1.m_DecalHueAngleStrength = (0.0 /*_Decal1HueAngleStrength*/);
-				Decal1.m_DecalChannelSeparationEnable = (1.0 /*_Decal1ChannelSeparationEnable*/);
-				Decal1.m_DecalChannelSeparation = (0.01 /*_Decal1ChannelSeparation*/);
-				Decal1.m_DecalChannelSeparationPremultiply = (0.0 /*_Decal1ChannelSeparationPremultiply*/);
-				Decal1.m_DecalChannelSeparationHue = (0.0 /*_Decal1ChannelSeparationHue*/);
-				Decal1.m_DecalChannelSeparationVertical = (0.0 /*_Decal1ChannelSeparationVertical*/);
-				Decal1.m_DecalChannelSeparationAngleStrength = (0.0 /*_Decal1ChannelSeparationAngleStrength*/);
-				Decal1.Init(decalMask);
-				#if defined(POI_AUDIOLINK)
-				Decal1.m_AudioLinkDecalScaleBand = (0.0 /*_AudioLinkDecal1ScaleBand*/);
-				Decal1.m_AudioLinkDecalScale = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalRotationBand = (0.0 /*_AudioLinkDecal1RotationBand*/);
-				Decal1.m_AudioLinkDecalRotation = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalAlphaBand = (0.0 /*_AudioLinkDecal1AlphaBand*/);
-				Decal1.m_AudioLinkDecalAlpha = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalEmissionBand = (0.0 /*_AudioLinkDecal1EmissionBand*/);
-				Decal1.m_AudioLinkDecalEmission = float4(0,0,0,0);
-				Decal1.m_DecalRotationCTALBand = (0.0 /*_DecalRotationCTALBand1*/);
-				Decal1.m_DecalRotationCTALSpeed = (0.0 /*_DecalRotationCTALSpeed1*/);
-				Decal1.m_DecalRotationCTALType = (0.0 /*_DecalRotationCTALType1*/);
-				Decal1.m_AudioLinkDecalColorChord = (0.0 /*_AudioLinkDecalCC1*/);
-				Decal1.m_AudioLinkDecalSideBand = (0.0 /*_AudioLinkDecal1SideBand*/);
-				Decal1.m_AudioLinkDecalSideMin = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalSideMax = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalChannelSeparation = float4(0,0,0,0);
-				Decal1.m_AudioLinkDecalChannelSeparationBand = (0.0 /*_AudioLinkDecal1ChannelSeparationBand*/);
-				Decal1.InitAudiolink(poiMods);
-				#endif
-				#if defined(PROP_DECALTEXTURE1) || !defined(OPTIMIZER_ENABLED)
-				if ((1.0 /*_Decal1ChannelSeparationEnable*/))
-				{
-					Decal1.SampleDecalChannelSeparation(_DecalTexture1, poiMods, poiLight, poiMesh, poiCam);
-				}
-				#else
-				Decal1.SampleDecalNoTexture(poiMods, poiLight, poiMesh, poiCam);
-				#endif
-				Decal1.Apply(alphaOverride, decalAlpha, poiFragData, poiMesh, poiCam, poiMods, poiLight);
-				#endif
 				if (alphaOverride)
 				{
 					poiFragData.alpha *= decalAlpha;
@@ -9481,7 +8998,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				lightMap.x *= lerp(1.0, shadowAttenuationNoStrength, (1.0 /*_ShadowReceive*/));
 				lightMap.y *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow2ndReceive*/));
 				lightMap.z *= lerp(1.0, shadowAttenuationNoStrength, (0.0 /*_Shadow3rdReceive*/));
-				if ((1.0 /*_LightingMulitlayerNonLinear*/))
+				if ((0.0 /*_LightingMulitlayerNonLinear*/))
 				{
 					lns.x = poiEdgeNonLinearNoSaturate(lightMap.x, (0.117 /*_ShadowBorder*/), (0.189 /*_ShadowBlur*/) * blurMap.r);
 					lns.y = poiEdgeNonLinearNoSaturate(lightMap.y, (0.214 /*_Shadow2ndBorder*/), (0.073 /*_Shadow2ndBlur*/) * blurMap.g);
@@ -10026,9 +9543,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
 				#endif
-				#if defined(FINALPASS) && !defined(UNITY_PASS_SHADOWCASTER) && !defined(POI_PASS_OUTLINE)
-				ApplyDetailNormal(poiMods, poiMesh);
-				#endif
 				poiMesh.normals[1] = normalize(
 				poiMesh.tangentSpaceNormal.x * poiMesh.tangent[0] +
 				poiMesh.tangentSpaceNormal.y * poiMesh.binormal[0] +
@@ -10368,9 +9882,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				poiFragData.alpha *= alphaMask;
 				#endif
 				applyAlphaOptions(poiFragData, poiMesh, poiCam, poiMods);
-				#ifdef FINALPASS
-				ApplyDetailColor(poiFragData, poiMesh, poiMods);
-				#endif
 				#if defined(GEOM_TYPE_BRANCH) || defined(GEOM_TYPE_BRANCH_DETAIL) || defined(GEOM_TYPE_FROND) || defined(DEPTH_OF_FIELD_COC_VIEW)
 				applyDecals(poiFragData, poiMesh, poiCam, poiMods, poiLight);
 				#endif
@@ -10467,9 +9978,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 			Blend [_SrcBlend] [_DstBlend], [_SrcBlendAlpha] [_DstBlendAlpha]
 			CGPROGRAM
  #define COLOR_GRADING_HDR_3D 
- #define FINALPASS 
  #define GEOM_TYPE_BRANCH 
- #define GEOM_TYPE_BRANCH_DETAIL 
  #define POI_STYLIZED_StylizedSpecular 
  #define VIGNETTE_MASKED 
  #define _GLOSSYREFLECTIONS_OFF 
@@ -10478,9 +9987,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
- #define PROP_DETAILNORMALMAP 
  #define PROP_DECALTEXTURE 
- #define PROP_DECALTEXTURE1 
  #define PROP_MATCAP 
  #define PROP_MATCAP2 
  #define PROP_MATCAP2MASK 
@@ -12246,9 +11753,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				poiMesh.tangentSpaceNormal = UnpackScaleNormal(POI2D_SAMPLER_PAN_STOCHASTIC(_BumpMap, _MainTex, poiUV(poiMesh.uv[(0.0 /*_BumpMapUV*/)].xy, float4(5,10,0,0)), float4(0,0,0,0), (0.0 /*_BumpMapStochastic*/)), (0.2 /*_BumpScale*/));
 				#else
 				poiMesh.tangentSpaceNormal = UnpackNormal(float4(0.5, 0.5, 1, 1));
-				#endif
-				#if defined(FINALPASS) && !defined(UNITY_PASS_SHADOWCASTER) && !defined(POI_PASS_OUTLINE)
-				ApplyDetailNormal(poiMods, poiMesh);
 				#endif
 				poiMesh.normals[1] = normalize(
 				poiMesh.tangentSpaceNormal.x * poiMesh.tangent[0] +

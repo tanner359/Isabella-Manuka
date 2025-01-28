@@ -8,15 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: '[Default]Manuka_Real_Skin DPS'
-  m_Shader: {fileID: 4800000, guid: 6ec381594ed1d0f4cb1c9a0d0639b4ad, type: 3}
+  m_Shader: {fileID: 4800000, guid: ec25a17e4ffed594687b9e2921b6d3aa, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - COLOR_GRADING_HDR_3D
-  - FINALPASS
   - GEOM_TYPE_BRANCH
-  - GEOM_TYPE_BRANCH_DETAIL
   - POI_STYLIZED_StylizedSpecular
   - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
@@ -31,9 +29,9 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     AllLockedGUIDS: b99a02fd5fb2f7b4eb01ce4f205283ef
-    OriginalKeywords: COLOR_GRADING_HDR_3D FINALPASS GEOM_TYPE_BRANCH GEOM_TYPE_BRANCH_DETAIL
-      POI_STYLIZED_StylizedSpecular VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH
-      _RIM2STYLE_POIYOMI _RIMSTYLE_LILTOON _STOCHASTICMODE_DELIOT_HEITZ _TPS_ANIMATEDTOGGLE_ON
+    OriginalKeywords: COLOR_GRADING_HDR_3D GEOM_TYPE_BRANCH POI_STYLIZED_StylizedSpecular
+      VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI
+      _RIMSTYLE_LILTOON _STOCHASTICMODE_DELIOT_HEITZ _TPS_ANIMATEDTOGGLE_ON
     OriginalShader: .poiyomi/Poiyomi 8.2/Poiyomi Pro Outline
     RenderType: Opaque
     VRCFallback: Unlit
@@ -165,7 +163,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture1:
-        m_Texture: {fileID: 2800000, guid: a583c963313753144b22c2507792ce9f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture2:
@@ -193,15 +191,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 78351990720902941afc7fdbb647dc0e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 2800000, guid: ad9f2936b7313774ab0bab51483e5ef1, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 78351990720902941afc7fdbb647dc0e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveDetailNoise:
@@ -1228,7 +1226,7 @@ Material:
     - _Decal1ApplyGlobalMaskIndex: 0
     - _Decal1ChannelSeparation: 0.01
     - _Decal1ChannelSeparationAngleStrength: 0
-    - _Decal1ChannelSeparationEnable: 1
+    - _Decal1ChannelSeparationEnable: 0
     - _Decal1ChannelSeparationHue: 0
     - _Decal1ChannelSeparationPremultiply: 0
     - _Decal1ChannelSeparationVertical: 0
@@ -1272,7 +1270,7 @@ Material:
     - _DecalBlendAlpha2: 1
     - _DecalBlendAlpha3: 1
     - _DecalBlendType: 2
-    - _DecalBlendType1: 0
+    - _DecalBlendType1: 2
     - _DecalBlendType2: 0
     - _DecalBlendType3: 0
     - _DecalColor1ThemeIndex: 0
@@ -1280,11 +1278,11 @@ Material:
     - _DecalColor3ThemeIndex: 0
     - _DecalColorThemeIndex: 0
     - _DecalEmissionStrength: 1
-    - _DecalEmissionStrength1: 1
+    - _DecalEmissionStrength1: 0
     - _DecalEmissionStrength2: 0
     - _DecalEmissionStrength3: 0
     - _DecalEnabled: 1
-    - _DecalEnabled1: 1
+    - _DecalEnabled1: 0
     - _DecalEnabled2: 0
     - _DecalEnabled3: 0
     - _DecalHueShift: 0
@@ -1292,7 +1290,7 @@ Material:
     - _DecalHueShift2: 0
     - _DecalHueShift3: 0
     - _DecalHueShiftEnabled: 0
-    - _DecalHueShiftEnabled1: 1
+    - _DecalHueShiftEnabled1: 0
     - _DecalHueShiftEnabled2: 0
     - _DecalHueShiftEnabled3: 0
     - _DecalHueShiftSpeed: 0
@@ -1305,7 +1303,7 @@ Material:
     - _DecalOverrideAlpha2: 0
     - _DecalOverrideAlpha3: 0
     - _DecalRotation: 0
-    - _DecalRotation1: 238
+    - _DecalRotation1: 10.069397
     - _DecalRotation2: 0
     - _DecalRotation3: 0
     - _DecalRotationCTALBand0: 0
@@ -1371,8 +1369,8 @@ Material:
     - _DepthRimType: 0
     - _DepthRimWidth: 0.2
     - _DepthTextureUV: 0
-    - _DetailBrightness: 1
-    - _DetailEnabled: 1
+    - _DetailBrightness: 1.11
+    - _DetailEnabled: 0
     - _DetailMaskStochastic: 0
     - _DetailMaskUV: 0
     - _DetailNormalGlobalMask: 0
@@ -1382,7 +1380,7 @@ Material:
     - _DetailNormalMapUV: 0
     - _DetailTexGlobalMask: 0
     - _DetailTexGlobalMaskBlendType: 2
-    - _DetailTexIntensity: 1
+    - _DetailTexIntensity: 5.23
     - _DetailTexStochastic: 0
     - _DetailTexUV: 0
     - _DetailTintThemeIndex: 0
@@ -2117,7 +2115,7 @@ Material:
     - _LightingMinLightBrightness: 0.05
     - _LightingMode: 1
     - _LightingMonochromatic: 0
-    - _LightingMulitlayerNonLinear: 1
+    - _LightingMulitlayerNonLinear: 0
     - _LightingShadowMaskStrengthA: 0
     - _LightingShadowMaskStrengthB: 0
     - _LightingShadowMaskStrengthG: 0
@@ -2668,8 +2666,8 @@ Material:
     - _Rim2BackfaceMask: 1
     - _Rim2BaseColorMix: 0
     - _Rim2BiasIntensity: 0
-    - _Rim2BlendMode: 0
-    - _Rim2BlendStrength: 1
+    - _Rim2BlendMode: 1
+    - _Rim2BlendStrength: 0.83
     - _Rim2Blur: 0.65
     - _Rim2Border: 0.5
     - _Rim2Brightness: 1
@@ -2697,19 +2695,19 @@ Material:
     - _Rim2MaskInvert: 0
     - _Rim2MaskUV: 0
     - _Rim2NormalStrength: 1
-    - _Rim2Power: 1
+    - _Rim2Power: 0.75
     - _Rim2ShadowMask: 0.5
     - _Rim2ShadowMaskInvert: 0
     - _Rim2ShadowMaskRampType: 0
     - _Rim2ShadowMaskStrength: 1
     - _Rim2ShadowToggle: 0
     - _Rim2ShadowWidth: 0
-    - _Rim2Sharpness: 0.25
+    - _Rim2Sharpness: 0
     - _Rim2Strength: 0
     - _Rim2Style: 0
     - _Rim2TexUV: 0
     - _Rim2VRParallaxStrength: 1
-    - _Rim2Width: 0.8
+    - _Rim2Width: 1
     - _RimApColorThemeIndex: 0
     - _RimApplyAlpha: 0
     - _RimApplyAlphaBlend: 1
@@ -3405,11 +3403,11 @@ Material:
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 0
-    - m_modifierCategory: 1
+    - m_mainCategory: 1
+    - m_modifierCategory: 0
     - m_postprocessing: 0
-    - m_renderingCategory: 1
-    - m_specialFXCategory: 1
+    - m_renderingCategory: 0
+    - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -3420,9 +3418,9 @@ Material:
     - m_start_CRT: 0
     - m_start_CenterOutDissolve: 0
     - m_start_CubeMap: 0
-    - m_start_Decal0: 1
+    - m_start_Decal0: 0
     - m_start_Decal0AudioLink: 0
-    - m_start_Decal1: 1
+    - m_start_Decal1: 0
     - m_start_Decal1AudioLink: 0
     - m_start_Decal2: 0
     - m_start_Decal2AudioLink: 0
@@ -3544,7 +3542,7 @@ Material:
     - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 0
     - m_start_rimLightOptions: 0
-    - m_start_stylizedSpec: 1
+    - m_start_stylizedSpec: 0
     - m_start_subsurfaceScattering: 0
     - m_start_tps_penetrator: 0
     - m_start_truchet: 0
@@ -3558,7 +3556,7 @@ Material:
     - m_start_videoEffects: 0
     - m_start_voronoi: 0
     - m_start_voronoiRandom: 0
-    - m_thirdpartyCategory: 1
+    - m_thirdpartyCategory: 0
     - shader_is_using_thry_editor: 69
     - shader_locale: 0
     - shader_master_label: 0
@@ -3685,20 +3683,20 @@ Material:
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotationPan: {r: 0, g: 0, b: 0, a: 0}
     - _DecalColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DecalColor1: {r: 1, g: 0, b: 0, a: 1}
+    - _DecalColor1: {r: 1, g: 1, b: 1, a: 1}
     - _DecalColor2: {r: 1, g: 1, b: 1, a: 1}
     - _DecalColor3: {r: 1, g: 1, b: 1, a: 1}
     - _DecalMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _DecalPosition: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _DecalPosition1: {r: 0.5097185, g: 0.69139665, b: 0, a: 0}
+    - _DecalPosition1: {r: 0.500272, g: 0.5415602, b: 0, a: 0}
     - _DecalPosition2: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _DecalPosition3: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _DecalScale: {r: 0, g: 0, b: 0, a: 0}
-    - _DecalScale1: {r: 0.5100671, g: 0.5100671, b: 0, a: 0}
+    - _DecalScale1: {r: 0.06, g: 0.06, b: 0, a: 0}
     - _DecalScale2: {r: 1, g: 1, b: 0, a: 0}
     - _DecalScale3: {r: 1, g: 1, b: 0, a: 0}
     - _DecalSideOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _DecalSideOffset1: {r: 0.014937376, g: -0.5, b: -0.4765326, a: 0}
+    - _DecalSideOffset1: {r: 0, g: 0, b: 0, a: 0}
     - _DecalSideOffset2: {r: 0, g: 0, b: 0, a: 0}
     - _DecalSideOffset3: {r: 0, g: 0, b: 0, a: 0}
     - _DecalTexture1Pan: {r: 0, g: 0, b: 0, a: 0}
@@ -3712,7 +3710,7 @@ Material:
     - _DetailMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _DetailNormalMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _DetailTexPan: {r: 0, g: 0, b: 0, a: 0}
-    - _DetailTint: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailTint: {r: 1, g: 0.2139738, b: 0, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveDetailNoisePan: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveEdgeColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3954,7 +3952,7 @@ Material:
     - _Rim2Color: {r: 0.65999997, g: 0.5, b: 0.47999996, a: 1}
     - _Rim2ColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _Rim2IndirColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Rim2LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Rim2LightColor: {r: 1, g: 0, b: 0, a: 1}
     - _Rim2MaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _Rim2ShadowAlpha: {r: 0, g: 0, b: 0, a: 1}
     - _Rim2TexPan: {r: 0, g: 0, b: 0, a: 0}

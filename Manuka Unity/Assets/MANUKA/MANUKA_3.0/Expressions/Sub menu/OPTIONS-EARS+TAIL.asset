@@ -12,15 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: OPTIONS-EARS+TAIL
   m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: Fuffy Cat Set
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Ears/Fluffy
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
+  Parameters: {fileID: 11400000, guid: 69db4227768a1ca46989132274126be2, type: 2}
+  controls: []

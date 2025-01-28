@@ -12,18 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: HAIR
   m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
+  Parameters: {fileID: 11400000, guid: 69db4227768a1ca46989132274126be2, type: 2}
   controls:
-  - name: Lavender
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Hair/Lavender
-    value: 1
-    style: 0
-    subMenu: {fileID: 11400000, guid: d820f1758d787ec43b22a0d19b03d572, type: 2}
-    subParameters: []
-    labels: []
   - name: Hair Colors
     icon: {fileID: 2800000, guid: 53f0723ebd8f1b645b96d0ed851f716e, type: 3}
     type: 203
@@ -34,14 +24,4 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters:
     - name: Hair/Color
-    labels: []
-  - name: Anka
-    icon: {fileID: 0}
-    type: 102
-    parameter:
-      name: Hair/Anka
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
     labels: []

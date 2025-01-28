@@ -15,7 +15,7 @@ MonoBehaviour:
   Parameters: {fileID: 11400000, guid: 69db4227768a1ca46989132274126be2, type: 2}
   controls:
   - name: Breast size
-    icon: {fileID: 2800000, guid: bddd44a4f8c341244b137cbee9af84ec, type: 3}
+    icon: {fileID: 2800000, guid: d15d8453f7ca82e448633688994a8542, type: 3}
     type: 203
     parameter:
       name: 
@@ -26,10 +26,10 @@ MonoBehaviour:
     - name: Breast size
     labels: []
   - name: Ears/Tail
-    icon: {fileID: 2800000, guid: 1e1cde5d2a8e00d4d8074cced6cbfa43, type: 3}
-    type: 103
+    icon: {fileID: 0}
+    type: 102
     parameter:
-      name: 
+      name: Ears_n_Tail/Toggle
     value: 1
     style: 0
     subMenu: {fileID: 11400000, guid: b1e9411d3d6cced41bbd6a7facd928ba, type: 2}
@@ -45,8 +45,8 @@ MonoBehaviour:
     subMenu: {fileID: 11400000, guid: 576784fad2681a849b5d3ca266c908df, type: 2}
     subParameters: []
     labels: []
-  - name: Eyes
-    icon: {fileID: 0}
+  - name: Eye Colors
+    icon: {fileID: 2800000, guid: 53f0723ebd8f1b645b96d0ed851f716e, type: 3}
     type: 203
     parameter:
       name: 
@@ -55,4 +55,15 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters:
     - name: Colors/Eyes
+    labels: []
+  - name: Hair Colors
+    icon: {fileID: 2800000, guid: 53f0723ebd8f1b645b96d0ed851f716e, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Hair/Color
     labels: []
