@@ -788,6 +788,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_CLIPPINGMASK 
  #define PROP_DETAILNORMALMAP 
  #define PROP_DECALTEXTURE 
  #define PROP_MATCAP 
@@ -3733,7 +3734,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 				float2 mainUV = poiMesh.uv[(0.0 /*_MainTexUV*/)].xy;
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0002441406,0.0002441406,4096,4096), mainUV);
+					mainUV = sharpSample(float4(0.0004882813,0.0004882813,2048,2048), mainUV);
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
@@ -4143,12 +4144,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 				poiFragData.emission = max(poiFragData.emission * (1.0 /*_PPEmissionMultiplier*/), 0);
 				poiFragData.finalColor = max(poiFragData.finalColor * (1.0 /*_PPFinalColorMultiplier*/), 0);
 				#endif
-				if ((0.0 /*_Mode*/) == POI_MODE_OPAQUE)
+				if (_Mode == POI_MODE_OPAQUE)
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
-				if ((0.0 /*_Mode*/) == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
+				clip(poiFragData.alpha - _Cutoff);
+				if (_Mode == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
 				{
 					poiFragData.alpha = 1;
 				}
@@ -4186,6 +4187,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_CLIPPINGMASK 
  #define PROP_DETAILNORMALMAP 
  #define PROP_DECALTEXTURE 
  #define PROP_MATCAP 
@@ -6344,7 +6346,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 				float2 mainUV = poiMesh.uv[(0.0 /*_MainTexUV*/)].xy;
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0002441406,0.0002441406,4096,4096), mainUV);
+					mainUV = sharpSample(float4(0.0004882813,0.0004882813,2048,2048), mainUV);
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
@@ -6730,11 +6732,11 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 					UNITY_APPLY_FOG(i.fogCoord, poiFragData.finalColor);
 				}
 				poiFragData.alpha = (0.0 /*_AlphaForceOpaque*/) ? 1 : poiFragData.alpha;
-				if ((0.0 /*_Mode*/) == POI_MODE_OPAQUE)
+				if (_Mode == POI_MODE_OPAQUE)
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
+				clip(poiFragData.alpha - _Cutoff);
 				return float4(poiFragData.finalColor + poiFragData.emission * poiMods.globalEmission, poiFragData.alpha) + POI_SAFE_RGB0;
 			}
 			ENDCG
@@ -6772,6 +6774,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_CLIPPINGMASK 
  #define PROP_DETAILNORMALMAP 
  #define PROP_DECALTEXTURE 
  #define PROP_MATCAP 
@@ -9712,7 +9715,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 				float2 mainUV = poiMesh.uv[(0.0 /*_MainTexUV*/)].xy;
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0002441406,0.0002441406,4096,4096), mainUV);
+					mainUV = sharpSample(float4(0.0004882813,0.0004882813,2048,2048), mainUV);
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
@@ -10117,12 +10120,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 				}
 				poiFragData.alpha = (0.0 /*_AlphaForceOpaque*/) ? 1 : poiFragData.alpha;
 				poiFragData.finalColor += poiLight.finalLightAdd;
-				if ((0.0 /*_Mode*/) == POI_MODE_OPAQUE)
+				if (_Mode == POI_MODE_OPAQUE)
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
-				if ((0.0 /*_Mode*/) == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
+				clip(poiFragData.alpha - _Cutoff);
+				if (_Mode == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
 				{
 					poiFragData.alpha = 1;
 				}
@@ -10130,7 +10133,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 				{
 					poiFragData.alpha = saturate(poiFragData.alpha * (10.0 /*_AlphaBoostFA*/));
 				}
-				if ((0.0 /*_Mode*/) != POI_MODE_TRANSPARENT)
+				if (_Mode != POI_MODE_TRANSPARENT)
 				{
 					poiFragData.finalColor *= poiFragData.alpha;
 				}
@@ -10171,6 +10174,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_CLIPPINGMASK 
  #define PROP_DETAILNORMALMAP 
  #define PROP_DECALTEXTURE 
  #define PROP_MATCAP 
@@ -11931,7 +11935,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 				float2 mainUV = poiMesh.uv[(0.0 /*_MainTexUV*/)].xy;
 				if ((0.0 /*_MainPixelMode*/))
 				{
-					mainUV = sharpSample(float4(0.0002441406,0.0002441406,4096,4096), mainUV);
+					mainUV = sharpSample(float4(0.0004882813,0.0004882813,2048,2048), mainUV);
 				}
 				float4 mainTexture = POI2D_SAMPLER_PAN_STOCHASTIC(_MainTex, _MainTex, poiUV(mainUV, float4(1,1,0,0)), float4(0,0,0,0), (0.0 /*_MainTexStochastic*/));
 				#if defined(PROP_BUMPMAP) || !defined(OPTIMIZER_ENABLED)
@@ -11979,11 +11983,11 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/265c976d1cc836943
 					UNITY_APPLY_FOG(i.fogCoord, poiFragData.finalColor);
 				}
 				poiFragData.alpha = (0.0 /*_AlphaForceOpaque*/) ? 1 : poiFragData.alpha;
-				if ((0.0 /*_Mode*/) == POI_MODE_OPAQUE)
+				if (_Mode == POI_MODE_OPAQUE)
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
+				clip(poiFragData.alpha - _Cutoff);
 				return float4(poiFragData.finalColor, poiFragData.alpha) + POI_SAFE_RGB0;
 			}
 			ENDCG

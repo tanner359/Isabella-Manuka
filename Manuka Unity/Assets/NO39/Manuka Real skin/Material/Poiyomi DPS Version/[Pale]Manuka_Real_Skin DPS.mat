@@ -37,7 +37,9 @@ Material:
     OriginalShader: .poiyomi/Poiyomi 8.2/Poiyomi Pro Outline
     RenderType: Opaque
     VRCFallback: Unlit
+    _CutoffAnimated: 1
     _DecalScaleAnimated: 1
+    _ModeAnimated: 1
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -136,7 +138,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClippingMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7b36cdc2582d61f41951fb7566948865, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClothDFG:

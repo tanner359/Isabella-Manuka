@@ -763,6 +763,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_CLIPPINGMASK 
  #define PROP_DECALTEXTURE 
  #define PROP_MATCAP 
  #define PROP_MATCAP2 
@@ -4042,12 +4043,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				poiFragData.emission = max(poiFragData.emission * (1.0 /*_PPEmissionMultiplier*/), 0);
 				poiFragData.finalColor = max(poiFragData.finalColor * (1.0 /*_PPFinalColorMultiplier*/), 0);
 				#endif
-				if ((0.0 /*_Mode*/) == POI_MODE_OPAQUE)
+				if (_Mode == POI_MODE_OPAQUE)
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
-				if ((0.0 /*_Mode*/) == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
+				clip(poiFragData.alpha - _Cutoff);
+				if (_Mode == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
 				{
 					poiFragData.alpha = 1;
 				}
@@ -4084,6 +4085,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_CLIPPINGMASK 
  #define PROP_DECALTEXTURE 
  #define PROP_MATCAP 
  #define PROP_MATCAP2 
@@ -6624,11 +6626,11 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 					UNITY_APPLY_FOG(i.fogCoord, poiFragData.finalColor);
 				}
 				poiFragData.alpha = (0.0 /*_AlphaForceOpaque*/) ? 1 : poiFragData.alpha;
-				if ((0.0 /*_Mode*/) == POI_MODE_OPAQUE)
+				if (_Mode == POI_MODE_OPAQUE)
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
+				clip(poiFragData.alpha - _Cutoff);
 				return float4(poiFragData.finalColor + poiFragData.emission * poiMods.globalEmission, poiFragData.alpha) + POI_SAFE_RGB0;
 			}
 			ENDCG
@@ -6665,6 +6667,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_CLIPPINGMASK 
  #define PROP_DECALTEXTURE 
  #define PROP_MATCAP 
  #define PROP_MATCAP2 
@@ -9934,12 +9937,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				}
 				poiFragData.alpha = (0.0 /*_AlphaForceOpaque*/) ? 1 : poiFragData.alpha;
 				poiFragData.finalColor += poiLight.finalLightAdd;
-				if ((0.0 /*_Mode*/) == POI_MODE_OPAQUE)
+				if (_Mode == POI_MODE_OPAQUE)
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
-				if ((0.0 /*_Mode*/) == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
+				clip(poiFragData.alpha - _Cutoff);
+				if (_Mode == POI_MODE_CUTOUT && !(0.0 /*_AlphaToCoverage*/))
 				{
 					poiFragData.alpha = 1;
 				}
@@ -9947,7 +9950,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 				{
 					poiFragData.alpha = saturate(poiFragData.alpha * (10.0 /*_AlphaBoostFA*/));
 				}
-				if ((0.0 /*_Mode*/) != POI_MODE_TRANSPARENT)
+				if (_Mode != POI_MODE_TRANSPARENT)
 				{
 					poiFragData.finalColor *= poiFragData.alpha;
 				}
@@ -9987,6 +9990,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
  #define _RIMSTYLE_LILTOON 
  #define _STOCHASTICMODE_DELIOT_HEITZ 
  #define PROP_BUMPMAP 
+ #define PROP_CLIPPINGMASK 
  #define PROP_DECALTEXTURE 
  #define PROP_MATCAP 
  #define PROP_MATCAP2 
@@ -11791,11 +11795,11 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/b99a02fd5fb2f7b4e
 					UNITY_APPLY_FOG(i.fogCoord, poiFragData.finalColor);
 				}
 				poiFragData.alpha = (0.0 /*_AlphaForceOpaque*/) ? 1 : poiFragData.alpha;
-				if ((0.0 /*_Mode*/) == POI_MODE_OPAQUE)
+				if (_Mode == POI_MODE_OPAQUE)
 				{
 					poiFragData.alpha = 1;
 				}
-				clip(poiFragData.alpha - (0.5 /*_Cutoff*/));
+				clip(poiFragData.alpha - _Cutoff);
 				return float4(poiFragData.finalColor, poiFragData.alpha) + POI_SAFE_RGB0;
 			}
 			ENDCG

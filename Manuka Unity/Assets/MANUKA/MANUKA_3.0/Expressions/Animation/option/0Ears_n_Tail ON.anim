@@ -34,7 +34,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Cat_Tail_By_M
+    path: Cat_Tail
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -55,7 +55,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Cat_Ears_By_M
+    path: Cat_Ears
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -76,7 +76,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Cat_Tail_By_M
+    path: Armature/Hips/Cat_Tail_Root
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -97,7 +97,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears_By_M.R
+    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears.L
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -118,7 +118,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears_By_M.L
+    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears.L/Chain2.L
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -139,7 +139,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears_By_M.L/Ear.L.001/Chain.L
+    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears.L/Ear.L.001/Chain.L
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -160,7 +160,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears_By_M.L/Chain2.L
+    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears.R
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -173,7 +173,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 234354361
+      path: 943754884
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -182,7 +182,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 555079921
+      path: 4108023825
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -191,7 +191,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3889835801
+      path: 791353791
       attribute: 3305885265
       script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
       typeID: 114
@@ -200,7 +200,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2255156308
+      path: 841137437
       attribute: 3305885265
       script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
       typeID: 114
@@ -209,7 +209,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2087045431
+      path: 2048330377
       attribute: 3305885265
       script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
       typeID: 114
@@ -218,7 +218,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2221821097
+      path: 673101101
       attribute: 3305885265
       script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
       typeID: 114
@@ -227,7 +227,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4046241077
+      path: 3358425214
       attribute: 3305885265
       script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
       typeID: 114
@@ -274,7 +274,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Cat_Tail_By_M
+    path: Cat_Tail
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -295,7 +295,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Cat_Ears_By_M
+    path: Cat_Ears
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -316,7 +316,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Cat_Tail_By_M
+    path: Armature/Hips/Cat_Tail_Root
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -337,7 +337,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears_By_M.R
+    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears.L
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -358,7 +358,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears_By_M.L
+    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears.L/Chain2.L
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -379,7 +379,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears_By_M.L/Ear.L.001/Chain.L
+    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears.L/Ear.L.001/Chain.L
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -400,7 +400,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears_By_M.L/Chain2.L
+    path: Armature/Hips/Spine/Chest/Neck/Head/Cat_Ears.R
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
