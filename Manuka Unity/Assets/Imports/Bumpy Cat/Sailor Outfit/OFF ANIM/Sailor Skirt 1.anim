@@ -34,7 +34,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: A_Sailor Skirt
+    path: A_Sailor Skirt_
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -55,7 +55,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 'Armature/Hips/Sailor Skirt Root '
+    path: Armature/Hips/Sailor_Skirt_Root
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
@@ -68,7 +68,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2240740558
+      path: 1435484835
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -77,7 +77,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1928019099
+      path: 4117348331
       attribute: 3305885265
       script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
       typeID: 114
@@ -124,7 +124,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: A_Sailor Skirt
+    path: A_Sailor Skirt_
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -145,7 +145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 'Armature/Hips/Sailor Skirt Root '
+    path: Armature/Hips/Sailor_Skirt_Root
     classID: 114
     script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
     flags: 0
