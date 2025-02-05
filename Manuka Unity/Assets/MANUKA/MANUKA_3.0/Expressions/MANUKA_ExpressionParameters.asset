@@ -589,3 +589,18 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: (Gimmick)Cozy_Slouchy_Forced
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Cozy/Balloons
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Cozy/Glasses
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1

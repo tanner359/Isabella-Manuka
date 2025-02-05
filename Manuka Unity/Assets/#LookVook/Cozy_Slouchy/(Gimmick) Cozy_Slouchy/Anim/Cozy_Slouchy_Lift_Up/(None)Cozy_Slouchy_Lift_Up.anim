@@ -34,49 +34,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: blendShape.(Gimmick)Lift_Up_Basis
-    path: Cozy_Slouchy/Cozy_Slouchy_Shirts
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: blendShape.(Gimmick)Lift_Up_Big
-    path: Cozy_Slouchy/Cozy_Slouchy_Shirts
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: blendShape.(Gimmick)Lift_Up_Small
-    path: Cozy_Slouchy/Cozy_Slouchy_Shirts
+    path: Cozy_Slouchy_Shirts
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -97,7 +55,49 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: blendShape.(Gimmick)Lift_Up_Pull
-    path: Cozy_Slouchy/Cozy_Slouchy_Shirts
+    path: Cozy_Slouchy_Shirts
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.(Gimmick)Lift_Up_Small
+    path: Cozy_Slouchy_Shirts
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.(Gimmick)Lift_Up_Big
+    path: Cozy_Slouchy_Shirts
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -110,7 +110,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1820591737
+      path: 3126039939
       attribute: 2551313290
       script: {fileID: 0}
       typeID: 137
@@ -119,8 +119,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1820591737
-      attribute: 1750641806
+      path: 3126039939
+      attribute: 2427857086
       script: {fileID: 0}
       typeID: 137
       customType: 20
@@ -128,7 +128,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1820591737
+      path: 3126039939
       attribute: 1620737198
       script: {fileID: 0}
       typeID: 137
@@ -137,8 +137,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1820591737
-      attribute: 2427857086
+      path: 3126039939
+      attribute: 1750641806
       script: {fileID: 0}
       typeID: 137
       customType: 20
@@ -184,49 +184,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: blendShape.(Gimmick)Lift_Up_Basis
-    path: Cozy_Slouchy/Cozy_Slouchy_Shirts
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: blendShape.(Gimmick)Lift_Up_Big
-    path: Cozy_Slouchy/Cozy_Slouchy_Shirts
-    classID: 137
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: blendShape.(Gimmick)Lift_Up_Small
-    path: Cozy_Slouchy/Cozy_Slouchy_Shirts
+    path: Cozy_Slouchy_Shirts
     classID: 137
     script: {fileID: 0}
     flags: 0
@@ -247,7 +205,49 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: blendShape.(Gimmick)Lift_Up_Pull
-    path: Cozy_Slouchy/Cozy_Slouchy_Shirts
+    path: Cozy_Slouchy_Shirts
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.(Gimmick)Lift_Up_Small
+    path: Cozy_Slouchy_Shirts
+    classID: 137
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.(Gimmick)Lift_Up_Big
+    path: Cozy_Slouchy_Shirts
     classID: 137
     script: {fileID: 0}
     flags: 0
