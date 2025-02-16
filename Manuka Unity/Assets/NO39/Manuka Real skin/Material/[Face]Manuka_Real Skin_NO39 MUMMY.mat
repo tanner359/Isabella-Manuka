@@ -445,7 +445,7 @@ Material:
     - _Emission2ndMap_UVMode: 0
     - _Emission2ndParallaxDepth: 0
     - _Emission2ndUseGrad: 0
-    - _EmissionBlend: 1
+    - _EmissionBlend: 0
     - _EmissionBlendMode: 1
     - _EmissionFluorescence: 0
     - _EmissionGradSpeed: 1

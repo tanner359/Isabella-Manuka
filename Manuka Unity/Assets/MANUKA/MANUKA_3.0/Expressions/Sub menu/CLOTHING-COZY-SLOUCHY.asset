@@ -15,26 +15,24 @@ MonoBehaviour:
   Parameters: {fileID: 11400000, guid: 69db4227768a1ca46989132274126be2, type: 2}
   controls:
   - name: Outfit
-    icon: {fileID: 2800000, guid: 08c688594c3a2634f930eb2e88c58343, type: 3}
+    icon: {fileID: 0}
     type: 102
     parameter:
       name: MANUKA_costume
     value: 6
     style: 0
     subMenu: {fileID: 0}
-    subParameters:
-    - name: (Gimmick)Cozy_Slouchy_Breast
+    subParameters: []
     labels: []
   - name: Balloons
-    icon: {fileID: 2800000, guid: 0faa3f0ca9a7caa46a15c45ed0fe29d0, type: 3}
+    icon: {fileID: 0}
     type: 102
     parameter:
       name: Cozy/Balloons
     value: 1
     style: 0
     subMenu: {fileID: 0}
-    subParameters:
-    - name: (Gimmick)Cozy_Slouchy_Breast
+    subParameters: []
     labels: []
   - name: Glasses
     icon: {fileID: 0}
@@ -44,6 +42,45 @@ MonoBehaviour:
     value: 1
     style: 0
     subMenu: {fileID: 0}
-    subParameters:
-    - name: (Gimmick)Cozy_Slouchy_Breast
+    subParameters: []
+    labels: []
+  - name: Shirt
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Cozy/Shirt
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pants
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Cozy/Pants
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pasties
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Cozy/Pasties
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Stockings
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Cozy/Stockings
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
     labels: []

@@ -67,3 +67,14 @@ MonoBehaviour:
     subParameters:
     - name: Hair/Color
     labels: []
+  - name: Eyelashes Black
+    icon: {fileID: 2800000, guid: 53f0723ebd8f1b645b96d0ed851f716e, type: 3}
+    type: 102
+    parameter:
+      name: Hair/Eyelashes_Black
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Hair/Color
+    labels: []

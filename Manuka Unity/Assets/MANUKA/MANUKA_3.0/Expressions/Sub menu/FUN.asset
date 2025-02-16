@@ -15,7 +15,7 @@ MonoBehaviour:
   Parameters: {fileID: 11400000, guid: 69db4227768a1ca46989132274126be2, type: 2}
   controls:
   - name: Shika
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 4716d74c451d9964e94fd5a3d67ac2e3, type: 3}
     type: 102
     parameter:
       name: VRCEmote
@@ -35,7 +35,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: DBZ Kamehameha
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: b878c09b6b74cf14a82cde45e88561b0, type: 3}
     type: 102
     parameter:
       name: Kame

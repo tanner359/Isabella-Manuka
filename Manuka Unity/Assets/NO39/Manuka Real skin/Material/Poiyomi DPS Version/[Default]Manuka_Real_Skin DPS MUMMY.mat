@@ -3472,7 +3472,7 @@ Material:
     - m_start_MainHueShift: 0
     - m_start_MainHueShiftGlobalMask: 0
     - m_start_MainVertexColors: 0
-    - m_start_Matcap2: 0
+    - m_start_Matcap2: 1
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
     - m_start_OutlineAudioLink: 0

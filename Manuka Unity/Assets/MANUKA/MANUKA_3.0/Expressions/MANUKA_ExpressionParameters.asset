@@ -24,41 +24,6 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: Face_Cheek
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Face_Tear
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Face_Sweat
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Face_Heart eye
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Face_Kirakira eye
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Face_White eye
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
-  - name: Face_Dead eye
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
   - name: VRCEmote
     valueType: 0
     saved: 0
@@ -248,11 +213,6 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 0
-    networkSynced: 1
-  - name: Hair/Anka
-    valueType: 2
-    saved: 1
-    defaultValue: 1
     networkSynced: 1
   - name: Succubus/Particles
     valueType: 2
@@ -574,11 +534,6 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: Hair/Lavender
-    valueType: 2
-    saved: 1
-    defaultValue: 0
-    networkSynced: 1
   - name: Succubus/HornsTail
     valueType: 2
     saved: 1
@@ -600,6 +555,51 @@ MonoBehaviour:
     defaultValue: 0
     networkSynced: 1
   - name: Cozy/Glasses
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: LiftableSweater/Panties
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: LiftableSweater/Gimmick
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: LiftableSweater/Color Swap
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: LiftableSweater/Sweater
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Cozy/Shirt
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Cozy/Pants
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Cozy/Pasties
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Cozy/Stockings
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Hair/Eyelashes_Black
     valueType: 2
     saved: 1
     defaultValue: 0

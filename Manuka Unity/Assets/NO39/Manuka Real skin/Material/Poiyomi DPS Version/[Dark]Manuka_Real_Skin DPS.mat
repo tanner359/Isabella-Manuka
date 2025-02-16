@@ -38,6 +38,7 @@ Material:
     VRCFallback: Unlit
     _CutoffAnimated: 1
     _DecalScaleAnimated: 1
+    _Matcap2IntensityAnimated: 1
     _ModeAnimated: 1
   disabledShaderPasses: []
   m_LockedProperties: 

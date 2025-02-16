@@ -8,11 +8,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: '[Default]Manuka_Real_Skin DPS'
-  m_Shader: {fileID: 4800000, guid: ec25a17e4ffed594687b9e2921b6d3aa, type: 3}
+  m_Shader: {fileID: 4800000, guid: 60c5e73583589be4885429004321a97c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
   - COLOR_GRADING_HDR_3D
   - GEOM_TYPE_BRANCH
   - POI_STYLIZED_StylizedSpecular
@@ -22,13 +21,13 @@ Material:
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_LILTOON
   - _STOCHASTICMODE_DELIOT_HEITZ
+  m_InvalidKeywords:
   - _TPS_ANIMATEDTOGGLE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
-    AllLockedGUIDS: b99a02fd5fb2f7b4eb01ce4f205283ef
     OriginalKeywords: COLOR_GRADING_HDR_3D GEOM_TYPE_BRANCH POI_STYLIZED_StylizedSpecular
       VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI
       _RIMSTYLE_LILTOON _STOCHASTICMODE_DELIOT_HEITZ _TPS_ANIMATEDTOGGLE_ON
@@ -2796,7 +2795,7 @@ Material:
     - _Set_RimLightMaskUV: 0
     - _Set_SystemShadowsToBase: 1
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 1
+    - _ShaderOptimizerEnabled: 0
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -2806,8 +2805,8 @@ Material:
     - _Shadow2ndColorTexUV: 0
     - _Shadow2ndNormalStrength: 0
     - _Shadow2ndReceive: 0
-    - _Shadow3rdBlur: 0.1
-    - _Shadow3rdBorder: 0.25
+    - _Shadow3rdBlur: 0.398
+    - _Shadow3rdBorder: 0.158
     - _Shadow3rdColorTexUV: 0
     - _Shadow3rdNormalStrength: 1
     - _Shadow3rdReceive: 0
@@ -3404,12 +3403,12 @@ Material:
     - m_end_videoEffects: 0
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
-    - m_lightingCategory: 0
+    - m_lightingCategory: 1
     - m_mainCategory: 1
-    - m_modifierCategory: 0
+    - m_modifierCategory: 1
     - m_postprocessing: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 0
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -3420,7 +3419,7 @@ Material:
     - m_start_CRT: 0
     - m_start_CenterOutDissolve: 0
     - m_start_CubeMap: 0
-    - m_start_Decal0: 0
+    - m_start_Decal0: 1
     - m_start_Decal0AudioLink: 0
     - m_start_Decal1: 0
     - m_start_Decal1AudioLink: 0
@@ -3428,7 +3427,7 @@ Material:
     - m_start_Decal2AudioLink: 0
     - m_start_Decal3: 0
     - m_start_Decal3AudioLink: 0
-    - m_start_DecalSection: 0
+    - m_start_DecalSection: 1
     - m_start_DepthBulge: 0
     - m_start_DetailOptions: 0
     - m_start_DistortionAudioLink: 0
@@ -3471,7 +3470,7 @@ Material:
     - m_start_MainHueShift: 0
     - m_start_MainHueShiftGlobalMask: 0
     - m_start_MainVertexColors: 0
-    - m_start_Matcap2: 0
+    - m_start_Matcap2: 1
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
     - m_start_OutlineAudioLink: 0
@@ -3542,7 +3541,7 @@ Material:
     - m_start_reflectionRim: 0
     - m_start_rgbanormals: 0
     - m_start_rim2LightOptions: 0
-    - m_start_rimLight1Options: 0
+    - m_start_rimLight1Options: 1
     - m_start_rimLightOptions: 0
     - m_start_stylizedSpec: 0
     - m_start_subsurfaceScattering: 0
@@ -3558,7 +3557,7 @@ Material:
     - m_start_videoEffects: 0
     - m_start_voronoi: 0
     - m_start_voronoiRandom: 0
-    - m_thirdpartyCategory: 0
+    - m_thirdpartyCategory: 1
     - shader_is_using_thry_editor: 69
     - shader_locale: 0
     - shader_master_label: 0
@@ -3976,7 +3975,7 @@ Material:
     - _Set_RimLightMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow2ndColor: {r: 0.990566, g: 0.90819454, b: 0.8877714, a: 1}
     - _Shadow2ndColorTexPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Shadow3rdColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow3rdColor: {r: 0.49056596, g: 0.2334559, b: 0.20131713, a: 0.30588236}
     - _Shadow3rdColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowAOShift: {r: 1, g: 0, b: 1, a: 0}
     - _ShadowAOShift2: {r: 1, g: 0, b: 1, a: 0}

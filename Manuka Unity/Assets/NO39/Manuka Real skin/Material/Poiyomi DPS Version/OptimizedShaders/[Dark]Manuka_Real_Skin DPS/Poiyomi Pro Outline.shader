@@ -3367,7 +3367,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/1b84a1e7a92798644
 				#else
 				matcap2 = float4(poiThemeColor(poiMods, float4(0.7605246,0.6444798,0.6444798,1).rgb, (0.0 /*_Matcap2ColorThemeIndex*/)), float4(0.7605246,0.6444798,0.6444798,1).a);
 				#endif
-				matcap2.rgb *= (1.0 /*_Matcap2Intensity*/);
+				matcap2.rgb *= _Matcap2Intensity;
 				matcap2.rgb = lerp(matcap2.rgb, matcap2.rgb * poiFragData.baseColor.rgb, (0.0 /*_Matcap2BaseColorMix*/));
 				#if defined(PROP_MATCAP2MASK) || !defined(OPTIMIZER_ENABLED)
 				matcap2Mask = POI2D_SAMPLER_PAN(_Matcap2Mask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_Matcap2MaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0))[(0.0 /*_Matcap2MaskChannel*/)];
@@ -9348,7 +9348,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.2/Poiyomi Pro Outline/1b84a1e7a92798644
 				#else
 				matcap2 = float4(poiThemeColor(poiMods, float4(0.7605246,0.6444798,0.6444798,1).rgb, (0.0 /*_Matcap2ColorThemeIndex*/)), float4(0.7605246,0.6444798,0.6444798,1).a);
 				#endif
-				matcap2.rgb *= (1.0 /*_Matcap2Intensity*/);
+				matcap2.rgb *= _Matcap2Intensity;
 				matcap2.rgb = lerp(matcap2.rgb, matcap2.rgb * poiFragData.baseColor.rgb, (0.0 /*_Matcap2BaseColorMix*/));
 				#if defined(PROP_MATCAP2MASK) || !defined(OPTIMIZER_ENABLED)
 				matcap2Mask = POI2D_SAMPLER_PAN(_Matcap2Mask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_Matcap2MaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0))[(0.0 /*_Matcap2MaskChannel*/)];
