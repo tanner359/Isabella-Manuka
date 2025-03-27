@@ -8,10 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: '[Default]Manuka_Real_Skin DPS'
-  m_Shader: {fileID: 4800000, guid: 60c5e73583589be4885429004321a97c, type: 3}
+  m_Shader: {fileID: 4800000, guid: c12323576bf1909498dfdc7a18aff19e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - COLOR_GRADING_HDR_3D
   - GEOM_TYPE_BRANCH
   - POI_STYLIZED_StylizedSpecular
@@ -21,13 +22,13 @@ Material:
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_LILTOON
   - _STOCHASTICMODE_DELIOT_HEITZ
-  m_InvalidKeywords:
   - _TPS_ANIMATEDTOGGLE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
+    AllLockedGUIDS: b99a02fd5fb2f7b4eb01ce4f205283ef
     OriginalKeywords: COLOR_GRADING_HDR_3D GEOM_TYPE_BRANCH POI_STYLIZED_StylizedSpecular
       VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI
       _RIMSTYLE_LILTOON _STOCHASTICMODE_DELIOT_HEITZ _TPS_ANIMATEDTOGGLE_ON
@@ -39,7 +40,7 @@ Material:
     _Matcap2IntensityAnimated: 1
     _ModeAnimated: 1
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _ShadowBorderRange
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -2795,7 +2796,7 @@ Material:
     - _Set_RimLightMaskUV: 0
     - _Set_SystemShadowsToBase: 1
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -3254,7 +3255,7 @@ Material:
     - g_start_tps_pulsing: 0
     - g_start_tps_squeeze: 0
     - m_AudioLinkCategory: 0
-    - m_OutlineCategory: 0
+    - m_OutlineCategory: 1
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
     - m_end_Alpha: 0

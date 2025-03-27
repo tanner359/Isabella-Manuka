@@ -604,3 +604,43 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: Pink_Pudding/Jacket
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Pink_Pudding/Bikini
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Pink_Pudding/Accessories
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Pink_Pudding/Colors
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Pink_Pudding/Bunny_Ears_01
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Pink_Pudding/Bunny_Ears_02
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Pink_Pudding/Cross
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: Pink_Pudding/Shoes
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
